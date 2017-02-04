@@ -85,13 +85,28 @@
       "status": 1,
       "timestamp": "2016-11-19T21:58:16.185349Z",
       "lastWriteTimeUtc": "2016-10-31T00:45:55Z",
-      "queryTimestamp": "2016-12-23T02:30:30.58647Z",
+      "queryTimestamp": "2017-02-04T21:22:50.178931Z",
       "fileCount": 12,
       "fileSize": 0
+    },
+    {
+      "folderName": "BiomesOPlenty-1.10.2-5.0.0.2068-universal.jar",
+      "fingerprint": 426690874,
+      "fileDateHash": 1674711080,
+      "sectionID": 6,
+      "individualFingerprints": [
+        426690874
+      ],
+      "status": 1,
+      "timestamp": "2016-12-23T15:42:51.541179Z",
+      "lastWriteTimeUtc": "2016-12-23T15:38:22Z",
+      "queryTimestamp": "2017-02-04T21:22:50.179703Z",
+      "fileCount": 1,
+      "fileSize": 6147330
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2016-12-23T02:30:30.651208Z",
+  "lastPreviousMatchUpdate": "2017-02-04T21:22:50.383232Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.10.2",
@@ -113,7 +128,72 @@
   },
   "preferenceShowAddOnInfo": true,
   "installDate": "2016-09-07T01:17:57.620047Z",
-  "installedAddons": [],
+  "installedAddons": [
+    {
+      "addonID": 220318,
+      "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
+      "installedFile": {
+        "Id": 2374278,
+        "FileName": "BiomesOPlenty-1.10.2-5.0.0.2142-universal.jar",
+        "FileNameOnDisk": "BiomesOPlenty-1.10.2-5.0.0.2142-universal.jar",
+        "FileDate": "2017-01-29T00:24:40",
+        "ReleaseType": 1,
+        "FileStatus": 2,
+        "DownloadURL": "https://addons.cursecdn.com/files/2374/278/BiomesOPlenty-1.10.2-5.0.0.2142-universal.jar",
+        "IsAlternate": false,
+        "AlternateFileId": 0,
+        "Dependencies": [],
+        "IsAvailable": true,
+        "Modules": [
+          {
+            "Foldername": "assets",
+            "Fingerprint": 2668777714
+          },
+          {
+            "Foldername": "biomesoplenty",
+            "Fingerprint": 2541247014
+          },
+          {
+            "Foldername": "LICENSE.txt",
+            "Fingerprint": 2878218662
+          },
+          {
+            "Foldername": "mcmod.info",
+            "Fingerprint": 4218044594
+          },
+          {
+            "Foldername": "META-INF",
+            "Fingerprint": 2108986136
+          },
+          {
+            "Foldername": "pack.mcmeta",
+            "Fingerprint": 72953735
+          },
+          {
+            "Foldername": "version.properties",
+            "Fingerprint": 4276708486
+          }
+        ],
+        "PackageFingerprint": 1511663341,
+        "GameVersion": [
+          "1.10.2",
+          "1.10"
+        ]
+      },
+      "dateInstalled": "2016-12-23T15:38:22.798034Z",
+      "dateUpdated": "2017-02-04T21:25:29.58338Z",
+      "dateLastUpdateAttempted": "2017-02-04T21:25:29.58338Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null
+    }
+  ],
   "isMigrated": false,
   "preferenceUploadProfile": false
 }
