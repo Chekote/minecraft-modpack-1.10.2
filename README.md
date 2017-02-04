@@ -6,4 +6,5 @@ It'll also provide a much simpler installation process and a nice interface for 
 
 #Mod List:
 
+* [BiblioCraft](https://mods.curse.com/mc-mods/minecraft/228027-bibliocraft) by Nuchaz
 * [Biomes 'o' Plenty](https://mods.curse.com/mc-mods/minecraft/220318-biomes-o-plenty) by TheAdubbz

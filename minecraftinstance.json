@@ -5,7 +5,7 @@
     "DownloadUrl": "https://modloaders.cursecdn.com/647622546/maven/net/minecraftforge/forge/1.10.2-12.18.3.2185/forge-1.10.2-12.18.3.2185.jar",
     "Filename": "forge-1.10.2-12.18.3.2185.jar",
     "InstallMethod": 1,
-    "Latest": true,
+    "Latest": false,
     "Recommended": true,
     "Approved": false,
     "LastModified": "1753-01-01T00:00:00Z",
@@ -18,7 +18,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2016-12-23T02:44:45.7342Z",
+  "lastPlayed": "2017-02-04T21:47:44.394604Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -34,79 +34,70 @@
   "name": "Chekote 1.10.2",
   "cachedScans": [
     {
+      "folderName": "BiomesOPlenty-1.10.2-5.0.0.2142-universal.jar",
+      "fingerprint": 1511663341,
+      "fileDateHash": 1040922778,
+      "sectionID": 6,
+      "individualFingerprints": [
+        1511663341
+      ],
+      "status": 1,
+      "timestamp": "2017-02-04T22:29:27.832451Z",
+      "lastWriteTimeUtc": "2017-02-04T21:25:29Z",
+      "queryTimestamp": "2017-02-04T22:29:28.103354Z",
+      "fileCount": 1,
+      "fileSize": 6167554
+    },
+    {
+      "folderName": "BiblioCraft[v2.2.0][MC1.10.2].jar",
+      "fingerprint": 2836043407,
+      "fileDateHash": 2149763185,
+      "sectionID": 6,
+      "individualFingerprints": [
+        2836043407
+      ],
+      "status": 1,
+      "timestamp": "2017-02-04T22:54:26.69377Z",
+      "lastWriteTimeUtc": "2017-02-04T22:51:24Z",
+      "queryTimestamp": "2017-02-04T22:54:26.841896Z",
+      "fileCount": 1,
+      "fileSize": 4969164
+    },
+    {
       "folderName": "New World",
-      "fingerprint": 94920700,
-      "fileDateHash": 1297655936,
+      "fingerprint": 3732748108,
+      "fileDateHash": 2939065152,
       "sectionID": 17,
       "individualFingerprints": [
-        63137788,
-        274896737,
-        551359162,
-        720371194,
-        744510419,
-        744510419,
-        744510419,
-        744510419,
-        745262916,
+        36955853,
+        36955853,
+        36955853,
+        47626786,
+        614824265,
         758054953,
         758054953,
         758054953,
-        758054953,
-        816366193,
-        834586434,
-        1028275858,
-        1074188880,
-        1130082613,
-        1167623541,
-        1855529443,
-        2000868823,
-        2367589390,
-        2411409383,
-        2678864038,
-        2777610477,
-        2908264718,
-        2947949409,
-        3073432991,
-        3242846486,
-        3430897486,
-        3602991280,
-        3634927418,
-        3703667973,
-        3771282984,
-        3931535813,
-        3999010885,
-        4185230484,
-        4213863462,
-        4213863462,
+        1057835823,
+        1440359535,
+        1652995917,
+        1973652369,
+        2043085919,
+        3929630733,
+        4097317517,
         4213863462,
         4213863462,
         4213863462
       ],
       "status": 1,
-      "timestamp": "2016-11-19T21:58:16.185349Z",
-      "lastWriteTimeUtc": "2016-10-31T00:45:55Z",
-      "queryTimestamp": "2017-02-04T21:22:50.178931Z",
-      "fileCount": 12,
+      "timestamp": "2017-02-04T22:12:54.316982Z",
+      "lastWriteTimeUtc": "2017-02-04T21:58:33Z",
+      "queryTimestamp": "2017-02-04T22:12:54.542977Z",
+      "fileCount": 10,
       "fileSize": 0
-    },
-    {
-      "folderName": "BiomesOPlenty-1.10.2-5.0.0.2068-universal.jar",
-      "fingerprint": 426690874,
-      "fileDateHash": 1674711080,
-      "sectionID": 6,
-      "individualFingerprints": [
-        426690874
-      ],
-      "status": 1,
-      "timestamp": "2016-12-23T15:42:51.541179Z",
-      "lastWriteTimeUtc": "2016-12-23T15:38:22Z",
-      "queryTimestamp": "2017-02-04T21:22:50.179703Z",
-      "fileCount": 1,
-      "fileSize": 6147330
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2017-02-04T21:22:50.383232Z",
+  "lastPreviousMatchUpdate": "2017-02-04T22:50:05.935916Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.10.2",
@@ -180,9 +171,76 @@
           "1.10"
         ]
       },
-      "dateInstalled": "2016-12-23T15:38:22.798034Z",
-      "dateUpdated": "2017-02-04T21:25:29.58338Z",
-      "dateLastUpdateAttempted": "2017-02-04T21:25:29.58338Z",
+      "dateInstalled": "2017-02-04T22:29:28.22692Z",
+      "dateUpdated": "2016-02-04T22:29:28.226922Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null
+    },
+    {
+      "addonID": 228027,
+      "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
+      "installedFile": {
+        "Id": 2375751,
+        "FileName": "BiblioCraft v2.2.0",
+        "FileNameOnDisk": "BiblioCraft[v2.2.0][MC1.10.2].jar",
+        "FileDate": "2017-01-30T02:00:28",
+        "ReleaseType": 1,
+        "FileStatus": 2,
+        "DownloadURL": "https://addons.cursecdn.com/files/2375/751/BiblioCraft[v2.2.0][MC1.10.2].jar",
+        "IsAlternate": false,
+        "AlternateFileId": 0,
+        "Dependencies": [],
+        "IsAvailable": true,
+        "Modules": [
+          {
+            "Foldername": "assets",
+            "Fingerprint": 1643758973
+          },
+          {
+            "Foldername": "BiblioCraft.png",
+            "Fingerprint": 2780544853
+          },
+          {
+            "Foldername": "bibliocraft_paintings_example_resource_pack.zip",
+            "Fingerprint": 1600914941
+          },
+          {
+            "Foldername": "copyright.txt",
+            "Fingerprint": 1107850364
+          },
+          {
+            "Foldername": "jds",
+            "Fingerprint": 2804429881
+          },
+          {
+            "Foldername": "mcmod.info",
+            "Fingerprint": 1284067623
+          },
+          {
+            "Foldername": "META-INF",
+            "Fingerprint": 2464251221
+          },
+          {
+            "Foldername": "pack.mcmeta",
+            "Fingerprint": 179562225
+          }
+        ],
+        "PackageFingerprint": 2836043407,
+        "GameVersion": [
+          "1.10.2"
+        ]
+      },
+      "dateInstalled": "2017-02-04T22:51:24.523926Z",
+      "dateUpdated": "2017-02-04T22:51:24.544997Z",
+      "dateLastUpdateAttempted": "2017-02-04T22:51:24.544997Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
