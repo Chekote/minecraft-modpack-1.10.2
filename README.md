@@ -12,3 +12,4 @@ It'll also provide a much simpler installation process and a nice interface for 
 * [Dynamic Lights](https://mods.curse.com/mc-mods/minecraft/227874-dynamic-lights) by AtomicStryker
 * [Gravestone](https://mods.curse.com/mc-mods/minecraft/238551-gravestone-mod) by EuhDawson
 * [Inventory Tweaks](https://mods.curse.com/mc-mods/minecraft/223094-inventory-tweaks) by Kobata
+* [Iron Chests](https://mods.curse.com/mc-mods/minecraft/228756-iron-chests) by cpw

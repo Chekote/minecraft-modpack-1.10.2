@@ -18,7 +18,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2017-02-05T01:23:11.024933Z",
+  "lastPlayed": "2017-02-05T01:36:11.633219Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -65,31 +65,34 @@
     },
     {
       "folderName": "New World",
-      "fingerprint": 3230904240,
-      "fileDateHash": 426118288,
+      "fingerprint": 223677719,
+      "fileDateHash": 1513503776,
       "sectionID": 17,
       "individualFingerprints": [
-        193693019,
-        569292669,
+        13829985,
+        134024338,
+        441215329,
+        441215329,
+        441215329,
         758054953,
         758054953,
         758054953,
-        1449222175,
-        1879480653,
-        2700758275,
-        2700758275,
-        2700758275,
-        2919626898,
-        3192747853,
+        1269117064,
+        1409682771,
+        2049292384,
+        3356064046,
+        3825344273,
+        3908906489,
+        4024080294,
         4213863462,
         4213863462,
         4213863462
       ],
       "status": 1,
-      "timestamp": "2017-02-05T01:22:44.473225Z",
-      "lastWriteTimeUtc": "2017-02-05T01:20:56Z",
-      "queryTimestamp": "2017-02-05T01:22:44.633143Z",
-      "fileCount": 10,
+      "timestamp": "2017-02-05T01:35:55.875481Z",
+      "lastWriteTimeUtc": "2017-02-05T01:32:12Z",
+      "queryTimestamp": "2017-02-05T01:35:56.084255Z",
+      "fileCount": 11,
       "fileSize": 0
     },
     {
@@ -635,6 +638,61 @@
       "dateUpdated": "2016-02-05T01:22:44.980308Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null
+    },
+    {
+      "addonID": 228756,
+      "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
+      "installedFile": {
+        "Id": 2331308,
+        "FileName": "ironchest-1.10.2-7.0.11.797.jar",
+        "FileNameOnDisk": "ironchest-1.10.2-7.0.11.797.jar",
+        "FileDate": "2016-09-20T13:53:04",
+        "ReleaseType": 2,
+        "FileStatus": 2,
+        "DownloadURL": "https://addons.cursecdn.com/files/2331/308/ironchest-1.10.2-7.0.11.797.jar",
+        "IsAlternate": false,
+        "AlternateFileId": 0,
+        "Dependencies": [],
+        "IsAvailable": true,
+        "Modules": [
+          {
+            "Foldername": "assets",
+            "Fingerprint": 331679368
+          },
+          {
+            "Foldername": "cpw",
+            "Fingerprint": 1116188118
+          },
+          {
+            "Foldername": "mcmod.info",
+            "Fingerprint": 2688437659
+          },
+          {
+            "Foldername": "META-INF",
+            "Fingerprint": 2464251221
+          },
+          {
+            "Foldername": "version.properties",
+            "Fingerprint": 3190320197
+          }
+        ],
+        "PackageFingerprint": 3042478999,
+        "GameVersion": [
+          "1.10.2"
+        ]
+      },
+      "dateInstalled": "2017-02-05T01:28:56.849471Z",
+      "dateUpdated": "2017-02-05T01:28:56.85196Z",
+      "dateLastUpdateAttempted": "2017-02-05T01:28:56.85196Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
