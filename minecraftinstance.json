@@ -18,7 +18,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2017-02-05T01:19:06.951245Z",
+  "lastPlayed": "2017-02-05T01:23:11.024933Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -65,35 +65,30 @@
     },
     {
       "folderName": "New World",
-      "fingerprint": 3597542493,
-      "fileDateHash": 3453154369,
+      "fingerprint": 3230904240,
+      "fileDateHash": 426118288,
       "sectionID": 17,
       "individualFingerprints": [
-        467395654,
-        467395654,
-        467395654,
+        193693019,
+        569292669,
         758054953,
         758054953,
         758054953,
-        1489619128,
-        1560028128,
-        1973652369,
-        2795224641,
-        2899652334,
-        3040252880,
-        3231588328,
-        3302186403,
-        3668535745,
-        3899765553,
-        4097317517,
+        1449222175,
+        1879480653,
+        2700758275,
+        2700758275,
+        2700758275,
+        2919626898,
+        3192747853,
         4213863462,
         4213863462,
         4213863462
       ],
       "status": 1,
-      "timestamp": "2017-02-05T01:18:46.672062Z",
-      "lastWriteTimeUtc": "2017-02-05T01:13:58Z",
-      "queryTimestamp": "2017-02-05T01:18:47.01496Z",
+      "timestamp": "2017-02-05T01:22:44.473225Z",
+      "lastWriteTimeUtc": "2017-02-05T01:20:56Z",
+      "queryTimestamp": "2017-02-05T01:22:44.633143Z",
       "fileCount": 10,
       "fileSize": 0
     },
@@ -171,6 +166,21 @@
       "queryTimestamp": "2017-02-05T00:07:12.072586Z",
       "fileCount": 1,
       "fileSize": 6772461
+    },
+    {
+      "folderName": "InventoryTweaks-1.61-58.jar",
+      "fingerprint": 1932858315,
+      "fileDateHash": 1157294285,
+      "sectionID": 6,
+      "individualFingerprints": [
+        1932858315
+      ],
+      "status": 1,
+      "timestamp": "2017-02-05T01:22:44.464148Z",
+      "lastWriteTimeUtc": "2017-02-05T01:21:59Z",
+      "queryTimestamp": "2017-02-05T01:22:44.634072Z",
+      "fileCount": 1,
+      "fileSize": 230808
     },
     {
       "folderName": "DynamicLights-1.10.2.zip",
@@ -557,6 +567,74 @@
       "dateUpdated": "2017-02-05T00:44:04.294049Z",
       "dateLastUpdateAttempted": "2017-02-05T00:44:04.294049Z",
       "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null
+    },
+    {
+      "addonID": 223094,
+      "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
+      "installedFile": {
+        "Id": 2315240,
+        "FileName": "Inventory Tweaks 1.61",
+        "FileNameOnDisk": "InventoryTweaks-1.61-58.jar",
+        "FileDate": "2016-07-11T16:47:48",
+        "ReleaseType": 1,
+        "FileStatus": 2,
+        "DownloadURL": "https://addons.cursecdn.com/files/2315/240/InventoryTweaks-1.61-58.jar",
+        "IsAlternate": false,
+        "AlternateFileId": 0,
+        "Dependencies": [],
+        "IsAvailable": true,
+        "Modules": [
+          {
+            "Foldername": "assets",
+            "Fingerprint": 1913930105
+          },
+          {
+            "Foldername": "invtweaks",
+            "Fingerprint": 751032293
+          },
+          {
+            "Foldername": "invtweaks.png",
+            "Fingerprint": 1558494413
+          },
+          {
+            "Foldername": "invtweaks_at.cfg",
+            "Fingerprint": 642920526
+          },
+          {
+            "Foldername": "mcmod.info",
+            "Fingerprint": 375860339
+          },
+          {
+            "Foldername": "META-INF",
+            "Fingerprint": 1910357026
+          },
+          {
+            "Foldername": "pack.mcmeta",
+            "Fingerprint": 934435428
+          },
+          {
+            "Foldername": "version.properties",
+            "Fingerprint": 1960312417
+          }
+        ],
+        "PackageFingerprint": 1932858315,
+        "GameVersion": [
+          "1.10.2",
+          "1.9.4"
+        ]
+      },
+      "dateInstalled": "2017-02-05T01:22:44.980306Z",
+      "dateUpdated": "2016-02-05T01:22:44.980308Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
