@@ -10,3 +10,4 @@ It'll also provide a much simpler installation process and a nice interface for 
 * [Biomes 'o' Plenty](https://mods.curse.com/mc-mods/minecraft/220318-biomes-o-plenty) by TheAdubbz
 * [Blood Magic](https://mods.curse.com/mc-mods/minecraft/224791-blood-magic) by TehNut
 * [Dynamic Lights](https://mods.curse.com/mc-mods/minecraft/227874-dynamic-lights) by AtomicStryker
+* [Gravestone](https://mods.curse.com/mc-mods/minecraft/238551-gravestone-mod) by EuhDawson
