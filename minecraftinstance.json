@@ -18,7 +18,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2017-02-05T01:36:11.633219Z",
+  "lastPlayed": "2017-02-05T02:02:50.081788Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -64,145 +64,164 @@
       "fileSize": 4969164
     },
     {
+      "folderName": "CustomMobSpawner 3.10.1.jar",
+      "fingerprint": 523716621,
+      "fileDateHash": 3901146309,
+      "sectionID": 6,
+      "individualFingerprints": [
+        523716621
+      ],
+      "status": 1,
+      "timestamp": "2017-02-05T02:02:38.682501Z",
+      "lastWriteTimeUtc": "2017-02-05T02:01:34Z",
+      "queryTimestamp": "2017-02-05T02:02:39.310629Z",
+      "fileCount": 1,
+      "fileSize": 720628
+    },
+    {
       "folderName": "New World",
-      "fingerprint": 223677719,
-      "fileDateHash": 1513503776,
+      "fingerprint": 836196248,
+      "fileDateHash": 2735734868,
       "sectionID": 17,
       "individualFingerprints": [
-        13829985,
         134024338,
-        441215329,
-        441215329,
-        441215329,
         758054953,
         758054953,
         758054953,
-        1269117064,
-        1409682771,
-        2049292384,
+        758054953,
+        1032233499,
+        1179021215,
+        1463800281,
+        2110144591,
+        2984829037,
+        3035291818,
+        3198808977,
         3356064046,
-        3825344273,
-        3908906489,
-        4024080294,
+        3911362410,
+        3911362410,
+        3911362410,
+        4029980240,
+        4213863462,
+        4213863462,
         4213863462,
         4213863462,
         4213863462
       ],
       "status": 1,
-      "timestamp": "2017-02-05T01:35:55.875481Z",
-      "lastWriteTimeUtc": "2017-02-05T01:32:12Z",
-      "queryTimestamp": "2017-02-05T01:35:56.084255Z",
-      "fileCount": 11,
+      "timestamp": "2017-02-05T02:02:39.101271Z",
+      "lastWriteTimeUtc": "2017-02-05T01:52:50Z",
+      "queryTimestamp": "2017-02-05T02:02:39.311143Z",
+      "fileCount": 12,
       "fileSize": 0
     },
     {
       "folderName": "Guide-API-1.10.2-2.0.2-45.jar",
       "fingerprint": 3667197400,
-      "fileDateHash": 916441568,
+      "fileDateHash": 3869092806,
       "sectionID": 6,
       "individualFingerprints": [
         3667197400
       ],
       "status": 1,
-      "timestamp": "2017-02-05T00:07:11.873533Z",
-      "lastWriteTimeUtc": "2017-02-04T23:22:05Z",
-      "queryTimestamp": "2017-02-05T00:07:12.072544Z",
+      "timestamp": "2017-02-05T02:02:39.089889Z",
+      "lastWriteTimeUtc": "2017-02-05T01:58:40Z",
+      "queryTimestamp": "2017-02-05T02:02:39.311223Z",
       "fileCount": 1,
       "fileSize": 194046
     },
     {
       "folderName": "ironchest-1.10.2-7.0.11.797.jar",
       "fingerprint": 3042478999,
-      "fileDateHash": 2419857303,
+      "fileDateHash": 3901146309,
       "sectionID": 6,
       "individualFingerprints": [
         3042478999
       ],
       "status": 1,
-      "timestamp": "2017-02-05T01:35:55.864132Z",
-      "lastWriteTimeUtc": "2017-02-05T01:28:56Z",
-      "queryTimestamp": "2017-02-05T01:35:56.085039Z",
+      "timestamp": "2017-02-05T02:02:39.095577Z",
+      "lastWriteTimeUtc": "2017-02-05T02:01:34Z",
+      "queryTimestamp": "2017-02-05T02:02:39.311305Z",
       "fileCount": 1,
       "fileSize": 149261
     },
     {
       "folderName": "GraveStone Mod 1.5.12.jar",
       "fingerprint": 2100314983,
-      "fileDateHash": 1498029769,
+      "fileDateHash": 1119790659,
       "sectionID": 6,
       "individualFingerprints": [
         2100314983
       ],
       "status": 1,
-      "timestamp": "2017-02-05T00:56:50.171487Z",
-      "lastWriteTimeUtc": "2017-02-05T00:44:04Z",
-      "queryTimestamp": "2017-02-05T00:56:50.39253Z",
+      "timestamp": "2017-02-05T02:02:39.088952Z",
+      "lastWriteTimeUtc": "2017-02-05T02:00:42Z",
+      "queryTimestamp": "2017-02-05T02:02:39.31138Z",
       "fileCount": 1,
       "fileSize": 77562
     },
     {
       "folderName": "InventoryTweaks-1.61-58.jar",
       "fingerprint": 1932858315,
-      "fileDateHash": 1157294285,
+      "fileDateHash": 3733165901,
       "sectionID": 6,
       "individualFingerprints": [
         1932858315
       ],
       "status": 1,
-      "timestamp": "2017-02-05T01:22:44.464148Z",
-      "lastWriteTimeUtc": "2017-02-05T01:21:59Z",
-      "queryTimestamp": "2017-02-05T01:22:44.634072Z",
+      "timestamp": "2017-02-05T02:02:39.092905Z",
+      "lastWriteTimeUtc": "2017-02-05T02:01:33Z",
+      "queryTimestamp": "2017-02-05T02:02:39.311458Z",
       "fileCount": 1,
       "fileSize": 230808
     },
     {
       "folderName": "BloodMagic-1.9.4-2.1.0-69.jar",
       "fingerprint": 1762597457,
-      "fileDateHash": 916441568,
+      "fileDateHash": 3869092806,
       "sectionID": 6,
       "individualFingerprints": [
         1762597457
       ],
       "status": 1,
-      "timestamp": "2017-02-05T00:07:11.759452Z",
-      "lastWriteTimeUtc": "2017-02-04T23:22:05Z",
-      "queryTimestamp": "2017-02-05T00:07:12.072586Z",
+      "timestamp": "2017-02-05T02:02:38.485486Z",
+      "lastWriteTimeUtc": "2017-02-05T01:58:40Z",
+      "queryTimestamp": "2017-02-05T02:02:39.311535Z",
       "fileCount": 1,
       "fileSize": 6772461
     },
     {
-      "folderName": "InventoryTweaks-1.61-58.jar",
-      "fingerprint": 1932858315,
-      "fileDateHash": 1157294285,
+      "folderName": "DrZhark's Mo'Creatures Mod-10.0.6.jar",
+      "fingerprint": 2862723893,
+      "fileDateHash": 1891661072,
       "sectionID": 6,
       "individualFingerprints": [
-        1932858315
+        2862723893
       ],
       "status": 1,
-      "timestamp": "2017-02-05T01:22:44.464148Z",
-      "lastWriteTimeUtc": "2017-02-05T01:21:59Z",
-      "queryTimestamp": "2017-02-05T01:22:44.634072Z",
+      "timestamp": "2017-02-05T02:02:38.695612Z",
+      "lastWriteTimeUtc": "2017-02-05T02:01:35Z",
+      "queryTimestamp": "2017-02-05T02:02:39.311622Z",
       "fileCount": 1,
-      "fileSize": 230808
+      "fileSize": 22395171
     },
     {
       "folderName": "DynamicLights-1.10.2.zip",
       "fingerprint": 1852142374,
-      "fileDateHash": 1436317591,
+      "fileDateHash": 1143270474,
       "sectionID": 6,
       "individualFingerprints": [
         1852142374
       ],
       "status": 1,
-      "timestamp": "2017-02-05T00:41:21.74583Z",
-      "lastWriteTimeUtc": "2017-02-05T00:25:09Z",
-      "queryTimestamp": "2017-02-05T00:41:21.924343Z",
+      "timestamp": "2017-02-05T02:02:39.085645Z",
+      "lastWriteTimeUtc": "2017-02-05T02:00:41Z",
+      "queryTimestamp": "2017-02-05T02:02:39.311695Z",
       "fileCount": 1,
       "fileSize": 301211
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2017-02-05T01:18:47.295005Z",
+  "lastPreviousMatchUpdate": "2017-02-05T02:02:39.862978Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.10.2",
@@ -692,6 +711,153 @@
       "dateInstalled": "2017-02-05T01:28:56.849471Z",
       "dateUpdated": "2017-02-05T01:28:56.85196Z",
       "dateLastUpdateAttempted": "2017-02-05T01:28:56.85196Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null
+    },
+    {
+      "addonID": 229261,
+      "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
+      "installedFile": {
+        "Id": 2337592,
+        "FileName": "CustomMobSpawner 3.10.1",
+        "FileNameOnDisk": "CustomMobSpawner 3.10.1.jar",
+        "FileDate": "2016-10-18T04:01:58",
+        "ReleaseType": 1,
+        "FileStatus": 2,
+        "DownloadURL": "https://addons.cursecdn.com/files/2337/592/CustomMobSpawner 3.10.1.jar",
+        "IsAlternate": false,
+        "AlternateFileId": 0,
+        "Dependencies": [],
+        "IsAvailable": true,
+        "Modules": [
+          {
+            "Foldername": "changelog.txt",
+            "Fingerprint": 3979411565
+          },
+          {
+            "Foldername": "CustomSpawner_USERGUIDE-v0.2.docx",
+            "Fingerprint": 3023945308
+          },
+          {
+            "Foldername": "drzhark",
+            "Fingerprint": 2628821696
+          },
+          {
+            "Foldername": "mcmod.info",
+            "Fingerprint": 1953831422
+          },
+          {
+            "Foldername": "META-INF",
+            "Fingerprint": 2464251221
+          },
+          {
+            "Foldername": "org",
+            "Fingerprint": 3477553748
+          },
+          {
+            "Foldername": "readme.txt",
+            "Fingerprint": 1493009021
+          }
+        ],
+        "PackageFingerprint": 523716621,
+        "GameVersion": [
+          "1.10.2"
+        ]
+      },
+      "dateInstalled": "2017-02-05T01:47:31.307995Z",
+      "dateUpdated": "2017-02-05T01:47:31.311729Z",
+      "dateLastUpdateAttempted": "2017-02-05T01:47:31.311729Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null
+    },
+    {
+      "addonID": 229260,
+      "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
+      "installedFile": {
+        "Id": 2337591,
+        "FileName": "DrZhark's Mo'Creatures Mod-10.0.6",
+        "FileNameOnDisk": "DrZhark's Mo'Creatures Mod-10.0.6.jar",
+        "FileDate": "2016-10-18T04:01:18",
+        "ReleaseType": 1,
+        "FileStatus": 2,
+        "DownloadURL": "https://addons.cursecdn.com/files/2337/591/DrZhark's Mo'Creatures Mod-10.0.6.jar",
+        "IsAlternate": false,
+        "AlternateFileId": 0,
+        "Dependencies": [
+          {
+            "AddOnId": 229261,
+            "Type": 1
+          }
+        ],
+        "IsAvailable": true,
+        "Modules": [
+          {
+            "Foldername": "assets",
+            "Fingerprint": 3590587545
+          },
+          {
+            "Foldername": "changelog.txt",
+            "Fingerprint": 2281591887
+          },
+          {
+            "Foldername": "de",
+            "Fingerprint": 2485702631
+          },
+          {
+            "Foldername": "drzhark",
+            "Fingerprint": 3933459162
+          },
+          {
+            "Foldername": "gui",
+            "Fingerprint": 3121342551
+          },
+          {
+            "Foldername": "javax",
+            "Fingerprint": 2069702497
+          },
+          {
+            "Foldername": "mcmod.info",
+            "Fingerprint": 834183591
+          },
+          {
+            "Foldername": "META-INF",
+            "Fingerprint": 2464251221
+          },
+          {
+            "Foldername": "moclogo.png",
+            "Fingerprint": 3806033103
+          },
+          {
+            "Foldername": "README.txt",
+            "Fingerprint": 3223415353
+          },
+          {
+            "Foldername": "xml-pull",
+            "Fingerprint": 3490193741
+          }
+        ],
+        "PackageFingerprint": 2862723893,
+        "GameVersion": [
+          "1.10.2"
+        ]
+      },
+      "dateInstalled": "2017-02-05T01:47:34.524757Z",
+      "dateUpdated": "2017-02-05T01:47:34.565033Z",
+      "dateLastUpdateAttempted": "2017-02-05T01:47:34.565033Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
