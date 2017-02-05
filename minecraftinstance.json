@@ -18,7 +18,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2017-02-04T21:47:44.394604Z",
+  "lastPlayed": "2017-02-05T00:07:25.903603Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -65,39 +65,130 @@
     },
     {
       "folderName": "New World",
-      "fingerprint": 3732748108,
-      "fileDateHash": 2939065152,
+      "fingerprint": 3682862675,
+      "fileDateHash": 3690478049,
       "sectionID": 17,
       "individualFingerprints": [
-        36955853,
-        36955853,
-        36955853,
-        47626786,
-        614824265,
+        202700457,
+        202700457,
+        202700457,
         758054953,
         758054953,
         758054953,
-        1057835823,
-        1440359535,
-        1652995917,
+        883965163,
+        1634268177,
+        1662267055,
         1973652369,
-        2043085919,
-        3929630733,
+        2202260064,
+        3065343680,
+        4019086758,
         4097317517,
         4213863462,
         4213863462,
-        4213863462
+        4213863462,
+        4241879287
       ],
       "status": 1,
-      "timestamp": "2017-02-04T22:12:54.316982Z",
-      "lastWriteTimeUtc": "2017-02-04T21:58:33Z",
-      "queryTimestamp": "2017-02-04T22:12:54.542977Z",
+      "timestamp": "2017-02-05T00:07:11.881785Z",
+      "lastWriteTimeUtc": "2017-02-04T23:21:04Z",
+      "queryTimestamp": "2017-02-05T00:07:12.072096Z",
       "fileCount": 10,
       "fileSize": 0
+    },
+    {
+      "folderName": "Guide-API-1.10.2-2.0.2-45.jar",
+      "fingerprint": 3667197400,
+      "fileDateHash": 916441568,
+      "sectionID": 6,
+      "individualFingerprints": [
+        3667197400
+      ],
+      "status": 1,
+      "timestamp": "2017-02-05T00:07:11.873533Z",
+      "lastWriteTimeUtc": "2017-02-04T23:22:05Z",
+      "queryTimestamp": "2017-02-05T00:07:12.072544Z",
+      "fileCount": 1,
+      "fileSize": 194046
+    },
+    {
+      "folderName": "ironchest-1.10.2-7.0.11.797.jar",
+      "fingerprint": 3042478999,
+      "fileDateHash": 2419857303,
+      "sectionID": 6,
+      "individualFingerprints": [
+        3042478999
+      ],
+      "status": 1,
+      "timestamp": "2017-02-05T01:35:55.864132Z",
+      "lastWriteTimeUtc": "2017-02-05T01:28:56Z",
+      "queryTimestamp": "2017-02-05T01:35:56.085039Z",
+      "fileCount": 1,
+      "fileSize": 149261
+    },
+    {
+      "folderName": "GraveStone Mod 1.5.12.jar",
+      "fingerprint": 2100314983,
+      "fileDateHash": 1498029769,
+      "sectionID": 6,
+      "individualFingerprints": [
+        2100314983
+      ],
+      "status": 1,
+      "timestamp": "2017-02-05T00:56:50.171487Z",
+      "lastWriteTimeUtc": "2017-02-05T00:44:04Z",
+      "queryTimestamp": "2017-02-05T00:56:50.39253Z",
+      "fileCount": 1,
+      "fileSize": 77562
+    },
+    {
+      "folderName": "InventoryTweaks-1.61-58.jar",
+      "fingerprint": 1932858315,
+      "fileDateHash": 1157294285,
+      "sectionID": 6,
+      "individualFingerprints": [
+        1932858315
+      ],
+      "status": 1,
+      "timestamp": "2017-02-05T01:22:44.464148Z",
+      "lastWriteTimeUtc": "2017-02-05T01:21:59Z",
+      "queryTimestamp": "2017-02-05T01:22:44.634072Z",
+      "fileCount": 1,
+      "fileSize": 230808
+    },
+    {
+      "folderName": "BloodMagic-1.9.4-2.1.0-69.jar",
+      "fingerprint": 1762597457,
+      "fileDateHash": 916441568,
+      "sectionID": 6,
+      "individualFingerprints": [
+        1762597457
+      ],
+      "status": 1,
+      "timestamp": "2017-02-05T00:07:11.759452Z",
+      "lastWriteTimeUtc": "2017-02-04T23:22:05Z",
+      "queryTimestamp": "2017-02-05T00:07:12.072586Z",
+      "fileCount": 1,
+      "fileSize": 6772461
+    },
+    {
+      "folderName": "DynamicLights-1.10.2.zip",
+      "fingerprint": 1852142374,
+      "fileDateHash": 1436317591,
+      "sectionID": 6,
+      "individualFingerprints": [
+        1852142374
+      ],
+      "status": 1,
+      "timestamp": "2017-02-05T00:41:21.74583Z",
+      "lastWriteTimeUtc": "2017-02-05T00:25:09Z",
+      "queryTimestamp": "2017-02-05T00:41:21.924343Z",
+      "fileCount": 1,
+      "fileSize": 301211
+>>>>>>> Stashed changes
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2017-02-04T22:50:05.935916Z",
+  "lastPreviousMatchUpdate": "2017-02-05T00:07:12.369967Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.10.2",
@@ -242,6 +333,131 @@
       "dateUpdated": "2017-02-04T22:51:24.544997Z",
       "dateLastUpdateAttempted": "2017-02-04T22:51:24.544997Z",
       "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null
+    },
+    {
+      "addonID": 228832,
+      "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
+      "installedFile": {
+        "Id": 2325317,
+        "FileName": "Guide-API-1.10.2-2.0.2-45.jar",
+        "FileNameOnDisk": "Guide-API-1.10.2-2.0.2-45.jar",
+        "FileDate": "2016-08-21T03:42:01",
+        "ReleaseType": 2,
+        "FileStatus": 2,
+        "DownloadURL": "https://addons.cursecdn.com/files/2325/317/Guide-API-1.10.2-2.0.2-45.jar",
+        "IsAlternate": false,
+        "AlternateFileId": 0,
+        "Dependencies": [],
+        "IsAvailable": true,
+        "Modules": [
+          {
+            "Foldername": "amerifrance",
+            "Fingerprint": 3866600795
+          },
+          {
+            "Foldername": "assets",
+            "Fingerprint": 2127527396
+          },
+          {
+            "Foldername": "mcmod.info",
+            "Fingerprint": 3721028236
+          },
+          {
+            "Foldername": "META-INF",
+            "Fingerprint": 3170863255
+          }
+        ],
+        "PackageFingerprint": 3667197400,
+        "GameVersion": [
+          "1.10.2"
+        ]
+      },
+      "dateInstalled": "2017-02-05T00:07:12.260466Z",
+      "dateUpdated": "2016-02-05T00:07:12.260467Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null
+    },
+    {
+      "addonID": 224791,
+      "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
+      "installedFile": {
+        "Id": 2353245,
+        "FileName": "BloodMagic-1.9.4-2.1.0-69.jar",
+        "FileNameOnDisk": "BloodMagic-1.9.4-2.1.0-69.jar",
+        "FileDate": "2016-12-07T13:27:28",
+        "ReleaseType": 2,
+        "FileStatus": 2,
+        "DownloadURL": "https://addons.cursecdn.com/files/2353/245/BloodMagic-1.9.4-2.1.0-69.jar",
+        "IsAlternate": false,
+        "AlternateFileId": 0,
+        "Dependencies": [
+          {
+            "AddOnId": 73488,
+            "Type": 2
+          },
+          {
+            "AddOnId": 228832,
+            "Type": 1
+          },
+          {
+            "AddOnId": 238222,
+            "Type": 2
+          }
+        ],
+        "IsAvailable": true,
+        "Modules": [
+          {
+            "Foldername": "assets",
+            "Fingerprint": 1968047305
+          },
+          {
+            "Foldername": "Guide-API-Version.info",
+            "Fingerprint": 2580874387
+          },
+          {
+            "Foldername": "mcmod.info",
+            "Fingerprint": 3554816043
+          },
+          {
+            "Foldername": "META-INF",
+            "Fingerprint": 605287856
+          },
+          {
+            "Foldername": "todo.txt",
+            "Fingerprint": 4229792854
+          },
+          {
+            "Foldername": "WayofTime",
+            "Fingerprint": 497743875
+          }
+        ],
+        "PackageFingerprint": 1762597457,
+        "GameVersion": [
+          "1.10.2",
+          "1.10",
+          "1.9.4"
+        ]
+      },
+      "dateInstalled": "2017-02-05T00:07:12.364707Z",
+      "dateUpdated": "2016-02-05T00:07:12.364707Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
