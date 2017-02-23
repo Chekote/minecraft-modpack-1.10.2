@@ -249,13 +249,13 @@
       "addonID": 220318,
       "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
       "installedFile": {
-        "Id": 2374278,
-        "FileName": "BiomesOPlenty-1.10.2-5.0.0.2142-universal.jar",
-        "FileNameOnDisk": "BiomesOPlenty-1.10.2-5.0.0.2142-universal.jar",
-        "FileDate": "2017-01-29T00:24:40",
+        "Id": 2382522,
+        "FileName": "BiomesOPlenty-1.10.2-5.0.0.2155-universal.jar",
+        "FileNameOnDisk": "BiomesOPlenty-1.10.2-5.0.0.2155-universal.jar",
+        "FileDate": "2017-02-16T22:40:54",
         "ReleaseType": 1,
         "FileStatus": 2,
-        "DownloadURL": "https://addons.cursecdn.com/files/2374/278/BiomesOPlenty-1.10.2-5.0.0.2142-universal.jar",
+        "DownloadURL": "https://addons.cursecdn.com/files/2382/522/BiomesOPlenty-1.10.2-5.0.0.2155-universal.jar",
         "IsAlternate": false,
         "AlternateFileId": 0,
         "Dependencies": [],
@@ -267,7 +267,7 @@
           },
           {
             "Foldername": "biomesoplenty",
-            "Fingerprint": 2541247014
+            "Fingerprint": 2429982475
           },
           {
             "Foldername": "LICENSE.txt",
@@ -287,19 +287,19 @@
           },
           {
             "Foldername": "version.properties",
-            "Fingerprint": 4276708486
+            "Fingerprint": 713728022
           }
         ],
-        "PackageFingerprint": 1511663341,
+        "PackageFingerprint": 3739003451,
         "GameVersion": [
           "1.10.2",
           "1.10"
         ]
       },
       "dateInstalled": "2017-02-04T22:29:28.22692Z",
-      "dateUpdated": "2016-02-04T22:29:28.226922Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2017-02-23T01:41:01.140627Z",
+      "dateLastUpdateAttempted": "2017-02-23T01:41:01.140627Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
