@@ -44,7 +44,7 @@
       "status": 1,
       "timestamp": "2017-02-04T22:29:27.832451Z",
       "lastWriteTimeUtc": "2017-02-04T21:25:29Z",
-      "queryTimestamp": "2017-02-04T22:29:28.103354Z",
+      "queryTimestamp": "2017-02-23T01:32:14.34527Z",
       "fileCount": 1,
       "fileSize": 6167554
     },
@@ -59,7 +59,7 @@
       "status": 1,
       "timestamp": "2017-02-04T22:54:26.69377Z",
       "lastWriteTimeUtc": "2017-02-04T22:51:24Z",
-      "queryTimestamp": "2017-02-04T22:54:26.841896Z",
+      "queryTimestamp": "2017-02-23T01:32:14.346Z",
       "fileCount": 1,
       "fileSize": 4969164
     },
@@ -74,33 +74,34 @@
       "status": 1,
       "timestamp": "2017-02-05T02:02:38.682501Z",
       "lastWriteTimeUtc": "2017-02-05T02:01:34Z",
-      "queryTimestamp": "2017-02-05T02:02:39.310629Z",
+      "queryTimestamp": "2017-02-23T01:32:14.345108Z",
       "fileCount": 1,
       "fileSize": 720628
     },
     {
       "folderName": "New World",
-      "fingerprint": 836196248,
-      "fileDateHash": 2735734868,
+      "fingerprint": 1005996941,
+      "fileDateHash": 875420137,
       "sectionID": 17,
       "individualFingerprints": [
         134024338,
+        200658997,
+        585518781,
         758054953,
         758054953,
         758054953,
         758054953,
-        1032233499,
-        1179021215,
-        1463800281,
-        2110144591,
-        2984829037,
-        3035291818,
-        3198808977,
-        3356064046,
-        3911362410,
-        3911362410,
-        3911362410,
-        4029980240,
+        1144762724,
+        1521334666,
+        1937039633,
+        2424940804,
+        2424940804,
+        2424940804,
+        2820740690,
+        2926859155,
+        3349294222,
+        3394443858,
+        3552904681,
         4213863462,
         4213863462,
         4213863462,
@@ -108,9 +109,9 @@
         4213863462
       ],
       "status": 1,
-      "timestamp": "2017-02-05T02:02:39.101271Z",
-      "lastWriteTimeUtc": "2017-02-05T01:52:50Z",
-      "queryTimestamp": "2017-02-05T02:02:39.311143Z",
+      "timestamp": "2017-02-23T01:32:14.032624Z",
+      "lastWriteTimeUtc": "2017-02-05T02:06:04Z",
+      "queryTimestamp": "2017-02-23T01:32:14.344284Z",
       "fileCount": 12,
       "fileSize": 0
     },
@@ -125,7 +126,7 @@
       "status": 1,
       "timestamp": "2017-02-05T02:02:39.089889Z",
       "lastWriteTimeUtc": "2017-02-05T01:58:40Z",
-      "queryTimestamp": "2017-02-05T02:02:39.311223Z",
+      "queryTimestamp": "2017-02-23T01:32:14.3461Z",
       "fileCount": 1,
       "fileSize": 194046
     },
@@ -140,7 +141,7 @@
       "status": 1,
       "timestamp": "2017-02-05T02:02:39.095577Z",
       "lastWriteTimeUtc": "2017-02-05T02:01:34Z",
-      "queryTimestamp": "2017-02-05T02:02:39.311305Z",
+      "queryTimestamp": "2017-02-23T01:32:14.346338Z",
       "fileCount": 1,
       "fileSize": 149261
     },
@@ -155,7 +156,7 @@
       "status": 1,
       "timestamp": "2017-02-05T02:02:39.088952Z",
       "lastWriteTimeUtc": "2017-02-05T02:00:42Z",
-      "queryTimestamp": "2017-02-05T02:02:39.31138Z",
+      "queryTimestamp": "2017-02-23T01:32:14.345686Z",
       "fileCount": 1,
       "fileSize": 77562
     },
@@ -170,7 +171,7 @@
       "status": 1,
       "timestamp": "2017-02-05T02:02:39.092905Z",
       "lastWriteTimeUtc": "2017-02-05T02:01:33Z",
-      "queryTimestamp": "2017-02-05T02:02:39.311458Z",
+      "queryTimestamp": "2017-02-23T01:32:14.34621Z",
       "fileCount": 1,
       "fileSize": 230808
     },
@@ -185,7 +186,7 @@
       "status": 1,
       "timestamp": "2017-02-05T02:02:38.485486Z",
       "lastWriteTimeUtc": "2017-02-05T01:58:40Z",
-      "queryTimestamp": "2017-02-05T02:02:39.311535Z",
+      "queryTimestamp": "2017-02-23T01:32:14.345554Z",
       "fileCount": 1,
       "fileSize": 6772461
     },
@@ -200,7 +201,7 @@
       "status": 1,
       "timestamp": "2017-02-05T02:02:38.695612Z",
       "lastWriteTimeUtc": "2017-02-05T02:01:35Z",
-      "queryTimestamp": "2017-02-05T02:02:39.311622Z",
+      "queryTimestamp": "2017-02-23T01:32:14.345419Z",
       "fileCount": 1,
       "fileSize": 22395171
     },
@@ -215,13 +216,13 @@
       "status": 1,
       "timestamp": "2017-02-05T02:02:39.085645Z",
       "lastWriteTimeUtc": "2017-02-05T02:00:41Z",
-      "queryTimestamp": "2017-02-05T02:02:39.311695Z",
+      "queryTimestamp": "2017-02-23T01:32:14.34648Z",
       "fileCount": 1,
       "fileSize": 301211
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2017-02-05T02:02:39.862978Z",
+  "lastPreviousMatchUpdate": "2017-02-23T01:32:15.309878Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.10.2",
@@ -298,7 +299,7 @@
       "dateInstalled": "2017-02-04T22:29:28.22692Z",
       "dateUpdated": "2016-02-04T22:29:28.226922Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -365,7 +366,7 @@
       "dateInstalled": "2017-02-04T22:51:24.523926Z",
       "dateUpdated": "2017-02-04T22:51:24.544997Z",
       "dateLastUpdateAttempted": "2017-02-04T22:51:24.544997Z",
-      "status": 4,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -416,7 +417,7 @@
       "dateInstalled": "2017-02-05T00:07:12.260466Z",
       "dateUpdated": "2016-02-05T00:07:12.260467Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -430,13 +431,13 @@
       "addonID": 224791,
       "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
       "installedFile": {
-        "Id": 2353245,
-        "FileName": "BloodMagic-1.9.4-2.1.0-69.jar",
-        "FileNameOnDisk": "BloodMagic-1.9.4-2.1.0-69.jar",
-        "FileDate": "2016-12-07T13:27:28",
+        "Id": 2384882,
+        "FileName": "BloodMagic-1.10.2-2.1.4-73.jar",
+        "FileNameOnDisk": "BloodMagic-1.10.2-2.1.4-73.jar",
+        "FileDate": "2017-02-22T01:00:22",
         "ReleaseType": 2,
         "FileStatus": 2,
-        "DownloadURL": "https://addons.cursecdn.com/files/2353/245/BloodMagic-1.9.4-2.1.0-69.jar",
+        "DownloadURL": "https://addons.cursecdn.com/files/2384/882/BloodMagic-1.10.2-2.1.4-73.jar",
         "IsAlternate": false,
         "AlternateFileId": 0,
         "Dependencies": [
@@ -451,13 +452,21 @@
           {
             "AddOnId": 238222,
             "Type": 2
+          },
+          {
+            "AddOnId": 250574,
+            "Type": 2
+          },
+          {
+            "AddOnId": 253449,
+            "Type": 2
           }
         ],
         "IsAvailable": true,
         "Modules": [
           {
             "Foldername": "assets",
-            "Fingerprint": 1968047305
+            "Fingerprint": 449691773
           },
           {
             "Foldername": "Guide-API-Version.info",
@@ -465,11 +474,11 @@
           },
           {
             "Foldername": "mcmod.info",
-            "Fingerprint": 3554816043
+            "Fingerprint": 1931053812
           },
           {
             "Foldername": "META-INF",
-            "Fingerprint": 605287856
+            "Fingerprint": 882662403
           },
           {
             "Foldername": "todo.txt",
@@ -477,20 +486,18 @@
           },
           {
             "Foldername": "WayofTime",
-            "Fingerprint": 497743875
+            "Fingerprint": 2090094411
           }
         ],
-        "PackageFingerprint": 1762597457,
+        "PackageFingerprint": 199786630,
         "GameVersion": [
-          "1.10.2",
-          "1.10",
-          "1.9.4"
+          "1.10.2"
         ]
       },
       "dateInstalled": "2017-02-05T00:07:12.364707Z",
-      "dateUpdated": "2016-02-05T00:07:12.364707Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "dateUpdated": "2017-02-23T01:37:23.348467Z",
+      "dateLastUpdateAttempted": "2017-02-23T01:37:23.348467Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -537,7 +544,7 @@
       "dateInstalled": "2017-02-05T00:25:09.448532Z",
       "dateUpdated": "2017-02-05T00:25:09.454683Z",
       "dateLastUpdateAttempted": "2017-02-05T00:25:09.454683Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -588,7 +595,7 @@
       "dateInstalled": "2017-02-05T00:44:04.291392Z",
       "dateUpdated": "2017-02-05T00:44:04.294049Z",
       "dateLastUpdateAttempted": "2017-02-05T00:44:04.294049Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -711,7 +718,7 @@
       "dateInstalled": "2017-02-05T01:28:56.849471Z",
       "dateUpdated": "2017-02-05T01:28:56.85196Z",
       "dateLastUpdateAttempted": "2017-02-05T01:28:56.85196Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -774,7 +781,7 @@
       "dateInstalled": "2017-02-05T01:47:31.307995Z",
       "dateUpdated": "2017-02-05T01:47:31.311729Z",
       "dateLastUpdateAttempted": "2017-02-05T01:47:31.311729Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -858,7 +865,7 @@
       "dateInstalled": "2017-02-05T01:47:34.524757Z",
       "dateUpdated": "2017-02-05T01:47:34.565033Z",
       "dateLastUpdateAttempted": "2017-02-05T01:47:34.565033Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
