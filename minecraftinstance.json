@@ -380,13 +380,13 @@
       "addonID": 228832,
       "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
       "installedFile": {
-        "Id": 2325317,
-        "FileName": "Guide-API-1.10.2-2.0.2-45.jar",
-        "FileNameOnDisk": "Guide-API-1.10.2-2.0.2-45.jar",
-        "FileDate": "2016-08-21T03:42:01",
+        "Id": 2380911,
+        "FileName": "Guide-API-1.10.2-2.0.3-46.jar",
+        "FileNameOnDisk": "Guide-API-1.10.2-2.0.3-46.jar",
+        "FileDate": "2017-02-12T19:59:38",
         "ReleaseType": 2,
         "FileStatus": 2,
-        "DownloadURL": "https://addons.cursecdn.com/files/2325/317/Guide-API-1.10.2-2.0.2-45.jar",
+        "DownloadURL": "https://addons.cursecdn.com/files/2380/911/Guide-API-1.10.2-2.0.3-46.jar",
         "IsAlternate": false,
         "AlternateFileId": 0,
         "Dependencies": [],
@@ -394,7 +394,7 @@
         "Modules": [
           {
             "Foldername": "amerifrance",
-            "Fingerprint": 3866600795
+            "Fingerprint": 1104326727
           },
           {
             "Foldername": "assets",
@@ -402,22 +402,22 @@
           },
           {
             "Foldername": "mcmod.info",
-            "Fingerprint": 3721028236
+            "Fingerprint": 3324225341
           },
           {
             "Foldername": "META-INF",
-            "Fingerprint": 3170863255
+            "Fingerprint": 238498956
           }
         ],
-        "PackageFingerprint": 3667197400,
+        "PackageFingerprint": 811042994,
         "GameVersion": [
           "1.10.2"
         ]
       },
       "dateInstalled": "2017-02-05T00:07:12.260466Z",
-      "dateUpdated": "2016-02-05T00:07:12.260467Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2017-02-23T01:40:15.996868Z",
+      "dateLastUpdateAttempted": "2017-02-23T01:40:15.996868Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
