@@ -313,13 +313,13 @@
       "addonID": 228027,
       "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
       "installedFile": {
-        "Id": 2375751,
-        "FileName": "BiblioCraft v2.2.0",
-        "FileNameOnDisk": "BiblioCraft[v2.2.0][MC1.10.2].jar",
-        "FileDate": "2017-01-30T02:00:28",
+        "Id": 2378365,
+        "FileName": "BiblioCraft v2.2.1",
+        "FileNameOnDisk": "BiblioCraft[v2.2.1][MC1.10.2].jar",
+        "FileDate": "2017-02-06T01:20:38",
         "ReleaseType": 1,
         "FileStatus": 2,
-        "DownloadURL": "https://addons.cursecdn.com/files/2375/751/BiblioCraft[v2.2.0][MC1.10.2].jar",
+        "DownloadURL": "https://addons.cursecdn.com/files/2378/365/BiblioCraft[v2.2.1][MC1.10.2].jar",
         "IsAlternate": false,
         "AlternateFileId": 0,
         "Dependencies": [],
@@ -327,7 +327,7 @@
         "Modules": [
           {
             "Foldername": "assets",
-            "Fingerprint": 1643758973
+            "Fingerprint": 1159683420
           },
           {
             "Foldername": "BiblioCraft.png",
@@ -343,7 +343,7 @@
           },
           {
             "Foldername": "jds",
-            "Fingerprint": 2804429881
+            "Fingerprint": 417183612
           },
           {
             "Foldername": "mcmod.info",
@@ -358,15 +358,15 @@
             "Fingerprint": 179562225
           }
         ],
-        "PackageFingerprint": 2836043407,
+        "PackageFingerprint": 4154944660,
         "GameVersion": [
           "1.10.2"
         ]
       },
       "dateInstalled": "2017-02-04T22:51:24.523926Z",
-      "dateUpdated": "2017-02-04T22:51:24.544997Z",
-      "dateLastUpdateAttempted": "2017-02-04T22:51:24.544997Z",
-      "status": 3,
+      "dateUpdated": "2017-02-23T01:41:35.587494Z",
+      "dateLastUpdateAttempted": "2017-02-23T01:41:35.587494Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
