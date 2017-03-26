@@ -6,6 +6,7 @@ It'll also provide a much simpler installation process and a nice interface for 
 
 #Mod List:
 
+* [Animalia](https://mods.curse.com/mc-mods/minecraft/261199-animania) by RazzleberryFox & Purplicious_Cow
 * [BiblioCraft](https://mods.curse.com/mc-mods/minecraft/228027-bibliocraft) by Nuchaz
 * [Biomes 'o' Plenty](https://mods.curse.com/mc-mods/minecraft/220318-biomes-o-plenty) by TheAdubbz
 * [Blood Magic](https://mods.curse.com/mc-mods/minecraft/224791-blood-magic) by TehNut

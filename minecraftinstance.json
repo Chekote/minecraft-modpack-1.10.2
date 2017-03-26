@@ -18,7 +18,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2017-02-05T02:02:50.081788Z",
+  "lastPlayed": "2017-03-26T23:19:00.861305Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -34,34 +34,59 @@
   "name": "Chekote 1.10.2",
   "cachedScans": [
     {
-      "folderName": "BiomesOPlenty-1.10.2-5.0.0.2142-universal.jar",
-      "fingerprint": 1511663341,
-      "fileDateHash": 1040922778,
+      "folderName": "animania-1.10-1.0.0.jar",
+      "fingerprint": 3019696868,
+      "fileDateHash": 3673129974,
       "sectionID": 6,
       "individualFingerprints": [
-        1511663341
+        3019696868
       ],
       "status": 1,
-      "timestamp": "2017-02-04T22:29:27.832451Z",
-      "lastWriteTimeUtc": "2017-02-04T21:25:29Z",
-      "queryTimestamp": "2017-02-23T01:32:14.34527Z",
+      "timestamp": "2017-02-27T05:46:03.18274Z",
+      "lastWriteTimeUtc": "2017-02-27T02:41:33Z",
+      "queryTimestamp": "2017-03-26T23:15:37.56615Z",
       "fileCount": 1,
-      "fileSize": 6167554
+      "fileSize": 5632668
     },
     {
-      "folderName": "BiblioCraft[v2.2.0][MC1.10.2].jar",
-      "fingerprint": 2836043407,
-      "fileDateHash": 2149763185,
-      "sectionID": 6,
+      "folderName": "New World",
+      "fingerprint": 3834841095,
+      "fileDateHash": 1462850723,
+      "sectionID": 17,
       "individualFingerprints": [
-        2836043407
+        134024338,
+        249563755,
+        249563755,
+        249563755,
+        447945934,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        809483479,
+        1710217153,
+        2013085532,
+        2451407399,
+        3062210680,
+        3062983106,
+        3153935641,
+        3424271371,
+        3435505054,
+        3571627921,
+        3783899132,
+        4213863462,
+        4213863462,
+        4213863462,
+        4213863462,
+        4213863462,
+        4227698825
       ],
       "status": 1,
-      "timestamp": "2017-02-04T22:54:26.69377Z",
-      "lastWriteTimeUtc": "2017-02-04T22:51:24Z",
-      "queryTimestamp": "2017-02-23T01:32:14.346Z",
-      "fileCount": 1,
-      "fileSize": 4969164
+      "timestamp": "2017-02-27T05:46:03.355238Z",
+      "lastWriteTimeUtc": "2017-02-27T02:44:48Z",
+      "queryTimestamp": "2017-03-26T23:15:37.567192Z",
+      "fileCount": 12,
+      "fileSize": 0
     },
     {
       "folderName": "CustomMobSpawner 3.10.1.jar",
@@ -74,121 +99,9 @@
       "status": 1,
       "timestamp": "2017-02-05T02:02:38.682501Z",
       "lastWriteTimeUtc": "2017-02-05T02:01:34Z",
-      "queryTimestamp": "2017-02-23T01:32:14.345108Z",
+      "queryTimestamp": "2017-03-26T23:15:37.567329Z",
       "fileCount": 1,
       "fileSize": 720628
-    },
-    {
-      "folderName": "New World",
-      "fingerprint": 1005996941,
-      "fileDateHash": 875420137,
-      "sectionID": 17,
-      "individualFingerprints": [
-        134024338,
-        200658997,
-        585518781,
-        758054953,
-        758054953,
-        758054953,
-        758054953,
-        1144762724,
-        1521334666,
-        1937039633,
-        2424940804,
-        2424940804,
-        2424940804,
-        2820740690,
-        2926859155,
-        3349294222,
-        3394443858,
-        3552904681,
-        4213863462,
-        4213863462,
-        4213863462,
-        4213863462,
-        4213863462
-      ],
-      "status": 1,
-      "timestamp": "2017-02-23T01:32:14.032624Z",
-      "lastWriteTimeUtc": "2017-02-05T02:06:04Z",
-      "queryTimestamp": "2017-02-23T01:32:14.344284Z",
-      "fileCount": 12,
-      "fileSize": 0
-    },
-    {
-      "folderName": "Guide-API-1.10.2-2.0.2-45.jar",
-      "fingerprint": 3667197400,
-      "fileDateHash": 3869092806,
-      "sectionID": 6,
-      "individualFingerprints": [
-        3667197400
-      ],
-      "status": 1,
-      "timestamp": "2017-02-05T02:02:39.089889Z",
-      "lastWriteTimeUtc": "2017-02-05T01:58:40Z",
-      "queryTimestamp": "2017-02-23T01:32:14.3461Z",
-      "fileCount": 1,
-      "fileSize": 194046
-    },
-    {
-      "folderName": "ironchest-1.10.2-7.0.11.797.jar",
-      "fingerprint": 3042478999,
-      "fileDateHash": 3901146309,
-      "sectionID": 6,
-      "individualFingerprints": [
-        3042478999
-      ],
-      "status": 1,
-      "timestamp": "2017-02-05T02:02:39.095577Z",
-      "lastWriteTimeUtc": "2017-02-05T02:01:34Z",
-      "queryTimestamp": "2017-02-23T01:32:14.346338Z",
-      "fileCount": 1,
-      "fileSize": 149261
-    },
-    {
-      "folderName": "GraveStone Mod 1.5.12.jar",
-      "fingerprint": 2100314983,
-      "fileDateHash": 1119790659,
-      "sectionID": 6,
-      "individualFingerprints": [
-        2100314983
-      ],
-      "status": 1,
-      "timestamp": "2017-02-05T02:02:39.088952Z",
-      "lastWriteTimeUtc": "2017-02-05T02:00:42Z",
-      "queryTimestamp": "2017-02-23T01:32:14.345686Z",
-      "fileCount": 1,
-      "fileSize": 77562
-    },
-    {
-      "folderName": "InventoryTweaks-1.61-58.jar",
-      "fingerprint": 1932858315,
-      "fileDateHash": 3733165901,
-      "sectionID": 6,
-      "individualFingerprints": [
-        1932858315
-      ],
-      "status": 1,
-      "timestamp": "2017-02-05T02:02:39.092905Z",
-      "lastWriteTimeUtc": "2017-02-05T02:01:33Z",
-      "queryTimestamp": "2017-02-23T01:32:14.34621Z",
-      "fileCount": 1,
-      "fileSize": 230808
-    },
-    {
-      "folderName": "BloodMagic-1.9.4-2.1.0-69.jar",
-      "fingerprint": 1762597457,
-      "fileDateHash": 3869092806,
-      "sectionID": 6,
-      "individualFingerprints": [
-        1762597457
-      ],
-      "status": 1,
-      "timestamp": "2017-02-05T02:02:38.485486Z",
-      "lastWriteTimeUtc": "2017-02-05T01:58:40Z",
-      "queryTimestamp": "2017-02-23T01:32:14.345554Z",
-      "fileCount": 1,
-      "fileSize": 6772461
     },
     {
       "folderName": "DrZhark's Mo'Creatures Mod-10.0.6.jar",
@@ -201,9 +114,114 @@
       "status": 1,
       "timestamp": "2017-02-05T02:02:38.695612Z",
       "lastWriteTimeUtc": "2017-02-05T02:01:35Z",
-      "queryTimestamp": "2017-02-23T01:32:14.345419Z",
+      "queryTimestamp": "2017-03-26T23:15:37.567531Z",
       "fileCount": 1,
       "fileSize": 22395171
+    },
+    {
+      "folderName": "GraveStone Mod 1.5.12.jar",
+      "fingerprint": 2100314983,
+      "fileDateHash": 1119790659,
+      "sectionID": 6,
+      "individualFingerprints": [
+        2100314983
+      ],
+      "status": 1,
+      "timestamp": "2017-02-05T02:02:39.088952Z",
+      "lastWriteTimeUtc": "2017-02-05T02:00:42Z",
+      "queryTimestamp": "2017-03-26T23:15:37.567715Z",
+      "fileCount": 1,
+      "fileSize": 77562
+    },
+    {
+      "folderName": "BiblioCraft[v2.2.1][MC1.10.2].jar",
+      "fingerprint": 4154944660,
+      "fileDateHash": 2521199249,
+      "sectionID": 6,
+      "individualFingerprints": [
+        4154944660
+      ],
+      "status": 1,
+      "timestamp": "2017-02-23T04:16:42.029772Z",
+      "lastWriteTimeUtc": "2017-02-23T01:41:35Z",
+      "queryTimestamp": "2017-03-26T23:15:37.567895Z",
+      "fileCount": 1,
+      "fileSize": 4994492
+    },
+    {
+      "folderName": "BloodMagic-1.10.2-2.1.4-73.jar",
+      "fingerprint": 199786630,
+      "fileDateHash": 1220351636,
+      "sectionID": 6,
+      "individualFingerprints": [
+        199786630
+      ],
+      "status": 1,
+      "timestamp": "2017-02-23T04:16:42.249022Z",
+      "lastWriteTimeUtc": "2017-02-23T01:37:23Z",
+      "queryTimestamp": "2017-03-26T23:15:37.568056Z",
+      "fileCount": 1,
+      "fileSize": 6793264
+    },
+    {
+      "folderName": "Guide-API-1.10.2-2.0.3-46.jar",
+      "fingerprint": 811042994,
+      "fileDateHash": 4016279904,
+      "sectionID": 6,
+      "individualFingerprints": [
+        811042994
+      ],
+      "status": 1,
+      "timestamp": "2017-02-23T04:16:42.351998Z",
+      "lastWriteTimeUtc": "2017-02-23T01:40:15Z",
+      "queryTimestamp": "2017-03-26T23:15:37.568261Z",
+      "fileCount": 1,
+      "fileSize": 195655
+    },
+    {
+      "folderName": "BiomesOPlenty-1.10.2-5.0.0.2155-universal.jar",
+      "fingerprint": 3739003451,
+      "fileDateHash": 1679409896,
+      "sectionID": 6,
+      "individualFingerprints": [
+        3739003451
+      ],
+      "status": 1,
+      "timestamp": "2017-02-23T04:16:42.133064Z",
+      "lastWriteTimeUtc": "2017-02-23T01:41:01Z",
+      "queryTimestamp": "2017-03-26T23:15:37.568449Z",
+      "fileCount": 1,
+      "fileSize": 6167473
+    },
+    {
+      "folderName": "InventoryTweaks-1.61-58.jar",
+      "fingerprint": 1932858315,
+      "fileDateHash": 3733165901,
+      "sectionID": 6,
+      "individualFingerprints": [
+        1932858315
+      ],
+      "status": 1,
+      "timestamp": "2017-02-05T02:02:39.092905Z",
+      "lastWriteTimeUtc": "2017-02-05T02:01:33Z",
+      "queryTimestamp": "2017-03-26T23:15:37.568623Z",
+      "fileCount": 1,
+      "fileSize": 230808
+    },
+    {
+      "folderName": "ironchest-1.10.2-7.0.11.797.jar",
+      "fingerprint": 3042478999,
+      "fileDateHash": 3901146309,
+      "sectionID": 6,
+      "individualFingerprints": [
+        3042478999
+      ],
+      "status": 1,
+      "timestamp": "2017-02-05T02:02:39.095577Z",
+      "lastWriteTimeUtc": "2017-02-05T02:01:34Z",
+      "queryTimestamp": "2017-03-26T23:15:37.568773Z",
+      "fileCount": 1,
+      "fileSize": 149261
     },
     {
       "folderName": "DynamicLights-1.10.2.zip",
@@ -216,13 +234,13 @@
       "status": 1,
       "timestamp": "2017-02-05T02:02:39.085645Z",
       "lastWriteTimeUtc": "2017-02-05T02:00:41Z",
-      "queryTimestamp": "2017-02-23T01:32:14.34648Z",
+      "queryTimestamp": "2017-03-26T23:15:37.569Z",
       "fileCount": 1,
       "fileSize": 301211
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2017-02-23T01:32:15.309878Z",
+  "lastPreviousMatchUpdate": "2017-03-26T23:15:38.584437Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.10.2",
@@ -299,7 +317,7 @@
       "dateInstalled": "2017-02-04T22:29:28.22692Z",
       "dateUpdated": "2017-02-23T01:41:01.140627Z",
       "dateLastUpdateAttempted": "2017-02-23T01:41:01.140627Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -366,7 +384,7 @@
       "dateInstalled": "2017-02-04T22:51:24.523926Z",
       "dateUpdated": "2017-02-23T01:41:35.587494Z",
       "dateLastUpdateAttempted": "2017-02-23T01:41:35.587494Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -417,7 +435,7 @@
       "dateInstalled": "2017-02-05T00:07:12.260466Z",
       "dateUpdated": "2017-02-23T01:40:15.996868Z",
       "dateLastUpdateAttempted": "2017-02-23T01:40:15.996868Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -497,7 +515,7 @@
       "dateInstalled": "2017-02-05T00:07:12.364707Z",
       "dateUpdated": "2017-02-23T01:37:23.348467Z",
       "dateLastUpdateAttempted": "2017-02-23T01:37:23.348467Z",
-      "status": 4,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -865,6 +883,57 @@
       "dateInstalled": "2017-02-05T01:47:34.524757Z",
       "dateUpdated": "2017-02-05T01:47:34.565033Z",
       "dateLastUpdateAttempted": "2017-02-05T01:47:34.565033Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null
+    },
+    {
+      "addonID": 261199,
+      "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
+      "installedFile": {
+        "Id": 2386665,
+        "FileName": "Animania-1.10.2-1.0.0",
+        "FileNameOnDisk": "animania-1.10-1.0.0.jar",
+        "FileDate": "2017-02-26T17:37:45",
+        "ReleaseType": 1,
+        "FileStatus": 2,
+        "DownloadURL": "https://addons.cursecdn.com/files/2386/665/animania-1.10-1.0.0.jar",
+        "IsAlternate": false,
+        "AlternateFileId": 0,
+        "Dependencies": [],
+        "IsAvailable": true,
+        "Modules": [
+          {
+            "Foldername": "assets",
+            "Fingerprint": 2797995834
+          },
+          {
+            "Foldername": "com",
+            "Fingerprint": 2642501558
+          },
+          {
+            "Foldername": "mcmod.info",
+            "Fingerprint": 3876001403
+          },
+          {
+            "Foldername": "META-INF",
+            "Fingerprint": 2464251221
+          }
+        ],
+        "PackageFingerprint": 3019696868,
+        "GameVersion": [
+          "1.10.2"
+        ]
+      },
+      "dateInstalled": "2017-02-27T02:41:33.719662Z",
+      "dateUpdated": "2017-02-27T02:41:33.75001Z",
+      "dateLastUpdateAttempted": "2017-02-27T02:41:33.75001Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
