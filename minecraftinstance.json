@@ -18,7 +18,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2017-03-27T00:23:01.662197Z",
+  "lastPlayed": "2017-03-27T00:31:42.84737Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -817,13 +817,13 @@
       "addonID": 261199,
       "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
       "installedFile": {
-        "Id": 2386665,
-        "FileName": "Animania-1.10.2-1.0.0",
-        "FileNameOnDisk": "animania-1.10-1.0.0.jar",
-        "FileDate": "2017-02-26T17:37:45",
+        "Id": 2396295,
+        "FileName": "Animania-1.10.2-1.0.4.1",
+        "FileNameOnDisk": "animania-1.10-1.0.4.1.jar",
+        "FileDate": "2017-03-22T23:19:05",
         "ReleaseType": 1,
         "FileStatus": 2,
-        "DownloadURL": "https://addons.cursecdn.com/files/2386/665/animania-1.10-1.0.0.jar",
+        "DownloadURL": "https://addons.cursecdn.com/files/2396/295/animania-1.10-1.0.4.1.jar",
         "IsAlternate": false,
         "AlternateFileId": 0,
         "Dependencies": [],
@@ -831,30 +831,30 @@
         "Modules": [
           {
             "Foldername": "assets",
-            "Fingerprint": 2797995834
+            "Fingerprint": 463210530
           },
           {
             "Foldername": "com",
-            "Fingerprint": 2642501558
+            "Fingerprint": 1332837409
           },
           {
             "Foldername": "mcmod.info",
-            "Fingerprint": 3876001403
+            "Fingerprint": 4201649014
           },
           {
             "Foldername": "META-INF",
             "Fingerprint": 2464251221
           }
         ],
-        "PackageFingerprint": 3019696868,
+        "PackageFingerprint": 3636694631,
         "GameVersion": [
           "1.10.2"
         ]
       },
       "dateInstalled": "2017-03-27T00:22:12.500845Z",
-      "dateUpdated": "2016-03-27T00:22:12.500846Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2017-03-27T00:31:20.634474Z",
+      "dateLastUpdateAttempted": "2017-03-27T00:31:20.634474Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
