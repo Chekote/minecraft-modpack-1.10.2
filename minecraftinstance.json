@@ -18,7 +18,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2017-03-26T23:19:00.861305Z",
+  "lastPlayed": "2017-03-27T00:23:01.662197Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -36,55 +36,55 @@
     {
       "folderName": "animania-1.10-1.0.0.jar",
       "fingerprint": 3019696868,
-      "fileDateHash": 3673129974,
+      "fileDateHash": 1334250783,
       "sectionID": 6,
       "individualFingerprints": [
         3019696868
       ],
       "status": 1,
-      "timestamp": "2017-02-27T05:46:03.18274Z",
-      "lastWriteTimeUtc": "2017-02-27T02:41:33Z",
-      "queryTimestamp": "2017-03-26T23:15:37.56615Z",
+      "timestamp": "2017-03-27T00:22:12.017632Z",
+      "lastWriteTimeUtc": "2017-03-27T00:20:53Z",
+      "queryTimestamp": "2017-03-27T00:22:12.37654Z",
       "fileCount": 1,
       "fileSize": 5632668
     },
     {
       "folderName": "New World",
-      "fingerprint": 3834841095,
-      "fileDateHash": 1462850723,
+      "fingerprint": 4225878139,
+      "fileDateHash": 1128701991,
       "sectionID": 17,
       "individualFingerprints": [
+        57343340,
         134024338,
-        249563755,
-        249563755,
-        249563755,
-        447945934,
+        169623824,
+        169623824,
+        169623824,
         758054953,
         758054953,
         758054953,
         758054953,
-        809483479,
-        1710217153,
-        2013085532,
-        2451407399,
-        3062210680,
-        3062983106,
-        3153935641,
-        3424271371,
-        3435505054,
-        3571627921,
-        3783899132,
+        899896119,
+        1026208623,
+        1071446911,
+        1356315695,
+        1526376017,
+        1790298264,
+        2078486818,
+        2977298401,
+        3523033483,
+        3615092859,
+        3631495730,
+        3955579117,
         4213863462,
         4213863462,
         4213863462,
         4213863462,
-        4213863462,
-        4227698825
+        4213863462
       ],
       "status": 1,
-      "timestamp": "2017-02-27T05:46:03.355238Z",
-      "lastWriteTimeUtc": "2017-02-27T02:44:48Z",
-      "queryTimestamp": "2017-03-26T23:15:37.567192Z",
+      "timestamp": "2017-03-27T00:22:12.092181Z",
+      "lastWriteTimeUtc": "2017-03-27T00:15:00Z",
+      "queryTimestamp": "2017-03-27T00:22:12.37737Z",
       "fileCount": 12,
       "fileSize": 0
     },
@@ -151,15 +151,15 @@
     {
       "folderName": "BloodMagic-1.10.2-2.1.4-73.jar",
       "fingerprint": 199786630,
-      "fileDateHash": 1220351636,
+      "fileDateHash": 2256960586,
       "sectionID": 6,
       "individualFingerprints": [
         199786630
       ],
       "status": 1,
-      "timestamp": "2017-02-23T04:16:42.249022Z",
-      "lastWriteTimeUtc": "2017-02-23T01:37:23Z",
-      "queryTimestamp": "2017-03-26T23:15:37.568056Z",
+      "timestamp": "2017-03-27T00:22:11.935758Z",
+      "lastWriteTimeUtc": "2017-03-27T00:20:52Z",
+      "queryTimestamp": "2017-03-27T00:22:12.377744Z",
       "fileCount": 1,
       "fileSize": 6793264
     },
@@ -194,21 +194,6 @@
       "fileSize": 6167473
     },
     {
-      "folderName": "InventoryTweaks-1.61-58.jar",
-      "fingerprint": 1932858315,
-      "fileDateHash": 3733165901,
-      "sectionID": 6,
-      "individualFingerprints": [
-        1932858315
-      ],
-      "status": 1,
-      "timestamp": "2017-02-05T02:02:39.092905Z",
-      "lastWriteTimeUtc": "2017-02-05T02:01:33Z",
-      "queryTimestamp": "2017-03-26T23:15:37.568623Z",
-      "fileCount": 1,
-      "fileSize": 230808
-    },
-    {
       "folderName": "ironchest-1.10.2-7.0.11.797.jar",
       "fingerprint": 3042478999,
       "fileDateHash": 3901146309,
@@ -222,6 +207,21 @@
       "queryTimestamp": "2017-03-26T23:15:37.568773Z",
       "fileCount": 1,
       "fileSize": 149261
+    },
+    {
+      "folderName": "InventoryTweaks-1.61-58.jar",
+      "fingerprint": 1932858315,
+      "fileDateHash": 3733165901,
+      "sectionID": 6,
+      "individualFingerprints": [
+        1932858315
+      ],
+      "status": 1,
+      "timestamp": "2017-02-05T02:02:39.092905Z",
+      "lastWriteTimeUtc": "2017-02-05T02:01:33Z",
+      "queryTimestamp": "2017-03-26T23:15:37.568623Z",
+      "fileCount": 1,
+      "fileSize": 230808
     },
     {
       "folderName": "DynamicLights-1.10.2.zip",
@@ -240,7 +240,7 @@
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2017-03-26T23:15:38.584437Z",
+  "lastPreviousMatchUpdate": "2017-03-27T00:04:11.563086Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.10.2",
@@ -436,86 +436,6 @@
       "dateUpdated": "2017-02-23T01:40:15.996868Z",
       "dateLastUpdateAttempted": "2017-02-23T01:40:15.996868Z",
       "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null
-    },
-    {
-      "addonID": 224791,
-      "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
-      "installedFile": {
-        "Id": 2384882,
-        "FileName": "BloodMagic-1.10.2-2.1.4-73.jar",
-        "FileNameOnDisk": "BloodMagic-1.10.2-2.1.4-73.jar",
-        "FileDate": "2017-02-22T01:00:22",
-        "ReleaseType": 2,
-        "FileStatus": 2,
-        "DownloadURL": "https://addons.cursecdn.com/files/2384/882/BloodMagic-1.10.2-2.1.4-73.jar",
-        "IsAlternate": false,
-        "AlternateFileId": 0,
-        "Dependencies": [
-          {
-            "AddOnId": 73488,
-            "Type": 2
-          },
-          {
-            "AddOnId": 228832,
-            "Type": 1
-          },
-          {
-            "AddOnId": 238222,
-            "Type": 2
-          },
-          {
-            "AddOnId": 250574,
-            "Type": 2
-          },
-          {
-            "AddOnId": 253449,
-            "Type": 2
-          }
-        ],
-        "IsAvailable": true,
-        "Modules": [
-          {
-            "Foldername": "assets",
-            "Fingerprint": 449691773
-          },
-          {
-            "Foldername": "Guide-API-Version.info",
-            "Fingerprint": 2580874387
-          },
-          {
-            "Foldername": "mcmod.info",
-            "Fingerprint": 1931053812
-          },
-          {
-            "Foldername": "META-INF",
-            "Fingerprint": 882662403
-          },
-          {
-            "Foldername": "todo.txt",
-            "Fingerprint": 4229792854
-          },
-          {
-            "Foldername": "WayofTime",
-            "Fingerprint": 2090094411
-          }
-        ],
-        "PackageFingerprint": 199786630,
-        "GameVersion": [
-          "1.10.2"
-        ]
-      },
-      "dateInstalled": "2017-02-05T00:07:12.364707Z",
-      "dateUpdated": "2017-02-23T01:37:23.348467Z",
-      "dateLastUpdateAttempted": "2017-02-23T01:37:23.348467Z",
-      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -931,10 +851,90 @@
           "1.10.2"
         ]
       },
-      "dateInstalled": "2017-02-27T02:41:33.719662Z",
-      "dateUpdated": "2017-02-27T02:41:33.75001Z",
-      "dateLastUpdateAttempted": "2017-02-27T02:41:33.75001Z",
-      "status": 5,
+      "dateInstalled": "2017-03-27T00:22:12.500845Z",
+      "dateUpdated": "2016-03-27T00:22:12.500846Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 3,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null
+    },
+    {
+      "addonID": 224791,
+      "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
+      "installedFile": {
+        "Id": 2392863,
+        "FileName": "BloodMagic-1.10.2-2.1.7-76.jar",
+        "FileNameOnDisk": "BloodMagic-1.10.2-2.1.7-76.jar",
+        "FileDate": "2017-03-13T23:32:58",
+        "ReleaseType": 2,
+        "FileStatus": 2,
+        "DownloadURL": "https://addons.cursecdn.com/files/2392/863/BloodMagic-1.10.2-2.1.7-76.jar",
+        "IsAlternate": false,
+        "AlternateFileId": 0,
+        "Dependencies": [
+          {
+            "AddOnId": 73488,
+            "Type": 2
+          },
+          {
+            "AddOnId": 228832,
+            "Type": 1
+          },
+          {
+            "AddOnId": 238222,
+            "Type": 2
+          },
+          {
+            "AddOnId": 250574,
+            "Type": 2
+          },
+          {
+            "AddOnId": 253449,
+            "Type": 2
+          }
+        ],
+        "IsAvailable": true,
+        "Modules": [
+          {
+            "Foldername": "assets",
+            "Fingerprint": 4213969789
+          },
+          {
+            "Foldername": "Guide-API-Version.info",
+            "Fingerprint": 2580874387
+          },
+          {
+            "Foldername": "mcmod.info",
+            "Fingerprint": 3233728279
+          },
+          {
+            "Foldername": "META-INF",
+            "Fingerprint": 3322473834
+          },
+          {
+            "Foldername": "todo.txt",
+            "Fingerprint": 4229792854
+          },
+          {
+            "Foldername": "WayofTime",
+            "Fingerprint": 2138176125
+          }
+        ],
+        "PackageFingerprint": 1561316923,
+        "GameVersion": [
+          "1.10.2"
+        ]
+      },
+      "dateInstalled": "2017-03-27T00:22:12.617342Z",
+      "dateUpdated": "2017-03-27T00:22:39.262886Z",
+      "dateLastUpdateAttempted": "2017-03-27T00:22:39.262886Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
