@@ -15,3 +15,4 @@ It'll also provide a much simpler installation process and a nice interface for 
 * [Inventory Tweaks](https://mods.curse.com/mc-mods/minecraft/223094-inventory-tweaks) by Kobata
 * [Iron Chests](https://mods.curse.com/mc-mods/minecraft/228756-iron-chests) by cpw
 * [Mo Creatures](https://mods.curse.com/mc-mods/minecraft/229260-mo-creatures) by DrZhark
+* [Not Enough Items](https://mods.curse.com/mc-mods/minecraft/247694-not-enough-items-1-8) by covers1624

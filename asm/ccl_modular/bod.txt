@@ -1,0 +1,3293 @@
+// class version 50.0 (50)
+// access flags 0x21
+public class bod {
+
+  // compiled from: ItemRenderer.java
+
+  @Lnet/minecraftforge/fml/relauncher/SideOnly;(value=Lnet/minecraftforge/fml/relauncher/Side;.CLIENT)
+  // access flags 0x1008
+  static synthetic INNERCLASS bod$1 null null
+  // access flags 0x4019
+  public final static enum INNERCLASS bpl$b bpl b
+  // access flags 0x4019
+  public final static enum INNERCLASS net/minecraftforge/client/event/RenderBlockOverlayEvent$OverlayType net/minecraftforge/client/event/RenderBlockOverlayEvent OverlayType
+  // access flags 0x4019
+  public final static enum INNERCLASS bob$r bob r
+  // access flags 0x4019
+  public final static enum INNERCLASS bob$l bob l
+
+  // access flags 0x1A
+  private final static Lkn; a
+
+  // access flags 0x1A
+  private final static Lkn; b
+
+  // access flags 0x12
+  private final Lbcx; c
+
+  // access flags 0x2
+  private Ladz; d
+
+  // access flags 0x2
+  private Ladz; e
+
+  // access flags 0x2
+  private F f
+
+  // access flags 0x2
+  private F g
+
+  // access flags 0x2
+  private F h
+
+  // access flags 0x2
+  private F i
+
+  // access flags 0x12
+  private final Lbsh; j
+
+  // access flags 0x12
+  private final Lbsu; k
+
+  // access flags 0x1
+  public <init>(Lbcx;)V
+   L0
+    LINENUMBER 50 L0
+    ALOAD 0
+    INVOKESPECIAL java/lang/Object.<init> ()V
+   L1
+    LINENUMBER 51 L1
+    ALOAD 0
+    ALOAD 1
+    PUTFIELD bod.c : Lbcx;
+   L2
+    LINENUMBER 52 L2
+    ALOAD 0
+    ALOAD 1
+    INVOKEVIRTUAL bcx.ac ()Lbsh;
+    PUTFIELD bod.j : Lbsh;
+   L3
+    LINENUMBER 53 L3
+    ALOAD 0
+    ALOAD 1
+    INVOKEVIRTUAL bcx.ad ()Lbsu;
+    PUTFIELD bod.k : Lbsu;
+   L4
+    LINENUMBER 54 L4
+    RETURN
+   L5
+    LOCALVARIABLE this Lbod; L0 L5 0
+    LOCALVARIABLE mcIn Lbcx; L0 L5 1
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x1
+  public a(Lsf;Ladz;Lbpl$b;)V
+   L0
+    LINENUMBER 58 L0
+    ALOAD 0
+    ALOAD 1
+    ALOAD 2
+    ALOAD 3
+    ICONST_0
+    INVOKEVIRTUAL bod.a (Lsf;Ladz;Lbpl$b;Z)V
+   L1
+    LINENUMBER 59 L1
+    RETURN
+   L2
+    LOCALVARIABLE this Lbod; L0 L2 0
+    LOCALVARIABLE entityIn Lsf; L0 L2 1
+    LOCALVARIABLE heldStack Ladz; L0 L2 2
+    LOCALVARIABLE transform Lbpl$b; L0 L2 3
+    MAXSTACK = 5
+    MAXLOCALS = 4
+
+  // access flags 0x1
+  public a(Lsf;Ladz;Lbpl$b;Z)V
+   L0
+    LINENUMBER 63 L0
+    ALOAD 2
+    IFNULL L1
+   L2
+    LINENUMBER 65 L2
+    ALOAD 2
+    INVOKEVIRTUAL adz.b ()Ladx;
+    ASTORE 5
+   L3
+    LINENUMBER 66 L3
+    ALOAD 5
+    INVOKESTATIC akf.a (Ladx;)Lakf;
+    ASTORE 6
+   L4
+    LINENUMBER 67 L4
+    INVOKESTATIC bob.G ()V
+   L5
+    LINENUMBER 68 L5
+    ALOAD 0
+    GETFIELD bod.k : Lbsu;
+    ALOAD 2
+    INVOKEVIRTUAL bsu.a (Ladz;)Z
+    IFEQ L6
+    ALOAD 0
+    ALOAD 6
+    INVOKESPECIAL bod.a (Lakf;)Z
+    IFEQ L6
+    ICONST_1
+    GOTO L7
+   L6
+   FRAME FULL [bod sf adz bpl$b I adx akf] []
+    ICONST_0
+   L7
+   FRAME FULL [bod sf adz bpl$b I adx akf] [I]
+    ISTORE 7
+   L8
+    LINENUMBER 70 L8
+    ILOAD 7
+    IFEQ L9
+   L10
+    LINENUMBER 72 L10
+    ICONST_0
+    INVOKESTATIC bob.a (Z)V
+   L9
+    LINENUMBER 75 L9
+   FRAME FULL [bod sf adz bpl$b I adx akf I] []
+    ALOAD 0
+    GETFIELD bod.k : Lbsu;
+    ALOAD 2
+    ALOAD 1
+    ALOAD 3
+    ILOAD 4
+    INVOKEVIRTUAL bsu.a (Ladz;Lsf;Lbpl$b;Z)V
+   L11
+    LINENUMBER 77 L11
+    ILOAD 7
+    IFEQ L12
+   L13
+    LINENUMBER 79 L13
+    ICONST_1
+    INVOKESTATIC bob.a (Z)V
+   L12
+    LINENUMBER 82 L12
+   FRAME FULL [bod sf adz bpl$b I adx akf I] []
+    INVOKESTATIC bob.H ()V
+   L1
+    LINENUMBER 84 L1
+   FRAME FULL [bod sf adz bpl$b I] []
+    RETURN
+   L14
+    LOCALVARIABLE item Ladx; L3 L1 5
+    LOCALVARIABLE block Lakf; L4 L1 6
+    LOCALVARIABLE flag Z L8 L1 7
+    LOCALVARIABLE this Lbod; L0 L14 0
+    LOCALVARIABLE entitylivingbaseIn Lsf; L0 L14 1
+    LOCALVARIABLE heldStack Ladz; L0 L14 2
+    LOCALVARIABLE transform Lbpl$b; L0 L14 3
+    LOCALVARIABLE leftHanded Z L0 L14 4
+    MAXSTACK = 5
+    MAXLOCALS = 8
+
+  // access flags 0x2
+  private a(Lakf;)Z
+    @Ljavax/annotation/Nullable;() // parameter 0
+   L0
+    LINENUMBER 88 L0
+    ALOAD 1
+    IFNULL L1
+    ALOAD 1
+    INVOKEVIRTUAL akf.f ()Lahv;
+    GETSTATIC ahv.d : Lahv;
+    IF_ACMPNE L1
+    ICONST_1
+    GOTO L2
+   L1
+   FRAME FULL [bod akf] []
+    ICONST_0
+   L2
+   FRAME FULL [bod akf] [I]
+    IRETURN
+   L3
+    LOCALVARIABLE this Lbod; L0 L3 0
+    LOCALVARIABLE blockIn Lakf; L0 L3 1
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x2
+  private a(FF)V
+   L0
+    LINENUMBER 93 L0
+    INVOKESTATIC bob.G ()V
+   L1
+    LINENUMBER 94 L1
+    FLOAD 1
+    FCONST_1
+    FCONST_0
+    FCONST_0
+    INVOKESTATIC bob.b (FFFF)V
+   L2
+    LINENUMBER 95 L2
+    FLOAD 2
+    FCONST_0
+    FCONST_1
+    FCONST_0
+    INVOKESTATIC bob.b (FFFF)V
+   L3
+    LINENUMBER 96 L3
+    INVOKESTATIC bcv.b ()V
+   L4
+    LINENUMBER 97 L4
+    INVOKESTATIC bob.H ()V
+   L5
+    LINENUMBER 98 L5
+    RETURN
+   L6
+    LOCALVARIABLE this Lbod; L0 L6 0
+    LOCALVARIABLE angle F L0 L6 1
+    LOCALVARIABLE angleY F L0 L6 2
+    MAXSTACK = 4
+    MAXLOCALS = 3
+
+  // access flags 0x2
+  private b()V
+   L0
+    LINENUMBER 102 L0
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.h : Lbnn;
+    ASTORE 1
+   L1
+    LINENUMBER 103 L1
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.f : Lbln;
+    NEW cm
+    DUP
+    ALOAD 1
+    GETFIELD bnk.p : D
+    ALOAD 1
+    GETFIELD bnk.q : D
+    ALOAD 1
+    INVOKEVIRTUAL bnk.bq ()F
+    F2D
+    DADD
+    ALOAD 1
+    GETFIELD bnk.r : D
+    INVOKESPECIAL cm.<init> (DDD)V
+    ICONST_0
+    INVOKEVIRTUAL bln.b (Lcm;I)I
+    ISTORE 2
+   L2
+    LINENUMBER 104 L2
+    ILOAD 2
+    LDC 65535
+    IAND
+    I2F
+    FSTORE 3
+   L3
+    LINENUMBER 105 L3
+    ILOAD 2
+    BIPUSH 16
+    ISHR
+    I2F
+    FSTORE 4
+   L4
+    LINENUMBER 106 L4
+    GETSTATIC caf.r : I
+    FLOAD 3
+    FLOAD 4
+    INVOKESTATIC caf.a (IFF)V
+   L5
+    LINENUMBER 107 L5
+    RETURN
+   L6
+    LOCALVARIABLE this Lbod; L0 L6 0
+    LOCALVARIABLE abstractclientplayer Lbnk; L1 L6 1
+    LOCALVARIABLE i I L2 L6 2
+    LOCALVARIABLE f F L3 L6 3
+    LOCALVARIABLE f1 F L4 L6 4
+    MAXSTACK = 9
+    MAXLOCALS = 5
+
+  // access flags 0x2
+  private c(F)V
+   L0
+    LINENUMBER 111 L0
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.h : Lbnn;
+    ASTORE 2
+   L1
+    LINENUMBER 112 L1
+    ALOAD 2
+    GETFIELD bnn.bV : F
+    ALOAD 2
+    GETFIELD bnn.bT : F
+    ALOAD 2
+    GETFIELD bnn.bV : F
+    FSUB
+    FLOAD 1
+    FMUL
+    FADD
+    FSTORE 3
+   L2
+    LINENUMBER 113 L2
+    ALOAD 2
+    GETFIELD bnn.bU : F
+    ALOAD 2
+    GETFIELD bnn.bS : F
+    ALOAD 2
+    GETFIELD bnn.bU : F
+    FSUB
+    FLOAD 1
+    FMUL
+    FADD
+    FSTORE 4
+   L3
+    LINENUMBER 114 L3
+    ALOAD 2
+    GETFIELD bnn.w : F
+    FLOAD 3
+    FSUB
+    LDC 0.1
+    FMUL
+    FCONST_1
+    FCONST_0
+    FCONST_0
+    INVOKESTATIC bob.b (FFFF)V
+   L4
+    LINENUMBER 115 L4
+    ALOAD 2
+    GETFIELD bnn.v : F
+    FLOAD 4
+    FSUB
+    LDC 0.1
+    FMUL
+    FCONST_0
+    FCONST_1
+    FCONST_0
+    INVOKESTATIC bob.b (FFFF)V
+   L5
+    LINENUMBER 116 L5
+    RETURN
+   L6
+    LOCALVARIABLE this Lbod; L0 L6 0
+    LOCALVARIABLE p_187458_1_ F L0 L6 1
+    LOCALVARIABLE entityplayersp Lbnn; L1 L6 2
+    LOCALVARIABLE f F L2 L6 3
+    LOCALVARIABLE f1 F L3 L6 4
+    MAXSTACK = 4
+    MAXLOCALS = 5
+
+  // access flags 0x2
+  private d(F)F
+   L0
+    LINENUMBER 120 L0
+    FCONST_1
+    FLOAD 1
+    LDC 45.0
+    FDIV
+    FSUB
+    LDC 0.1
+    FADD
+    FSTORE 2
+   L1
+    LINENUMBER 121 L1
+    FLOAD 2
+    FCONST_0
+    FCONST_1
+    INVOKESTATIC op.a (FFF)F
+    FSTORE 2
+   L2
+    LINENUMBER 122 L2
+    FLOAD 2
+    LDC 3.1415927
+    FMUL
+    INVOKESTATIC op.b (F)F
+    FNEG
+    LDC 0.5
+    FMUL
+    LDC 0.5
+    FADD
+    FSTORE 2
+   L3
+    LINENUMBER 123 L3
+    FLOAD 2
+    FRETURN
+   L4
+    LOCALVARIABLE this Lbod; L0 L4 0
+    LOCALVARIABLE pitch F L0 L4 1
+    LOCALVARIABLE f F L1 L4 2
+    MAXSTACK = 3
+    MAXLOCALS = 3
+
+  // access flags 0x2
+  private c()V
+   L0
+    LINENUMBER 128 L0
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.h : Lbnn;
+    INVOKEVIRTUAL bnn.aP ()Z
+    IFNE L1
+   L2
+    LINENUMBER 130 L2
+    INVOKESTATIC bob.r ()V
+   L3
+    LINENUMBER 131 L3
+    INVOKESTATIC bob.G ()V
+   L4
+    LINENUMBER 132 L4
+    LDC 90.0
+    FCONST_0
+    FCONST_1
+    FCONST_0
+    INVOKESTATIC bob.b (FFFF)V
+   L5
+    LINENUMBER 133 L5
+    ALOAD 0
+    GETSTATIC se.b : Lse;
+    INVOKESPECIAL bod.a (Lse;)V
+   L6
+    LINENUMBER 134 L6
+    ALOAD 0
+    GETSTATIC se.a : Lse;
+    INVOKESPECIAL bod.a (Lse;)V
+   L7
+    LINENUMBER 135 L7
+    INVOKESTATIC bob.H ()V
+   L8
+    LINENUMBER 136 L8
+    INVOKESTATIC bob.q ()V
+   L1
+    LINENUMBER 138 L1
+   FRAME FULL [bod] []
+    RETURN
+   L9
+    LOCALVARIABLE this Lbod; L0 L9 0
+    MAXSTACK = 4
+    MAXLOCALS = 1
+
+  // access flags 0x2
+  private a(Lse;)V
+   L0
+    LINENUMBER 142 L0
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    INVOKEVIRTUAL bcx.N ()Lbwf;
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.h : Lbnn;
+    INVOKEVIRTUAL bnn.o ()Lkn;
+    INVOKEVIRTUAL bwf.a (Lkn;)V
+   L1
+    LINENUMBER 143 L1
+    ALOAD 0
+    GETFIELD bod.j : Lbsh;
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.h : Lbnn;
+    INVOKEVIRTUAL bsh.a (Lrw;)Lbsi;
+    ASTORE 2
+   L2
+    LINENUMBER 144 L2
+    ALOAD 2
+    CHECKCAST bvh
+    ASTORE 3
+   L3
+    LINENUMBER 145 L3
+    INVOKESTATIC bob.G ()V
+   L4
+    LINENUMBER 146 L4
+    ALOAD 1
+    GETSTATIC se.b : Lse;
+    IF_ACMPNE L5
+    FCONST_1
+    GOTO L6
+   L5
+   FRAME FULL [bod se bsi bvh] []
+    LDC -1.0
+   L6
+   FRAME FULL [bod se bsi bvh] [F]
+    FSTORE 4
+   L7
+    LINENUMBER 147 L7
+    LDC 92.0
+    FCONST_0
+    FCONST_1
+    FCONST_0
+    INVOKESTATIC bob.b (FFFF)V
+   L8
+    LINENUMBER 148 L8
+    LDC 45.0
+    FCONST_1
+    FCONST_0
+    FCONST_0
+    INVOKESTATIC bob.b (FFFF)V
+   L9
+    LINENUMBER 149 L9
+    FLOAD 4
+    LDC -41.0
+    FMUL
+    FCONST_0
+    FCONST_0
+    FCONST_1
+    INVOKESTATIC bob.b (FFFF)V
+   L10
+    LINENUMBER 150 L10
+    FLOAD 4
+    LDC 0.3
+    FMUL
+    LDC -1.1
+    LDC 0.45
+    INVOKESTATIC bob.c (FFF)V
+   L11
+    LINENUMBER 152 L11
+    ALOAD 1
+    GETSTATIC se.b : Lse;
+    IF_ACMPNE L12
+   L13
+    LINENUMBER 154 L13
+    ALOAD 3
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.h : Lbnn;
+    INVOKEVIRTUAL bvh.b (Lbnk;)V
+    GOTO L14
+   L12
+    LINENUMBER 158 L12
+   FRAME FULL [bod se bsi bvh F] []
+    ALOAD 3
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.h : Lbnn;
+    INVOKEVIRTUAL bvh.c (Lbnk;)V
+   L14
+    LINENUMBER 161 L14
+   FRAME FULL [bod se bsi bvh F] []
+    INVOKESTATIC bob.H ()V
+   L15
+    LINENUMBER 162 L15
+    RETURN
+   L16
+    LOCALVARIABLE this Lbod; L0 L16 0
+    LOCALVARIABLE p_187455_1_ Lse; L0 L16 1
+    LOCALVARIABLE render Lbsi; L2 L16 2
+    // signature Lbsi<Lbnk;>;
+    // declaration: bsi<bnk>
+    LOCALVARIABLE renderplayer Lbvh; L3 L16 3
+    LOCALVARIABLE f F L7 L16 4
+    MAXSTACK = 4
+    MAXLOCALS = 5
+
+  // access flags 0x2
+  private a(FLse;FLadz;)V
+   L0
+    LINENUMBER 166 L0
+    ALOAD 2
+    GETSTATIC se.b : Lse;
+    IF_ACMPNE L1
+    FCONST_1
+    GOTO L2
+   L1
+   FRAME FULL [bod F se F adz] []
+    LDC -1.0
+   L2
+   FRAME FULL [bod F se F adz] [F]
+    FSTORE 5
+   L3
+    LINENUMBER 167 L3
+    FLOAD 5
+    LDC 0.125
+    FMUL
+    LDC -0.125
+    FCONST_0
+    INVOKESTATIC bob.c (FFF)V
+   L4
+    LINENUMBER 169 L4
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.h : Lbnn;
+    INVOKEVIRTUAL bnn.aP ()Z
+    IFNE L5
+   L6
+    LINENUMBER 171 L6
+    INVOKESTATIC bob.G ()V
+   L7
+    LINENUMBER 172 L7
+    FLOAD 5
+    LDC 10.0
+    FMUL
+    FCONST_0
+    FCONST_0
+    FCONST_1
+    INVOKESTATIC bob.b (FFFF)V
+   L8
+    LINENUMBER 173 L8
+    ALOAD 0
+    FLOAD 1
+    FLOAD 3
+    ALOAD 2
+    INVOKESPECIAL bod.a (FFLse;)V
+   L9
+    LINENUMBER 174 L9
+    INVOKESTATIC bob.H ()V
+   L5
+    LINENUMBER 177 L5
+   FRAME FULL [bod F se F adz F] []
+    INVOKESTATIC bob.G ()V
+   L10
+    LINENUMBER 178 L10
+    FLOAD 5
+    LDC 0.51
+    FMUL
+    LDC -0.08
+    FLOAD 1
+    LDC -1.2
+    FMUL
+    FADD
+    LDC -0.75
+    INVOKESTATIC bob.c (FFF)V
+   L11
+    LINENUMBER 179 L11
+    FLOAD 3
+    INVOKESTATIC op.c (F)F
+    FSTORE 6
+   L12
+    LINENUMBER 180 L12
+    FLOAD 6
+    LDC 3.1415927
+    FMUL
+    INVOKESTATIC op.a (F)F
+    FSTORE 7
+   L13
+    LINENUMBER 181 L13
+    LDC -0.5
+    FLOAD 7
+    FMUL
+    FSTORE 8
+   L14
+    LINENUMBER 182 L14
+    LDC 0.4
+    FLOAD 6
+    LDC 6.2831855
+    FMUL
+    INVOKESTATIC op.a (F)F
+    FMUL
+    FSTORE 9
+   L15
+    LINENUMBER 183 L15
+    LDC -0.3
+    FLOAD 3
+    LDC 3.1415927
+    FMUL
+    INVOKESTATIC op.a (F)F
+    FMUL
+    FSTORE 10
+   L16
+    LINENUMBER 184 L16
+    FLOAD 5
+    FLOAD 8
+    FMUL
+    FLOAD 9
+    LDC 0.3
+    FLOAD 7
+    FMUL
+    FSUB
+    FLOAD 10
+    INVOKESTATIC bob.c (FFF)V
+   L17
+    LINENUMBER 185 L17
+    FLOAD 7
+    LDC -45.0
+    FMUL
+    FCONST_1
+    FCONST_0
+    FCONST_0
+    INVOKESTATIC bob.b (FFFF)V
+   L18
+    LINENUMBER 186 L18
+    FLOAD 5
+    FLOAD 7
+    FMUL
+    LDC -30.0
+    FMUL
+    FCONST_0
+    FCONST_1
+    FCONST_0
+    INVOKESTATIC bob.b (FFFF)V
+   L19
+    LINENUMBER 187 L19
+    ALOAD 0
+    ALOAD 4
+    INVOKESPECIAL bod.a (Ladz;)V
+   L20
+    LINENUMBER 188 L20
+    INVOKESTATIC bob.H ()V
+   L21
+    LINENUMBER 189 L21
+    RETURN
+   L22
+    LOCALVARIABLE this Lbod; L0 L22 0
+    LOCALVARIABLE p_187465_1_ F L0 L22 1
+    LOCALVARIABLE p_187465_2_ Lse; L0 L22 2
+    LOCALVARIABLE p_187465_3_ F L0 L22 3
+    LOCALVARIABLE p_187465_4_ Ladz; L0 L22 4
+    LOCALVARIABLE f F L3 L22 5
+    LOCALVARIABLE f1 F L12 L22 6
+    LOCALVARIABLE f2 F L13 L22 7
+    LOCALVARIABLE f3 F L14 L22 8
+    LOCALVARIABLE f4 F L15 L22 9
+    LOCALVARIABLE f5 F L16 L22 10
+    MAXSTACK = 4
+    MAXLOCALS = 11
+
+  // access flags 0x2
+  private a(FFF)V
+   L0
+    LINENUMBER 193 L0
+    FLOAD 3
+    INVOKESTATIC op.c (F)F
+    FSTORE 4
+   L1
+    LINENUMBER 194 L1
+    LDC -0.2
+    FLOAD 3
+    LDC 3.1415927
+    FMUL
+    INVOKESTATIC op.a (F)F
+    FMUL
+    FSTORE 5
+   L2
+    LINENUMBER 195 L2
+    LDC -0.4
+    FLOAD 4
+    LDC 3.1415927
+    FMUL
+    INVOKESTATIC op.a (F)F
+    FMUL
+    FSTORE 6
+   L3
+    LINENUMBER 196 L3
+    FCONST_0
+    FLOAD 5
+    FNEG
+    FCONST_2
+    FDIV
+    FLOAD 6
+    INVOKESTATIC bob.c (FFF)V
+   L4
+    LINENUMBER 197 L4
+    ALOAD 0
+    FLOAD 1
+    INVOKESPECIAL bod.d (F)F
+    FSTORE 7
+   L5
+    LINENUMBER 198 L5
+    FCONST_0
+    LDC 0.04
+    FLOAD 2
+    LDC -1.2
+    FMUL
+    FADD
+    FLOAD 7
+    LDC -0.5
+    FMUL
+    FADD
+    LDC -0.72
+    INVOKESTATIC bob.c (FFF)V
+   L6
+    LINENUMBER 199 L6
+    FLOAD 7
+    LDC -85.0
+    FMUL
+    FCONST_1
+    FCONST_0
+    FCONST_0
+    INVOKESTATIC bob.b (FFFF)V
+   L7
+    LINENUMBER 200 L7
+    ALOAD 0
+    INVOKESPECIAL bod.c ()V
+   L8
+    LINENUMBER 201 L8
+    FLOAD 4
+    LDC 3.1415927
+    FMUL
+    INVOKESTATIC op.a (F)F
+    FSTORE 8
+   L9
+    LINENUMBER 202 L9
+    FLOAD 8
+    LDC 20.0
+    FMUL
+    FCONST_1
+    FCONST_0
+    FCONST_0
+    INVOKESTATIC bob.b (FFFF)V
+   L10
+    LINENUMBER 203 L10
+    FCONST_2
+    FCONST_2
+    FCONST_2
+    INVOKESTATIC bob.b (FFF)V
+   L11
+    LINENUMBER 204 L11
+    ALOAD 0
+    ALOAD 0
+    GETFIELD bod.d : Ladz;
+    INVOKESPECIAL bod.a (Ladz;)V
+   L12
+    LINENUMBER 205 L12
+    RETURN
+   L13
+    LOCALVARIABLE this Lbod; L0 L13 0
+    LOCALVARIABLE p_187463_1_ F L0 L13 1
+    LOCALVARIABLE p_187463_2_ F L0 L13 2
+    LOCALVARIABLE p_187463_3_ F L0 L13 3
+    LOCALVARIABLE f F L1 L13 4
+    LOCALVARIABLE f1 F L2 L13 5
+    LOCALVARIABLE f2 F L3 L13 6
+    LOCALVARIABLE f3 F L5 L13 7
+    LOCALVARIABLE f4 F L9 L13 8
+    MAXSTACK = 4
+    MAXLOCALS = 9
+
+  // access flags 0x2
+  private a(Ladz;)V
+    ALOAD 1
+    ICONST_0
+    INVOKESTATIC codechicken/lib/render/item/map/MapRenderRegistry.shouldHandle (Lnet/minecraft/item/ItemStack;Z)Z
+    IFEQ L0
+    ALOAD 1
+    ICONST_0
+    INVOKESTATIC codechicken/lib/render/item/map/MapRenderRegistry.handleRender (Lnet/minecraft/item/ItemStack;Z)V
+    RETURN
+   L0
+    LINENUMBER 209 L0
+   FRAME FULL [bod adz] []
+    LDC 180.0
+    FCONST_0
+    FCONST_1
+    FCONST_0
+    INVOKESTATIC bob.b (FFFF)V
+   L1
+    LINENUMBER 210 L1
+    LDC 180.0
+    FCONST_0
+    FCONST_0
+    FCONST_1
+    INVOKESTATIC bob.b (FFFF)V
+   L2
+    LINENUMBER 211 L2
+    LDC 0.38
+    LDC 0.38
+    LDC 0.38
+    INVOKESTATIC bob.b (FFF)V
+   L3
+    LINENUMBER 212 L3
+    INVOKESTATIC bob.g ()V
+   L4
+    LINENUMBER 213 L4
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    INVOKEVIRTUAL bcx.N ()Lbwf;
+    GETSTATIC bod.a : Lkn;
+    INVOKEVIRTUAL bwf.a (Lkn;)V
+   L5
+    LINENUMBER 214 L5
+    INVOKESTATIC bon.a ()Lbon;
+    ASTORE 2
+   L6
+    LINENUMBER 215 L6
+    ALOAD 2
+    INVOKEVIRTUAL bon.c ()Lbnt;
+    ASTORE 3
+   L7
+    LINENUMBER 216 L7
+    LDC -0.5
+    LDC -0.5
+    FCONST_0
+    INVOKESTATIC bob.c (FFF)V
+   L8
+    LINENUMBER 217 L8
+    LDC 0.0078125
+    LDC 0.0078125
+    LDC 0.0078125
+    INVOKESTATIC bob.b (FFF)V
+   L9
+    LINENUMBER 218 L9
+    ALOAD 3
+    BIPUSH 7
+    GETSTATIC bwm.g : Lbwo;
+    INVOKEVIRTUAL bnt.a (ILbwo;)V
+   L10
+    LINENUMBER 219 L10
+    ALOAD 3
+    LDC -7.0
+    LDC 135.0
+    DCONST_0
+    INVOKEVIRTUAL bnt.b (DDD)Lbnt;
+    DCONST_0
+    DCONST_1
+    INVOKEVIRTUAL bnt.a (DD)Lbnt;
+    INVOKEVIRTUAL bnt.d ()V
+   L11
+    LINENUMBER 220 L11
+    ALOAD 3
+    LDC 135.0
+    LDC 135.0
+    DCONST_0
+    INVOKEVIRTUAL bnt.b (DDD)Lbnt;
+    DCONST_1
+    DCONST_1
+    INVOKEVIRTUAL bnt.a (DD)Lbnt;
+    INVOKEVIRTUAL bnt.d ()V
+   L12
+    LINENUMBER 221 L12
+    ALOAD 3
+    LDC 135.0
+    LDC -7.0
+    DCONST_0
+    INVOKEVIRTUAL bnt.b (DDD)Lbnt;
+    DCONST_1
+    DCONST_0
+    INVOKEVIRTUAL bnt.a (DD)Lbnt;
+    INVOKEVIRTUAL bnt.d ()V
+   L13
+    LINENUMBER 222 L13
+    ALOAD 3
+    LDC -7.0
+    LDC -7.0
+    DCONST_0
+    INVOKEVIRTUAL bnt.b (DDD)Lbnt;
+    DCONST_0
+    DCONST_0
+    INVOKEVIRTUAL bnt.a (DD)Lbnt;
+    INVOKEVIRTUAL bnt.d ()V
+   L14
+    LINENUMBER 223 L14
+    ALOAD 2
+    INVOKEVIRTUAL bon.b ()V
+   L15
+    LINENUMBER 224 L15
+    GETSTATIC aeb.bk : Laef;
+    ALOAD 1
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.f : Lbln;
+    INVOKEVIRTUAL aef.a (Ladz;Laid;)Lazs;
+    ASTORE 4
+   L16
+    LINENUMBER 226 L16
+    ALOAD 4
+    IFNULL L17
+   L18
+    LINENUMBER 228 L18
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.o : Lbnz;
+    INVOKEVIRTUAL bnz.k ()Lbdo;
+    ALOAD 4
+    ICONST_0
+    INVOKEVIRTUAL bdo.a (Lazs;Z)V
+   L17
+    LINENUMBER 231 L17
+   FRAME FULL [bod adz bon bnt azs] []
+    INVOKESTATIC bob.f ()V
+   L19
+    LINENUMBER 232 L19
+    RETURN
+   L20
+    LOCALVARIABLE this Lbod; L0 L20 0
+    LOCALVARIABLE stack Ladz; L0 L20 1
+    LOCALVARIABLE tessellator Lbon; L6 L20 2
+    LOCALVARIABLE vertexbuffer Lbnt; L7 L20 3
+    LOCALVARIABLE mapdata Lazs; L16 L20 4
+    MAXSTACK = 7
+    MAXLOCALS = 5
+
+  // access flags 0x2
+  private a(FFLse;)V
+   L0
+    LINENUMBER 236 L0
+    ALOAD 3
+    GETSTATIC se.a : Lse;
+    IF_ACMPEQ L1
+    ICONST_1
+    GOTO L2
+   L1
+   FRAME FULL [bod F F se] []
+    ICONST_0
+   L2
+   FRAME FULL [bod F F se] [I]
+    ISTORE 4
+   L3
+    LINENUMBER 237 L3
+    ILOAD 4
+    IFEQ L4
+    FCONST_1
+    GOTO L5
+   L4
+   FRAME FULL [bod F F se I] []
+    LDC -1.0
+   L5
+   FRAME FULL [bod F F se I] [F]
+    FSTORE 5
+   L6
+    LINENUMBER 238 L6
+    FLOAD 2
+    INVOKESTATIC op.c (F)F
+    FSTORE 6
+   L7
+    LINENUMBER 239 L7
+    LDC -0.3
+    FLOAD 6
+    LDC 3.1415927
+    FMUL
+    INVOKESTATIC op.a (F)F
+    FMUL
+    FSTORE 7
+   L8
+    LINENUMBER 240 L8
+    LDC 0.4
+    FLOAD 6
+    LDC 6.2831855
+    FMUL
+    INVOKESTATIC op.a (F)F
+    FMUL
+    FSTORE 8
+   L9
+    LINENUMBER 241 L9
+    LDC -0.4
+    FLOAD 2
+    LDC 3.1415927
+    FMUL
+    INVOKESTATIC op.a (F)F
+    FMUL
+    FSTORE 9
+   L10
+    LINENUMBER 242 L10
+    FLOAD 5
+    FLOAD 7
+    LDC 0.64000005
+    FADD
+    FMUL
+    FLOAD 8
+    LDC -0.6
+    FADD
+    FLOAD 1
+    LDC -0.6
+    FMUL
+    FADD
+    FLOAD 9
+    LDC -0.71999997
+    FADD
+    INVOKESTATIC bob.c (FFF)V
+   L11
+    LINENUMBER 243 L11
+    FLOAD 5
+    LDC 45.0
+    FMUL
+    FCONST_0
+    FCONST_1
+    FCONST_0
+    INVOKESTATIC bob.b (FFFF)V
+   L12
+    LINENUMBER 244 L12
+    FLOAD 2
+    FLOAD 2
+    FMUL
+    LDC 3.1415927
+    FMUL
+    INVOKESTATIC op.a (F)F
+    FSTORE 10
+   L13
+    LINENUMBER 245 L13
+    FLOAD 6
+    LDC 3.1415927
+    FMUL
+    INVOKESTATIC op.a (F)F
+    FSTORE 11
+   L14
+    LINENUMBER 246 L14
+    FLOAD 5
+    FLOAD 11
+    FMUL
+    LDC 70.0
+    FMUL
+    FCONST_0
+    FCONST_1
+    FCONST_0
+    INVOKESTATIC bob.b (FFFF)V
+   L15
+    LINENUMBER 247 L15
+    FLOAD 5
+    FLOAD 10
+    FMUL
+    LDC -20.0
+    FMUL
+    FCONST_0
+    FCONST_0
+    FCONST_1
+    INVOKESTATIC bob.b (FFFF)V
+   L16
+    LINENUMBER 248 L16
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.h : Lbnn;
+    ASTORE 12
+   L17
+    LINENUMBER 249 L17
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    INVOKEVIRTUAL bcx.N ()Lbwf;
+    ALOAD 12
+    INVOKEVIRTUAL bnk.o ()Lkn;
+    INVOKEVIRTUAL bwf.a (Lkn;)V
+   L18
+    LINENUMBER 250 L18
+    FLOAD 5
+    LDC -1.0
+    FMUL
+    LDC 3.6
+    LDC 3.5
+    INVOKESTATIC bob.c (FFF)V
+   L19
+    LINENUMBER 251 L19
+    FLOAD 5
+    LDC 120.0
+    FMUL
+    FCONST_0
+    FCONST_0
+    FCONST_1
+    INVOKESTATIC bob.b (FFFF)V
+   L20
+    LINENUMBER 252 L20
+    LDC 200.0
+    FCONST_1
+    FCONST_0
+    FCONST_0
+    INVOKESTATIC bob.b (FFFF)V
+   L21
+    LINENUMBER 253 L21
+    FLOAD 5
+    LDC -135.0
+    FMUL
+    FCONST_0
+    FCONST_1
+    FCONST_0
+    INVOKESTATIC bob.b (FFFF)V
+   L22
+    LINENUMBER 254 L22
+    FLOAD 5
+    LDC 5.6
+    FMUL
+    FCONST_0
+    FCONST_0
+    INVOKESTATIC bob.c (FFF)V
+   L23
+    LINENUMBER 255 L23
+    ALOAD 0
+    GETFIELD bod.j : Lbsh;
+    ALOAD 12
+    INVOKEVIRTUAL bsh.a (Lrw;)Lbsi;
+    CHECKCAST bvh
+    ASTORE 13
+   L24
+    LINENUMBER 256 L24
+    INVOKESTATIC bob.r ()V
+   L25
+    LINENUMBER 258 L25
+    ILOAD 4
+    IFEQ L26
+   L27
+    LINENUMBER 260 L27
+    ALOAD 13
+    ALOAD 12
+    INVOKEVIRTUAL bvh.b (Lbnk;)V
+    GOTO L28
+   L26
+    LINENUMBER 264 L26
+   FRAME FULL [bod F F se I F F F F F F F bnn bvh] []
+    ALOAD 13
+    ALOAD 12
+    INVOKEVIRTUAL bvh.c (Lbnk;)V
+   L28
+    LINENUMBER 267 L28
+   FRAME FULL [bod F F se I F F F F F F F bnn bvh] []
+    INVOKESTATIC bob.q ()V
+   L29
+    LINENUMBER 268 L29
+    RETURN
+   L30
+    LOCALVARIABLE this Lbod; L0 L30 0
+    LOCALVARIABLE p_187456_1_ F L0 L30 1
+    LOCALVARIABLE p_187456_2_ F L0 L30 2
+    LOCALVARIABLE p_187456_3_ Lse; L0 L30 3
+    LOCALVARIABLE flag Z L3 L30 4
+    LOCALVARIABLE f F L6 L30 5
+    LOCALVARIABLE f1 F L7 L30 6
+    LOCALVARIABLE f2 F L8 L30 7
+    LOCALVARIABLE f3 F L9 L30 8
+    LOCALVARIABLE f4 F L10 L30 9
+    LOCALVARIABLE f5 F L13 L30 10
+    LOCALVARIABLE f6 F L14 L30 11
+    LOCALVARIABLE abstractclientplayer Lbnk; L17 L30 12
+    LOCALVARIABLE renderplayer Lbvh; L24 L30 13
+    MAXSTACK = 4
+    MAXLOCALS = 14
+
+  // access flags 0x2
+  private a(FLse;Ladz;)V
+   L0
+    LINENUMBER 272 L0
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.h : Lbnn;
+    INVOKEVIRTUAL bnn.cB ()I
+    I2F
+    FLOAD 1
+    FSUB
+    FCONST_1
+    FADD
+    FSTORE 4
+   L1
+    LINENUMBER 273 L1
+    FLOAD 4
+    ALOAD 3
+    INVOKEVIRTUAL adz.l ()I
+    I2F
+    FDIV
+    FSTORE 5
+   L2
+    LINENUMBER 275 L2
+    FLOAD 5
+    LDC 0.8
+    FCMPG
+    IFGE L3
+   L4
+    LINENUMBER 277 L4
+    FLOAD 4
+    LDC 4.0
+    FDIV
+    LDC 3.1415927
+    FMUL
+    INVOKESTATIC op.b (F)F
+    LDC 0.1
+    FMUL
+    INVOKESTATIC op.e (F)F
+    FSTORE 6
+   L5
+    LINENUMBER 278 L5
+    FCONST_0
+    FLOAD 6
+    FCONST_0
+    INVOKESTATIC bob.c (FFF)V
+   L3
+    LINENUMBER 281 L3
+   FRAME FULL [bod F se adz F F] []
+    FCONST_1
+    FLOAD 5
+    F2D
+    LDC 27.0
+    INVOKESTATIC java/lang/Math.pow (DD)D
+    D2F
+    FSUB
+    FSTORE 6
+   L6
+    LINENUMBER 282 L6
+    ALOAD 2
+    GETSTATIC se.b : Lse;
+    IF_ACMPNE L7
+    ICONST_1
+    GOTO L8
+   L7
+   FRAME FULL [bod F se adz F F F] []
+    ICONST_M1
+   L8
+   FRAME FULL [bod F se adz F F F] [I]
+    ISTORE 7
+   L9
+    LINENUMBER 283 L9
+    FLOAD 6
+    LDC 0.6
+    FMUL
+    ILOAD 7
+    I2F
+    FMUL
+    FLOAD 6
+    LDC -0.5
+    FMUL
+    FLOAD 6
+    FCONST_0
+    FMUL
+    INVOKESTATIC bob.c (FFF)V
+   L10
+    LINENUMBER 284 L10
+    ILOAD 7
+    I2F
+    FLOAD 6
+    FMUL
+    LDC 90.0
+    FMUL
+    FCONST_0
+    FCONST_1
+    FCONST_0
+    INVOKESTATIC bob.b (FFFF)V
+   L11
+    LINENUMBER 285 L11
+    FLOAD 6
+    LDC 10.0
+    FMUL
+    FCONST_1
+    FCONST_0
+    FCONST_0
+    INVOKESTATIC bob.b (FFFF)V
+   L12
+    LINENUMBER 286 L12
+    ILOAD 7
+    I2F
+    FLOAD 6
+    FMUL
+    LDC 30.0
+    FMUL
+    FCONST_0
+    FCONST_0
+    FCONST_1
+    INVOKESTATIC bob.b (FFFF)V
+   L13
+    LINENUMBER 287 L13
+    RETURN
+   L14
+    LOCALVARIABLE f2 F L5 L3 6
+    LOCALVARIABLE this Lbod; L0 L14 0
+    LOCALVARIABLE p_187454_1_ F L0 L14 1
+    LOCALVARIABLE p_187454_2_ Lse; L0 L14 2
+    LOCALVARIABLE p_187454_3_ Ladz; L0 L14 3
+    LOCALVARIABLE f F L1 L14 4
+    LOCALVARIABLE f1 F L2 L14 5
+    LOCALVARIABLE f3 F L6 L14 6
+    LOCALVARIABLE i I L9 L14 7
+    MAXSTACK = 5
+    MAXLOCALS = 8
+
+  // access flags 0x2
+  private a(Lse;F)V
+   L0
+    LINENUMBER 291 L0
+    ALOAD 1
+    GETSTATIC se.b : Lse;
+    IF_ACMPNE L1
+    ICONST_1
+    GOTO L2
+   L1
+   FRAME FULL [bod se F] []
+    ICONST_M1
+   L2
+   FRAME FULL [bod se F] [I]
+    ISTORE 3
+   L3
+    LINENUMBER 292 L3
+    FLOAD 2
+    FLOAD 2
+    FMUL
+    LDC 3.1415927
+    FMUL
+    INVOKESTATIC op.a (F)F
+    FSTORE 4
+   L4
+    LINENUMBER 293 L4
+    ILOAD 3
+    I2F
+    LDC 45.0
+    FLOAD 4
+    LDC -20.0
+    FMUL
+    FADD
+    FMUL
+    FCONST_0
+    FCONST_1
+    FCONST_0
+    INVOKESTATIC bob.b (FFFF)V
+   L5
+    LINENUMBER 294 L5
+    FLOAD 2
+    INVOKESTATIC op.c (F)F
+    LDC 3.1415927
+    FMUL
+    INVOKESTATIC op.a (F)F
+    FSTORE 5
+   L6
+    LINENUMBER 295 L6
+    ILOAD 3
+    I2F
+    FLOAD 5
+    FMUL
+    LDC -20.0
+    FMUL
+    FCONST_0
+    FCONST_0
+    FCONST_1
+    INVOKESTATIC bob.b (FFFF)V
+   L7
+    LINENUMBER 296 L7
+    FLOAD 5
+    LDC -80.0
+    FMUL
+    FCONST_1
+    FCONST_0
+    FCONST_0
+    INVOKESTATIC bob.b (FFFF)V
+   L8
+    LINENUMBER 297 L8
+    ILOAD 3
+    I2F
+    LDC -45.0
+    FMUL
+    FCONST_0
+    FCONST_1
+    FCONST_0
+    INVOKESTATIC bob.b (FFFF)V
+   L9
+    LINENUMBER 298 L9
+    RETURN
+   L10
+    LOCALVARIABLE this Lbod; L0 L10 0
+    LOCALVARIABLE p_187453_1_ Lse; L0 L10 1
+    LOCALVARIABLE p_187453_2_ F L0 L10 2
+    LOCALVARIABLE i I L3 L10 3
+    LOCALVARIABLE f F L4 L10 4
+    LOCALVARIABLE f1 F L6 L10 5
+    MAXSTACK = 4
+    MAXLOCALS = 6
+
+  // access flags 0x2
+  private b(Lse;F)V
+   L0
+    LINENUMBER 302 L0
+    ALOAD 1
+    GETSTATIC se.b : Lse;
+    IF_ACMPNE L1
+    ICONST_1
+    GOTO L2
+   L1
+   FRAME FULL [bod se F] []
+    ICONST_M1
+   L2
+   FRAME FULL [bod se F] [I]
+    ISTORE 3
+   L3
+    LINENUMBER 303 L3
+    ILOAD 3
+    I2F
+    LDC 0.56
+    FMUL
+    LDC -0.52
+    FLOAD 2
+    LDC -0.6
+    FMUL
+    FADD
+    LDC -0.72
+    INVOKESTATIC bob.c (FFF)V
+   L4
+    LINENUMBER 304 L4
+    RETURN
+   L5
+    LOCALVARIABLE this Lbod; L0 L5 0
+    LOCALVARIABLE p_187459_1_ Lse; L0 L5 1
+    LOCALVARIABLE p_187459_2_ F L0 L5 2
+    LOCALVARIABLE i I L3 L5 3
+    MAXSTACK = 4
+    MAXLOCALS = 4
+
+  // access flags 0x1
+  public a(F)V
+   L0
+    LINENUMBER 308 L0
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.h : Lbnn;
+    ASTORE 2
+   L1
+    LINENUMBER 309 L1
+    ALOAD 2
+    FLOAD 1
+    INVOKEVIRTUAL bnk.m (F)F
+    FSTORE 3
+   L2
+    LINENUMBER 310 L2
+    ALOAD 2
+    GETFIELD bnk.aw : Lqr;
+    GETSTATIC qr.a : Lqr;
+    INVOKESTATIC com/google/common/base/Objects.firstNonNull (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    CHECKCAST qr
+    ASTORE 4
+   L3
+    LINENUMBER 311 L3
+    ALOAD 2
+    GETFIELD bnk.y : F
+    ALOAD 2
+    GETFIELD bnk.w : F
+    ALOAD 2
+    GETFIELD bnk.y : F
+    FSUB
+    FLOAD 1
+    FMUL
+    FADD
+    FSTORE 5
+   L4
+    LINENUMBER 312 L4
+    ALOAD 2
+    GETFIELD bnk.x : F
+    ALOAD 2
+    GETFIELD bnk.v : F
+    ALOAD 2
+    GETFIELD bnk.x : F
+    FSUB
+    FLOAD 1
+    FMUL
+    FADD
+    FSTORE 6
+   L5
+    LINENUMBER 313 L5
+    ICONST_1
+    ISTORE 7
+   L6
+    LINENUMBER 314 L6
+    ICONST_1
+    ISTORE 8
+   L7
+    LINENUMBER 316 L7
+    ALOAD 2
+    INVOKEVIRTUAL bnk.cx ()Z
+    IFEQ L8
+   L9
+    LINENUMBER 318 L9
+    ALOAD 2
+    INVOKEVIRTUAL bnk.cA ()Ladz;
+    ASTORE 9
+   L10
+    LINENUMBER 320 L10
+    ALOAD 9
+    IFNULL L8
+    ALOAD 9
+    INVOKEVIRTUAL adz.b ()Ladx;
+    GETSTATIC aeb.f : Lacq;
+    IF_ACMPNE L8
+   L11
+    LINENUMBER 322 L11
+    ALOAD 2
+    INVOKEVIRTUAL bnk.cy ()Lqr;
+    ASTORE 10
+   L12
+    LINENUMBER 323 L12
+    ALOAD 10
+    GETSTATIC qr.a : Lqr;
+    IF_ACMPNE L13
+    ICONST_1
+    GOTO L14
+   L13
+   FRAME FULL [bod F bnn F qr F F I I adz qr] []
+    ICONST_0
+   L14
+   FRAME FULL [bod F bnn F qr F F I I adz qr] [I]
+    ISTORE 7
+   L15
+    LINENUMBER 324 L15
+    ILOAD 7
+    IFNE L16
+    ICONST_1
+    GOTO L17
+   L16
+   FRAME FULL [bod F bnn F qr F F I I adz qr] []
+    ICONST_0
+   L17
+   FRAME FULL [bod F bnn F qr F F I I adz qr] [I]
+    ISTORE 8
+   L8
+    LINENUMBER 328 L8
+   FRAME FULL [bod F bnn F qr F F I I] []
+    ALOAD 0
+    FLOAD 5
+    FLOAD 6
+    INVOKESPECIAL bod.a (FF)V
+   L18
+    LINENUMBER 329 L18
+    ALOAD 0
+    INVOKESPECIAL bod.b ()V
+   L19
+    LINENUMBER 330 L19
+    ALOAD 0
+    FLOAD 1
+    INVOKESPECIAL bod.c (F)V
+   L20
+    LINENUMBER 331 L20
+    INVOKESTATIC bob.D ()V
+   L21
+    LINENUMBER 333 L21
+    ILOAD 7
+    IFEQ L22
+   L23
+    LINENUMBER 335 L23
+    ALOAD 4
+    GETSTATIC qr.a : Lqr;
+    IF_ACMPNE L24
+    FLOAD 3
+    GOTO L25
+   L24
+   FRAME FULL [bod F bnn F qr F F I I] []
+    FCONST_0
+   L25
+   FRAME FULL [bod F bnn F qr F F I I] [F]
+    FSTORE 9
+   L26
+    LINENUMBER 336 L26
+    FCONST_1
+    ALOAD 0
+    GETFIELD bod.g : F
+    ALOAD 0
+    GETFIELD bod.f : F
+    ALOAD 0
+    GETFIELD bod.g : F
+    FSUB
+    FLOAD 1
+    FMUL
+    FADD
+    FSUB
+    FSTORE 10
+   L27
+    LINENUMBER 337 L27
+    GETSTATIC qr.a : Lqr;
+    FLOAD 1
+    FLOAD 5
+    FLOAD 9
+    FLOAD 10
+    ALOAD 0
+    GETFIELD bod.d : Ladz;
+    INVOKESTATIC net/minecraftforge/client/ForgeHooksClient.renderSpecificFirstPersonHand (Lqr;FFFFLadz;)Z
+    IFNE L22
+   L28
+    LINENUMBER 338 L28
+    ALOAD 0
+    ALOAD 2
+    FLOAD 1
+    FLOAD 5
+    GETSTATIC qr.a : Lqr;
+    FLOAD 9
+    ALOAD 0
+    GETFIELD bod.d : Ladz;
+    FLOAD 10
+    INVOKEVIRTUAL bod.a (Lbnk;FFLqr;FLadz;F)V
+   L22
+    LINENUMBER 341 L22
+   FRAME FULL [bod F bnn F qr F F I I] []
+    ILOAD 8
+    IFEQ L29
+   L30
+    LINENUMBER 343 L30
+    ALOAD 4
+    GETSTATIC qr.b : Lqr;
+    IF_ACMPNE L31
+    FLOAD 3
+    GOTO L32
+   L31
+   FRAME FULL [bod F bnn F qr F F I I] []
+    FCONST_0
+   L32
+   FRAME FULL [bod F bnn F qr F F I I] [F]
+    FSTORE 9
+   L33
+    LINENUMBER 344 L33
+    FCONST_1
+    ALOAD 0
+    GETFIELD bod.i : F
+    ALOAD 0
+    GETFIELD bod.h : F
+    ALOAD 0
+    GETFIELD bod.i : F
+    FSUB
+    FLOAD 1
+    FMUL
+    FADD
+    FSUB
+    FSTORE 10
+   L34
+    LINENUMBER 345 L34
+    GETSTATIC qr.b : Lqr;
+    FLOAD 1
+    FLOAD 5
+    FLOAD 9
+    FLOAD 10
+    ALOAD 0
+    GETFIELD bod.e : Ladz;
+    INVOKESTATIC net/minecraftforge/client/ForgeHooksClient.renderSpecificFirstPersonHand (Lqr;FFFFLadz;)Z
+    IFNE L29
+   L35
+    LINENUMBER 346 L35
+    ALOAD 0
+    ALOAD 2
+    FLOAD 1
+    FLOAD 5
+    GETSTATIC qr.b : Lqr;
+    FLOAD 9
+    ALOAD 0
+    GETFIELD bod.e : Ladz;
+    FLOAD 10
+    INVOKEVIRTUAL bod.a (Lbnk;FFLqr;FLadz;F)V
+   L29
+    LINENUMBER 349 L29
+   FRAME FULL [bod F bnn F qr F F I I] []
+    INVOKESTATIC bob.E ()V
+   L36
+    LINENUMBER 350 L36
+    INVOKESTATIC bcv.a ()V
+   L37
+    LINENUMBER 351 L37
+    RETURN
+   L38
+    LOCALVARIABLE enumhand1 Lqr; L12 L8 10
+    LOCALVARIABLE itemstack Ladz; L10 L8 9
+    LOCALVARIABLE f3 F L26 L22 9
+    LOCALVARIABLE f5 F L27 L22 10
+    LOCALVARIABLE f4 F L33 L29 9
+    LOCALVARIABLE f6 F L34 L29 10
+    LOCALVARIABLE this Lbod; L0 L38 0
+    LOCALVARIABLE partialTicks F L0 L38 1
+    LOCALVARIABLE abstractclientplayer Lbnk; L1 L38 2
+    LOCALVARIABLE f F L2 L38 3
+    LOCALVARIABLE enumhand Lqr; L3 L38 4
+    LOCALVARIABLE f1 F L4 L38 5
+    LOCALVARIABLE f2 F L5 L38 6
+    LOCALVARIABLE flag Z L6 L38 7
+    LOCALVARIABLE flag1 Z L7 L38 8
+    MAXSTACK = 8
+    MAXLOCALS = 11
+
+  // access flags 0x1
+  public a(Lbnk;FFLqr;FLadz;F)V
+    @Ljavax/annotation/Nullable;() // parameter 5
+   L0
+    LINENUMBER 355 L0
+    ALOAD 4
+    GETSTATIC qr.a : Lqr;
+    IF_ACMPNE L1
+    ICONST_1
+    GOTO L2
+   L1
+   FRAME FULL [bod bnk F F qr F adz F] []
+    ICONST_0
+   L2
+   FRAME FULL [bod bnk F F qr F adz F] [I]
+    ISTORE 8
+   L3
+    LINENUMBER 356 L3
+    ILOAD 8
+    IFEQ L4
+    ALOAD 1
+    INVOKEVIRTUAL bnk.cw ()Lse;
+    GOTO L5
+   L4
+   FRAME FULL [bod bnk F F qr F adz F I] []
+    ALOAD 1
+    INVOKEVIRTUAL bnk.cw ()Lse;
+    INVOKEVIRTUAL se.a ()Lse;
+   L5
+   FRAME FULL [bod bnk F F qr F adz F I] [se]
+    ASTORE 9
+   L6
+    LINENUMBER 357 L6
+    INVOKESTATIC bob.G ()V
+   L7
+    LINENUMBER 359 L7
+    ALOAD 6
+    IFNONNULL L8
+   L9
+    LINENUMBER 361 L9
+    ILOAD 8
+    IFEQ L10
+    ALOAD 1
+    INVOKEVIRTUAL bnk.aP ()Z
+    IFNE L10
+   L11
+    LINENUMBER 363 L11
+    ALOAD 0
+    FLOAD 7
+    FLOAD 5
+    ALOAD 9
+    INVOKESPECIAL bod.a (FFLse;)V
+    GOTO L10
+   L8
+    LINENUMBER 366 L8
+   FRAME FULL [bod bnk F F qr F adz F I se] []
+    ALOAD 6
+    INVOKEVIRTUAL adz.b ()Ladx;
+    INSTANCEOF aef
+    IFEQ L12
+   L13
+    LINENUMBER 368 L13
+    ILOAD 8
+    IFEQ L14
+    ALOAD 0
+    GETFIELD bod.e : Ladz;
+    IFNONNULL L14
+   L15
+    LINENUMBER 370 L15
+    ALOAD 0
+    FLOAD 3
+    FLOAD 7
+    FLOAD 5
+    INVOKESPECIAL bod.a (FFF)V
+    GOTO L10
+   L14
+    LINENUMBER 374 L14
+   FRAME FULL [bod bnk F F qr F adz F I se] []
+    ALOAD 0
+    FLOAD 7
+    ALOAD 9
+    FLOAD 5
+    ALOAD 6
+    INVOKESPECIAL bod.a (FLse;FLadz;)V
+    GOTO L10
+   L12
+    LINENUMBER 379 L12
+   FRAME FULL [bod bnk F F qr F adz F I se] []
+    ALOAD 9
+    GETSTATIC se.b : Lse;
+    IF_ACMPNE L16
+    ICONST_1
+    GOTO L17
+   L16
+   FRAME FULL [bod bnk F F qr F adz F I se] []
+    ICONST_0
+   L17
+   FRAME FULL [bod bnk F F qr F adz F I se] [I]
+    ISTORE 10
+   L18
+    LINENUMBER 381 L18
+    ALOAD 1
+    INVOKEVIRTUAL bnk.cx ()Z
+    IFEQ L19
+    ALOAD 1
+    INVOKEVIRTUAL bnk.cB ()I
+    IFLE L19
+    ALOAD 1
+    INVOKEVIRTUAL bnk.cy ()Lqr;
+    ALOAD 4
+    IF_ACMPNE L19
+   L20
+    LINENUMBER 383 L20
+    ILOAD 10
+    IFEQ L21
+    ICONST_1
+    GOTO L22
+   L21
+   FRAME FULL [bod bnk F F qr F adz F I se I] []
+    ICONST_M1
+   L22
+   FRAME FULL [bod bnk F F qr F adz F I se I] [I]
+    ISTORE 11
+   L23
+    LINENUMBER 385 L23
+    GETSTATIC bod$1.$SwitchMap$net$minecraft$item$EnumAction : [I
+    ALOAD 6
+    INVOKEVIRTUAL adz.m ()Lafj;
+    INVOKEVIRTUAL afj.ordinal ()I
+    IALOAD
+    TABLESWITCH
+      1: L24
+      2: L25
+      3: L25
+      4: L26
+      5: L27
+      default: L28
+   L24
+    LINENUMBER 388 L24
+   FRAME FULL [bod bnk F F qr F adz F I se I I] []
+    ALOAD 0
+    ALOAD 9
+    FLOAD 7
+    INVOKESPECIAL bod.b (Lse;F)V
+   L29
+    LINENUMBER 389 L29
+    GOTO L28
+   L25
+    LINENUMBER 392 L25
+   FRAME FULL [bod bnk F F qr F adz F I se I I] []
+    ALOAD 0
+    FLOAD 2
+    ALOAD 9
+    ALOAD 6
+    INVOKESPECIAL bod.a (FLse;Ladz;)V
+   L30
+    LINENUMBER 393 L30
+    ALOAD 0
+    ALOAD 9
+    FLOAD 7
+    INVOKESPECIAL bod.b (Lse;F)V
+   L31
+    LINENUMBER 394 L31
+    GOTO L28
+   L26
+    LINENUMBER 396 L26
+   FRAME FULL [bod bnk F F qr F adz F I se I I] []
+    ALOAD 0
+    ALOAD 9
+    FLOAD 7
+    INVOKESPECIAL bod.b (Lse;F)V
+   L32
+    LINENUMBER 397 L32
+    GOTO L28
+   L27
+    LINENUMBER 399 L27
+   FRAME FULL [bod bnk F F qr F adz F I se I I] []
+    ALOAD 0
+    ALOAD 9
+    FLOAD 7
+    INVOKESPECIAL bod.b (Lse;F)V
+   L33
+    LINENUMBER 400 L33
+    ILOAD 11
+    I2F
+    LDC -0.2785682
+    FMUL
+    LDC 0.18344387
+    LDC 0.15731531
+    INVOKESTATIC bob.c (FFF)V
+   L34
+    LINENUMBER 401 L34
+    LDC -13.935
+    FCONST_1
+    FCONST_0
+    FCONST_0
+    INVOKESTATIC bob.b (FFFF)V
+   L35
+    LINENUMBER 402 L35
+    ILOAD 11
+    I2F
+    LDC 35.3
+    FMUL
+    FCONST_0
+    FCONST_1
+    FCONST_0
+    INVOKESTATIC bob.b (FFFF)V
+   L36
+    LINENUMBER 403 L36
+    ILOAD 11
+    I2F
+    LDC -9.785
+    FMUL
+    FCONST_0
+    FCONST_0
+    FCONST_1
+    INVOKESTATIC bob.b (FFFF)V
+   L37
+    LINENUMBER 404 L37
+    ALOAD 6
+    INVOKEVIRTUAL adz.l ()I
+    I2F
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.h : Lbnn;
+    INVOKEVIRTUAL bnn.cB ()I
+    I2F
+    FLOAD 2
+    FSUB
+    FCONST_1
+    FADD
+    FSUB
+    FSTORE 12
+   L38
+    LINENUMBER 405 L38
+    FLOAD 12
+    LDC 20.0
+    FDIV
+    FSTORE 13
+   L39
+    LINENUMBER 406 L39
+    FLOAD 13
+    FLOAD 13
+    FMUL
+    FLOAD 13
+    FCONST_2
+    FMUL
+    FADD
+    LDC 3.0
+    FDIV
+    FSTORE 13
+   L40
+    LINENUMBER 408 L40
+    FLOAD 13
+    FCONST_1
+    FCMPL
+    IFLE L41
+   L42
+    LINENUMBER 410 L42
+    FCONST_1
+    FSTORE 13
+   L41
+    LINENUMBER 413 L41
+   FRAME FULL [bod bnk F F qr F adz F I se I I F F] []
+    FLOAD 13
+    LDC 0.1
+    FCMPL
+    IFLE L43
+   L44
+    LINENUMBER 415 L44
+    FLOAD 12
+    LDC 0.1
+    FSUB
+    LDC 1.3
+    FMUL
+    INVOKESTATIC op.a (F)F
+    FSTORE 14
+   L45
+    LINENUMBER 416 L45
+    FLOAD 13
+    LDC 0.1
+    FSUB
+    FSTORE 15
+   L46
+    LINENUMBER 417 L46
+    FLOAD 14
+    FLOAD 15
+    FMUL
+    FSTORE 16
+   L47
+    LINENUMBER 418 L47
+    FLOAD 16
+    FCONST_0
+    FMUL
+    FLOAD 16
+    LDC 0.004
+    FMUL
+    FLOAD 16
+    FCONST_0
+    FMUL
+    INVOKESTATIC bob.c (FFF)V
+   L43
+    LINENUMBER 421 L43
+   FRAME FULL [bod bnk F F qr F adz F I se I I F F] []
+    FLOAD 13
+    FCONST_0
+    FMUL
+    FLOAD 13
+    FCONST_0
+    FMUL
+    FLOAD 13
+    LDC 0.04
+    FMUL
+    INVOKESTATIC bob.c (FFF)V
+   L48
+    LINENUMBER 422 L48
+    FCONST_1
+    FCONST_1
+    FCONST_1
+    FLOAD 13
+    LDC 0.2
+    FMUL
+    FADD
+    INVOKESTATIC bob.b (FFF)V
+   L49
+    LINENUMBER 423 L49
+    ILOAD 11
+    I2F
+    LDC 45.0
+    FMUL
+    FCONST_0
+    LDC -1.0
+    FCONST_0
+    INVOKESTATIC bob.b (FFFF)V
+   L28
+    LINENUMBER 425 L28
+   FRAME FULL [bod bnk F F qr F adz F I se I I] []
+    GOTO L50
+   L19
+    LINENUMBER 428 L19
+   FRAME FULL [bod bnk F F qr F adz F I se I] []
+    LDC -0.4
+    FLOAD 5
+    INVOKESTATIC op.c (F)F
+    LDC 3.1415927
+    FMUL
+    INVOKESTATIC op.a (F)F
+    FMUL
+    FSTORE 11
+   L51
+    LINENUMBER 429 L51
+    LDC 0.2
+    FLOAD 5
+    INVOKESTATIC op.c (F)F
+    LDC 6.2831855
+    FMUL
+    INVOKESTATIC op.a (F)F
+    FMUL
+    FSTORE 12
+   L52
+    LINENUMBER 430 L52
+    LDC -0.2
+    FLOAD 5
+    LDC 3.1415927
+    FMUL
+    INVOKESTATIC op.a (F)F
+    FMUL
+    FSTORE 13
+   L53
+    LINENUMBER 431 L53
+    ILOAD 10
+    IFEQ L54
+    ICONST_1
+    GOTO L55
+   L54
+   FRAME FULL [bod bnk F F qr F adz F I se I F F F] []
+    ICONST_M1
+   L55
+   FRAME FULL [bod bnk F F qr F adz F I se I F F F] [I]
+    ISTORE 14
+   L56
+    LINENUMBER 432 L56
+    ILOAD 14
+    I2F
+    FLOAD 11
+    FMUL
+    FLOAD 12
+    FLOAD 13
+    INVOKESTATIC bob.c (FFF)V
+   L57
+    LINENUMBER 433 L57
+    ALOAD 0
+    ALOAD 9
+    FLOAD 7
+    INVOKESPECIAL bod.b (Lse;F)V
+   L58
+    LINENUMBER 434 L58
+    ALOAD 0
+    ALOAD 9
+    FLOAD 5
+    INVOKESPECIAL bod.a (Lse;F)V
+   L50
+    LINENUMBER 437 L50
+   FRAME FULL [bod bnk F F qr F adz F I se I] []
+    ALOAD 0
+    ALOAD 1
+    ALOAD 6
+    ILOAD 10
+    IFEQ L59
+    GETSTATIC bpl$b.e : Lbpl$b;
+    GOTO L60
+   L59
+   FRAME FULL [bod bnk F F qr F adz F I se I] [bod bnk adz]
+    GETSTATIC bpl$b.d : Lbpl$b;
+   L60
+   FRAME FULL [bod bnk F F qr F adz F I se I] [bod bnk adz bpl$b]
+    ILOAD 10
+    IFNE L61
+    ICONST_1
+    GOTO L62
+   L61
+   FRAME FULL [bod bnk F F qr F adz F I se I] [bod bnk adz bpl$b]
+    ICONST_0
+   L62
+   FRAME FULL [bod bnk F F qr F adz F I se I] [bod bnk adz bpl$b I]
+    INVOKEVIRTUAL bod.a (Lsf;Ladz;Lbpl$b;Z)V
+   L10
+    LINENUMBER 440 L10
+   FRAME FULL [bod bnk F F qr F adz F I se] []
+    INVOKESTATIC bob.H ()V
+   L63
+    LINENUMBER 441 L63
+    RETURN
+   L64
+    LOCALVARIABLE f7 F L45 L43 14
+    LOCALVARIABLE f3 F L46 L43 15
+    LOCALVARIABLE f4 F L47 L43 16
+    LOCALVARIABLE f5 F L38 L28 12
+    LOCALVARIABLE f6 F L39 L28 13
+    LOCALVARIABLE j I L23 L28 11
+    LOCALVARIABLE f F L51 L50 11
+    LOCALVARIABLE f1 F L52 L50 12
+    LOCALVARIABLE f2 F L53 L50 13
+    LOCALVARIABLE i I L56 L50 14
+    LOCALVARIABLE flag1 Z L18 L10 10
+    LOCALVARIABLE this Lbod; L0 L64 0
+    LOCALVARIABLE p_187457_1_ Lbnk; L0 L64 1
+    LOCALVARIABLE p_187457_2_ F L0 L64 2
+    LOCALVARIABLE p_187457_3_ F L0 L64 3
+    LOCALVARIABLE p_187457_4_ Lqr; L0 L64 4
+    LOCALVARIABLE p_187457_5_ F L0 L64 5
+    LOCALVARIABLE p_187457_6_ Ladz; L0 L64 6
+    LOCALVARIABLE p_187457_7_ F L0 L64 7
+    LOCALVARIABLE flag Z L3 L64 8
+    LOCALVARIABLE enumhandside Lse; L6 L64 9
+    MAXSTACK = 5
+    MAXLOCALS = 17
+
+  // access flags 0x1
+  public b(F)V
+   L0
+    LINENUMBER 445 L0
+    INVOKESTATIC bob.d ()V
+   L1
+    LINENUMBER 447 L1
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.h : Lbnn;
+    INVOKEVIRTUAL bnn.av ()Z
+    IFEQ L2
+   L3
+    LINENUMBER 449 L3
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.f : Lbln;
+    NEW cm
+    DUP
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.h : Lbnn;
+    INVOKESPECIAL cm.<init> (Lrw;)V
+    INVOKEVIRTUAL bln.o (Lcm;)Lars;
+    ASTORE 2
+   L4
+    LINENUMBER 450 L4
+    NEW cm
+    DUP
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.h : Lbnn;
+    INVOKESPECIAL cm.<init> (Lrw;)V
+    ASTORE 3
+   L5
+    LINENUMBER 451 L5
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.h : Lbnn;
+    ASTORE 4
+   L6
+    LINENUMBER 453 L6
+    ICONST_0
+    ISTORE 5
+   L7
+   FRAME FULL [bod F ars cm bnn I] []
+    ILOAD 5
+    BIPUSH 8
+    IF_ICMPGE L8
+   L9
+    LINENUMBER 455 L9
+    ALOAD 4
+    GETFIELD zs.p : D
+    ILOAD 5
+    ICONST_0
+    ISHR
+    ICONST_2
+    IREM
+    I2F
+    LDC 0.5
+    FSUB
+    ALOAD 4
+    GETFIELD zs.G : F
+    FMUL
+    LDC 0.8
+    FMUL
+    F2D
+    DADD
+    DSTORE 6
+   L10
+    LINENUMBER 456 L10
+    ALOAD 4
+    GETFIELD zs.q : D
+    ILOAD 5
+    ICONST_1
+    ISHR
+    ICONST_2
+    IREM
+    I2F
+    LDC 0.5
+    FSUB
+    LDC 0.1
+    FMUL
+    F2D
+    DADD
+    DSTORE 8
+   L11
+    LINENUMBER 457 L11
+    ALOAD 4
+    GETFIELD zs.r : D
+    ILOAD 5
+    ICONST_2
+    ISHR
+    ICONST_2
+    IREM
+    I2F
+    LDC 0.5
+    FSUB
+    ALOAD 4
+    GETFIELD zs.G : F
+    FMUL
+    LDC 0.8
+    FMUL
+    F2D
+    DADD
+    DSTORE 10
+   L12
+    LINENUMBER 458 L12
+    NEW cm
+    DUP
+    DLOAD 6
+    DLOAD 8
+    ALOAD 4
+    INVOKEVIRTUAL zs.bq ()F
+    F2D
+    DADD
+    DLOAD 10
+    INVOKESPECIAL cm.<init> (DDD)V
+    ASTORE 12
+   L13
+    LINENUMBER 459 L13
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.f : Lbln;
+    ALOAD 12
+    INVOKEVIRTUAL bln.o (Lcm;)Lars;
+    ASTORE 13
+   L14
+    LINENUMBER 461 L14
+    ALOAD 13
+    INVOKEINTERFACE ars.t ()Lakf;
+    INVOKEVIRTUAL akf.j ()Z
+    IFEQ L15
+   L16
+    LINENUMBER 463 L16
+    ALOAD 13
+    ASTORE 2
+   L17
+    LINENUMBER 464 L17
+    ALOAD 12
+    ASTORE 3
+   L15
+    LINENUMBER 453 L15
+   FRAME FULL [bod F ars cm bnn I D D D cm ars] []
+    IINC 5 1
+    GOTO L7
+   L8
+    LINENUMBER 468 L8
+   FRAME FULL [bod F ars cm bnn I] []
+    ALOAD 2
+    INVOKEINTERFACE ars.i ()Laop;
+    GETSTATIC aop.a : Laop;
+    IF_ACMPEQ L2
+   L18
+    LINENUMBER 470 L18
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.h : Lbnn;
+    FLOAD 1
+    GETSTATIC net/minecraftforge/client/event/RenderBlockOverlayEvent$OverlayType.BLOCK : Lnet/minecraftforge/client/event/RenderBlockOverlayEvent$OverlayType;
+    ALOAD 2
+    ALOAD 3
+    INVOKESTATIC net/minecraftforge/event/ForgeEventFactory.renderBlockOverlay (Lzs;FLnet/minecraftforge/client/event/RenderBlockOverlayEvent$OverlayType;Lars;Lcm;)Z
+    IFNE L2
+   L19
+    LINENUMBER 471 L19
+    ALOAD 0
+    FLOAD 1
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    INVOKEVIRTUAL bcx.ab ()Lbov;
+    INVOKEVIRTUAL bov.a ()Lbou;
+    ALOAD 2
+    INVOKEVIRTUAL bou.a (Lars;)Lbwe;
+    INVOKESPECIAL bod.a (FLbwe;)V
+   L2
+    LINENUMBER 475 L2
+   FRAME FULL [bod F] []
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.h : Lbnn;
+    INVOKEVIRTUAL bnn.y ()Z
+    IFNE L20
+   L21
+    LINENUMBER 477 L21
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.h : Lbnn;
+    GETSTATIC axx.h : Laxx;
+    INVOKEVIRTUAL bnn.a (Laxx;)Z
+    IFEQ L22
+   L23
+    LINENUMBER 479 L23
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.h : Lbnn;
+    FLOAD 1
+    INVOKESTATIC net/minecraftforge/event/ForgeEventFactory.renderWaterOverlay (Lzs;F)Z
+    IFNE L22
+   L24
+    LINENUMBER 480 L24
+    ALOAD 0
+    FLOAD 1
+    INVOKESPECIAL bod.e (F)V
+   L22
+    LINENUMBER 483 L22
+   FRAME FULL [bod F] []
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.h : Lbnn;
+    INVOKEVIRTUAL bnn.aJ ()Z
+    IFEQ L20
+   L25
+    LINENUMBER 485 L25
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.h : Lbnn;
+    FLOAD 1
+    INVOKESTATIC net/minecraftforge/event/ForgeEventFactory.renderFireOverlay (Lzs;F)Z
+    IFNE L20
+   L26
+    LINENUMBER 486 L26
+    ALOAD 0
+    FLOAD 1
+    INVOKESPECIAL bod.f (F)V
+   L20
+    LINENUMBER 490 L20
+   FRAME FULL [bod F] []
+    INVOKESTATIC bob.e ()V
+   L27
+    LINENUMBER 491 L27
+    RETURN
+   L28
+    LOCALVARIABLE d0 D L10 L15 6
+    LOCALVARIABLE d1 D L11 L15 8
+    LOCALVARIABLE d2 D L12 L15 10
+    LOCALVARIABLE blockpos Lcm; L13 L15 12
+    LOCALVARIABLE iblockstate1 Lars; L14 L15 13
+    LOCALVARIABLE i I L7 L8 5
+    LOCALVARIABLE iblockstate Lars; L4 L2 2
+    LOCALVARIABLE overlayPos Lcm; L5 L2 3
+    LOCALVARIABLE entityplayer Lzs; L6 L2 4
+    LOCALVARIABLE this Lbod; L0 L28 0
+    LOCALVARIABLE partialTicks F L0 L28 1
+    MAXSTACK = 8
+    MAXLOCALS = 14
+
+  // access flags 0x2
+  private a(FLbwe;)V
+   L0
+    LINENUMBER 495 L0
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    INVOKEVIRTUAL bcx.N ()Lbwf;
+    GETSTATIC bwd.g : Lkn;
+    INVOKEVIRTUAL bwf.a (Lkn;)V
+   L1
+    LINENUMBER 496 L1
+    INVOKESTATIC bon.a ()Lbon;
+    ASTORE 3
+   L2
+    LINENUMBER 497 L2
+    ALOAD 3
+    INVOKEVIRTUAL bon.c ()Lbnt;
+    ASTORE 4
+   L3
+    LINENUMBER 498 L3
+    LDC 0.1
+    FSTORE 5
+   L4
+    LINENUMBER 499 L4
+    LDC 0.1
+    LDC 0.1
+    LDC 0.1
+    LDC 0.5
+    INVOKESTATIC bob.c (FFFF)V
+   L5
+    LINENUMBER 500 L5
+    INVOKESTATIC bob.G ()V
+   L6
+    LINENUMBER 501 L6
+    LDC -1.0
+    FSTORE 6
+   L7
+    LINENUMBER 502 L7
+    FCONST_1
+    FSTORE 7
+   L8
+    LINENUMBER 503 L8
+    LDC -1.0
+    FSTORE 8
+   L9
+    LINENUMBER 504 L9
+    FCONST_1
+    FSTORE 9
+   L10
+    LINENUMBER 505 L10
+    LDC -0.5
+    FSTORE 10
+   L11
+    LINENUMBER 506 L11
+    ALOAD 2
+    INVOKEVIRTUAL bwe.e ()F
+    FSTORE 11
+   L12
+    LINENUMBER 507 L12
+    ALOAD 2
+    INVOKEVIRTUAL bwe.f ()F
+    FSTORE 12
+   L13
+    LINENUMBER 508 L13
+    ALOAD 2
+    INVOKEVIRTUAL bwe.g ()F
+    FSTORE 13
+   L14
+    LINENUMBER 509 L14
+    ALOAD 2
+    INVOKEVIRTUAL bwe.h ()F
+    FSTORE 14
+   L15
+    LINENUMBER 510 L15
+    ALOAD 4
+    BIPUSH 7
+    GETSTATIC bwm.g : Lbwo;
+    INVOKEVIRTUAL bnt.a (ILbwo;)V
+   L16
+    LINENUMBER 511 L16
+    ALOAD 4
+    LDC -1.0
+    LDC -1.0
+    LDC -0.5
+    INVOKEVIRTUAL bnt.b (DDD)Lbnt;
+    FLOAD 12
+    F2D
+    FLOAD 14
+    F2D
+    INVOKEVIRTUAL bnt.a (DD)Lbnt;
+    INVOKEVIRTUAL bnt.d ()V
+   L17
+    LINENUMBER 512 L17
+    ALOAD 4
+    DCONST_1
+    LDC -1.0
+    LDC -0.5
+    INVOKEVIRTUAL bnt.b (DDD)Lbnt;
+    FLOAD 11
+    F2D
+    FLOAD 14
+    F2D
+    INVOKEVIRTUAL bnt.a (DD)Lbnt;
+    INVOKEVIRTUAL bnt.d ()V
+   L18
+    LINENUMBER 513 L18
+    ALOAD 4
+    DCONST_1
+    DCONST_1
+    LDC -0.5
+    INVOKEVIRTUAL bnt.b (DDD)Lbnt;
+    FLOAD 11
+    F2D
+    FLOAD 13
+    F2D
+    INVOKEVIRTUAL bnt.a (DD)Lbnt;
+    INVOKEVIRTUAL bnt.d ()V
+   L19
+    LINENUMBER 514 L19
+    ALOAD 4
+    LDC -1.0
+    DCONST_1
+    LDC -0.5
+    INVOKEVIRTUAL bnt.b (DDD)Lbnt;
+    FLOAD 12
+    F2D
+    FLOAD 13
+    F2D
+    INVOKEVIRTUAL bnt.a (DD)Lbnt;
+    INVOKEVIRTUAL bnt.d ()V
+   L20
+    LINENUMBER 515 L20
+    ALOAD 3
+    INVOKEVIRTUAL bon.b ()V
+   L21
+    LINENUMBER 516 L21
+    INVOKESTATIC bob.H ()V
+   L22
+    LINENUMBER 517 L22
+    FCONST_1
+    FCONST_1
+    FCONST_1
+    FCONST_1
+    INVOKESTATIC bob.c (FFFF)V
+   L23
+    LINENUMBER 518 L23
+    RETURN
+   L24
+    LOCALVARIABLE this Lbod; L0 L24 0
+    LOCALVARIABLE partialTicks F L0 L24 1
+    LOCALVARIABLE atlas Lbwe; L0 L24 2
+    LOCALVARIABLE tessellator Lbon; L2 L24 3
+    LOCALVARIABLE vertexbuffer Lbnt; L3 L24 4
+    LOCALVARIABLE f F L4 L24 5
+    LOCALVARIABLE f1 F L7 L24 6
+    LOCALVARIABLE f2 F L8 L24 7
+    LOCALVARIABLE f3 F L9 L24 8
+    LOCALVARIABLE f4 F L10 L24 9
+    LOCALVARIABLE f5 F L11 L24 10
+    LOCALVARIABLE f6 F L12 L24 11
+    LOCALVARIABLE f7 F L13 L24 12
+    LOCALVARIABLE f8 F L14 L24 13
+    LOCALVARIABLE f9 F L15 L24 14
+    MAXSTACK = 7
+    MAXLOCALS = 15
+
+  // access flags 0x2
+  private e(F)V
+   L0
+    LINENUMBER 522 L0
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    INVOKEVIRTUAL bcx.N ()Lbwf;
+    GETSTATIC bod.b : Lkn;
+    INVOKEVIRTUAL bwf.a (Lkn;)V
+   L1
+    LINENUMBER 523 L1
+    INVOKESTATIC bon.a ()Lbon;
+    ASTORE 2
+   L2
+    LINENUMBER 524 L2
+    ALOAD 2
+    INVOKEVIRTUAL bon.c ()Lbnt;
+    ASTORE 3
+   L3
+    LINENUMBER 525 L3
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.h : Lbnn;
+    FLOAD 1
+    INVOKEVIRTUAL bnn.e (F)F
+    FSTORE 4
+   L4
+    LINENUMBER 526 L4
+    FLOAD 4
+    FLOAD 4
+    FLOAD 4
+    LDC 0.5
+    INVOKESTATIC bob.c (FFFF)V
+   L5
+    LINENUMBER 527 L5
+    INVOKESTATIC bob.m ()V
+   L6
+    LINENUMBER 528 L6
+    GETSTATIC bob$r.l : Lbob$r;
+    GETSTATIC bob$l.j : Lbob$l;
+    GETSTATIC bob$r.e : Lbob$r;
+    GETSTATIC bob$l.n : Lbob$l;
+    INVOKESTATIC bob.a (Lbob$r;Lbob$l;Lbob$r;Lbob$l;)V
+   L7
+    LINENUMBER 529 L7
+    INVOKESTATIC bob.G ()V
+   L8
+    LINENUMBER 530 L8
+    LDC 4.0
+    FSTORE 5
+   L9
+    LINENUMBER 531 L9
+    LDC -1.0
+    FSTORE 6
+   L10
+    LINENUMBER 532 L10
+    FCONST_1
+    FSTORE 7
+   L11
+    LINENUMBER 533 L11
+    LDC -1.0
+    FSTORE 8
+   L12
+    LINENUMBER 534 L12
+    FCONST_1
+    FSTORE 9
+   L13
+    LINENUMBER 535 L13
+    LDC -0.5
+    FSTORE 10
+   L14
+    LINENUMBER 536 L14
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.h : Lbnn;
+    GETFIELD bnn.v : F
+    FNEG
+    LDC 64.0
+    FDIV
+    FSTORE 11
+   L15
+    LINENUMBER 537 L15
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.h : Lbnn;
+    GETFIELD bnn.w : F
+    LDC 64.0
+    FDIV
+    FSTORE 12
+   L16
+    LINENUMBER 538 L16
+    ALOAD 3
+    BIPUSH 7
+    GETSTATIC bwm.g : Lbwo;
+    INVOKEVIRTUAL bnt.a (ILbwo;)V
+   L17
+    LINENUMBER 539 L17
+    ALOAD 3
+    LDC -1.0
+    LDC -1.0
+    LDC -0.5
+    INVOKEVIRTUAL bnt.b (DDD)Lbnt;
+    LDC 4.0
+    FLOAD 11
+    FADD
+    F2D
+    LDC 4.0
+    FLOAD 12
+    FADD
+    F2D
+    INVOKEVIRTUAL bnt.a (DD)Lbnt;
+    INVOKEVIRTUAL bnt.d ()V
+   L18
+    LINENUMBER 540 L18
+    ALOAD 3
+    DCONST_1
+    LDC -1.0
+    LDC -0.5
+    INVOKEVIRTUAL bnt.b (DDD)Lbnt;
+    FCONST_0
+    FLOAD 11
+    FADD
+    F2D
+    LDC 4.0
+    FLOAD 12
+    FADD
+    F2D
+    INVOKEVIRTUAL bnt.a (DD)Lbnt;
+    INVOKEVIRTUAL bnt.d ()V
+   L19
+    LINENUMBER 541 L19
+    ALOAD 3
+    DCONST_1
+    DCONST_1
+    LDC -0.5
+    INVOKEVIRTUAL bnt.b (DDD)Lbnt;
+    FCONST_0
+    FLOAD 11
+    FADD
+    F2D
+    FCONST_0
+    FLOAD 12
+    FADD
+    F2D
+    INVOKEVIRTUAL bnt.a (DD)Lbnt;
+    INVOKEVIRTUAL bnt.d ()V
+   L20
+    LINENUMBER 542 L20
+    ALOAD 3
+    LDC -1.0
+    DCONST_1
+    LDC -0.5
+    INVOKEVIRTUAL bnt.b (DDD)Lbnt;
+    LDC 4.0
+    FLOAD 11
+    FADD
+    F2D
+    FCONST_0
+    FLOAD 12
+    FADD
+    F2D
+    INVOKEVIRTUAL bnt.a (DD)Lbnt;
+    INVOKEVIRTUAL bnt.d ()V
+   L21
+    LINENUMBER 543 L21
+    ALOAD 2
+    INVOKEVIRTUAL bon.b ()V
+   L22
+    LINENUMBER 544 L22
+    INVOKESTATIC bob.H ()V
+   L23
+    LINENUMBER 545 L23
+    FCONST_1
+    FCONST_1
+    FCONST_1
+    FCONST_1
+    INVOKESTATIC bob.c (FFFF)V
+   L24
+    LINENUMBER 546 L24
+    INVOKESTATIC bob.l ()V
+   L25
+    LINENUMBER 547 L25
+    RETURN
+   L26
+    LOCALVARIABLE this Lbod; L0 L26 0
+    LOCALVARIABLE partialTicks F L0 L26 1
+    LOCALVARIABLE tessellator Lbon; L2 L26 2
+    LOCALVARIABLE vertexbuffer Lbnt; L3 L26 3
+    LOCALVARIABLE f F L4 L26 4
+    LOCALVARIABLE f1 F L9 L26 5
+    LOCALVARIABLE f2 F L10 L26 6
+    LOCALVARIABLE f3 F L11 L26 7
+    LOCALVARIABLE f4 F L12 L26 8
+    LOCALVARIABLE f5 F L13 L26 9
+    LOCALVARIABLE f6 F L14 L26 10
+    LOCALVARIABLE f7 F L15 L26 11
+    LOCALVARIABLE f8 F L16 L26 12
+    MAXSTACK = 7
+    MAXLOCALS = 13
+
+  // access flags 0x2
+  private f(F)V
+   L0
+    LINENUMBER 551 L0
+    INVOKESTATIC bon.a ()Lbon;
+    ASTORE 2
+   L1
+    LINENUMBER 552 L1
+    ALOAD 2
+    INVOKEVIRTUAL bon.c ()Lbnt;
+    ASTORE 3
+   L2
+    LINENUMBER 553 L2
+    FCONST_1
+    FCONST_1
+    FCONST_1
+    LDC 0.9
+    INVOKESTATIC bob.c (FFFF)V
+   L3
+    LINENUMBER 554 L3
+    SIPUSH 519
+    INVOKESTATIC bob.c (I)V
+   L4
+    LINENUMBER 555 L4
+    ICONST_0
+    INVOKESTATIC bob.a (Z)V
+   L5
+    LINENUMBER 556 L5
+    INVOKESTATIC bob.m ()V
+   L6
+    LINENUMBER 557 L6
+    GETSTATIC bob$r.l : Lbob$r;
+    GETSTATIC bob$l.j : Lbob$l;
+    GETSTATIC bob$r.e : Lbob$r;
+    GETSTATIC bob$l.n : Lbob$l;
+    INVOKESTATIC bob.a (Lbob$r;Lbob$l;Lbob$r;Lbob$l;)V
+   L7
+    LINENUMBER 558 L7
+    FCONST_1
+    FSTORE 4
+   L8
+    LINENUMBER 560 L8
+    ICONST_0
+    ISTORE 5
+   L9
+   FRAME FULL [bod F bon bnt F I] []
+    ILOAD 5
+    ICONST_2
+    IF_ICMPGE L10
+   L11
+    LINENUMBER 562 L11
+    INVOKESTATIC bob.G ()V
+   L12
+    LINENUMBER 563 L12
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    INVOKEVIRTUAL bcx.R ()Lbwd;
+    LDC "minecraft:blocks/fire_layer_1"
+    INVOKEVIRTUAL bwd.a (Ljava/lang/String;)Lbwe;
+    ASTORE 6
+   L13
+    LINENUMBER 564 L13
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    INVOKEVIRTUAL bcx.N ()Lbwf;
+    GETSTATIC bwd.g : Lkn;
+    INVOKEVIRTUAL bwf.a (Lkn;)V
+   L14
+    LINENUMBER 565 L14
+    ALOAD 6
+    INVOKEVIRTUAL bwe.e ()F
+    FSTORE 7
+   L15
+    LINENUMBER 566 L15
+    ALOAD 6
+    INVOKEVIRTUAL bwe.f ()F
+    FSTORE 8
+   L16
+    LINENUMBER 567 L16
+    ALOAD 6
+    INVOKEVIRTUAL bwe.g ()F
+    FSTORE 9
+   L17
+    LINENUMBER 568 L17
+    ALOAD 6
+    INVOKEVIRTUAL bwe.h ()F
+    FSTORE 10
+   L18
+    LINENUMBER 569 L18
+    LDC -0.5
+    FSTORE 11
+   L19
+    LINENUMBER 570 L19
+    LDC 0.5
+    FSTORE 12
+   L20
+    LINENUMBER 571 L20
+    LDC -0.5
+    FSTORE 13
+   L21
+    LINENUMBER 572 L21
+    LDC 0.5
+    FSTORE 14
+   L22
+    LINENUMBER 573 L22
+    LDC -0.5
+    FSTORE 15
+   L23
+    LINENUMBER 574 L23
+    ILOAD 5
+    ICONST_2
+    IMUL
+    ICONST_1
+    ISUB
+    INEG
+    I2F
+    LDC 0.24
+    FMUL
+    LDC -0.3
+    FCONST_0
+    INVOKESTATIC bob.c (FFF)V
+   L24
+    LINENUMBER 575 L24
+    ILOAD 5
+    ICONST_2
+    IMUL
+    ICONST_1
+    ISUB
+    I2F
+    LDC 10.0
+    FMUL
+    FCONST_0
+    FCONST_1
+    FCONST_0
+    INVOKESTATIC bob.b (FFFF)V
+   L25
+    LINENUMBER 576 L25
+    ALOAD 3
+    BIPUSH 7
+    GETSTATIC bwm.g : Lbwo;
+    INVOKEVIRTUAL bnt.a (ILbwo;)V
+   L26
+    LINENUMBER 577 L26
+    ALOAD 3
+    LDC -0.5
+    LDC -0.5
+    LDC -0.5
+    INVOKEVIRTUAL bnt.b (DDD)Lbnt;
+    FLOAD 8
+    F2D
+    FLOAD 10
+    F2D
+    INVOKEVIRTUAL bnt.a (DD)Lbnt;
+    INVOKEVIRTUAL bnt.d ()V
+   L27
+    LINENUMBER 578 L27
+    ALOAD 3
+    LDC 0.5
+    LDC -0.5
+    LDC -0.5
+    INVOKEVIRTUAL bnt.b (DDD)Lbnt;
+    FLOAD 7
+    F2D
+    FLOAD 10
+    F2D
+    INVOKEVIRTUAL bnt.a (DD)Lbnt;
+    INVOKEVIRTUAL bnt.d ()V
+   L28
+    LINENUMBER 579 L28
+    ALOAD 3
+    LDC 0.5
+    LDC 0.5
+    LDC -0.5
+    INVOKEVIRTUAL bnt.b (DDD)Lbnt;
+    FLOAD 7
+    F2D
+    FLOAD 9
+    F2D
+    INVOKEVIRTUAL bnt.a (DD)Lbnt;
+    INVOKEVIRTUAL bnt.d ()V
+   L29
+    LINENUMBER 580 L29
+    ALOAD 3
+    LDC -0.5
+    LDC 0.5
+    LDC -0.5
+    INVOKEVIRTUAL bnt.b (DDD)Lbnt;
+    FLOAD 8
+    F2D
+    FLOAD 9
+    F2D
+    INVOKEVIRTUAL bnt.a (DD)Lbnt;
+    INVOKEVIRTUAL bnt.d ()V
+   L30
+    LINENUMBER 581 L30
+    ALOAD 2
+    INVOKEVIRTUAL bon.b ()V
+   L31
+    LINENUMBER 582 L31
+    INVOKESTATIC bob.H ()V
+   L32
+    LINENUMBER 560 L32
+    IINC 5 1
+    GOTO L9
+   L10
+    LINENUMBER 585 L10
+   FRAME FULL [bod F bon bnt F I] []
+    FCONST_1
+    FCONST_1
+    FCONST_1
+    FCONST_1
+    INVOKESTATIC bob.c (FFFF)V
+   L33
+    LINENUMBER 586 L33
+    INVOKESTATIC bob.l ()V
+   L34
+    LINENUMBER 587 L34
+    ICONST_1
+    INVOKESTATIC bob.a (Z)V
+   L35
+    LINENUMBER 588 L35
+    SIPUSH 515
+    INVOKESTATIC bob.c (I)V
+   L36
+    LINENUMBER 589 L36
+    RETURN
+   L37
+    LOCALVARIABLE textureatlassprite Lbwe; L13 L32 6
+    LOCALVARIABLE f1 F L15 L32 7
+    LOCALVARIABLE f2 F L16 L32 8
+    LOCALVARIABLE f3 F L17 L32 9
+    LOCALVARIABLE f4 F L18 L32 10
+    LOCALVARIABLE f5 F L19 L32 11
+    LOCALVARIABLE f6 F L20 L32 12
+    LOCALVARIABLE f7 F L21 L32 13
+    LOCALVARIABLE f8 F L22 L32 14
+    LOCALVARIABLE f9 F L23 L32 15
+    LOCALVARIABLE i I L9 L10 5
+    LOCALVARIABLE this Lbod; L0 L37 0
+    LOCALVARIABLE partialTicks F L0 L37 1
+    LOCALVARIABLE tessellator Lbon; L1 L37 2
+    LOCALVARIABLE vertexbuffer Lbnt; L2 L37 3
+    LOCALVARIABLE f F L8 L37 4
+    MAXSTACK = 7
+    MAXLOCALS = 16
+
+  // access flags 0x1
+  public a()V
+   L0
+    LINENUMBER 593 L0
+    ALOAD 0
+    ALOAD 0
+    GETFIELD bod.f : F
+    PUTFIELD bod.g : F
+   L1
+    LINENUMBER 594 L1
+    ALOAD 0
+    ALOAD 0
+    GETFIELD bod.h : F
+    PUTFIELD bod.i : F
+   L2
+    LINENUMBER 595 L2
+    ALOAD 0
+    GETFIELD bod.c : Lbcx;
+    GETFIELD bcx.h : Lbnn;
+    ASTORE 1
+   L3
+    LINENUMBER 596 L3
+    ALOAD 1
+    INVOKEVIRTUAL bnn.cf ()Ladz;
+    ASTORE 2
+   L4
+    LINENUMBER 597 L4
+    ALOAD 1
+    INVOKEVIRTUAL bnn.cg ()Ladz;
+    ASTORE 3
+   L5
+    LINENUMBER 599 L5
+    ALOAD 1
+    INVOKEVIRTUAL bnn.M ()Z
+    IFEQ L6
+   L7
+    LINENUMBER 601 L7
+    ALOAD 0
+    ALOAD 0
+    GETFIELD bod.f : F
+    LDC 0.4
+    FSUB
+    FCONST_0
+    FCONST_1
+    INVOKESTATIC op.a (FFF)F
+    PUTFIELD bod.f : F
+   L8
+    LINENUMBER 602 L8
+    ALOAD 0
+    ALOAD 0
+    GETFIELD bod.h : F
+    LDC 0.4
+    FSUB
+    FCONST_0
+    FCONST_1
+    INVOKESTATIC op.a (FFF)F
+    PUTFIELD bod.h : F
+    GOTO L9
+   L6
+    LINENUMBER 606 L6
+   FRAME FULL [bod bnn adz adz] []
+    ALOAD 1
+    FCONST_1
+    INVOKEVIRTUAL bnn.o (F)F
+    FSTORE 4
+   L10
+    LINENUMBER 607 L10
+    ALOAD 0
+    DUP
+    GETFIELD bod.f : F
+    ALOAD 0
+    GETFIELD bod.d : Ladz;
+    ALOAD 2
+    ALOAD 1
+    GETFIELD bnn.bt : Lzr;
+    GETFIELD zr.d : I
+    INVOKESTATIC net/minecraftforge/client/ForgeHooksClient.shouldCauseReequipAnimation (Ladz;Ladz;I)Z
+    IFNE L11
+    FLOAD 4
+    FLOAD 4
+    FMUL
+    FLOAD 4
+    FMUL
+    GOTO L12
+   L11
+   FRAME FULL [bod bnn adz adz F] [bod F]
+    FCONST_0
+   L12
+   FRAME FULL [bod bnn adz adz F] [bod F F]
+    ALOAD 0
+    GETFIELD bod.f : F
+    FSUB
+    LDC -0.4
+    LDC 0.4
+    INVOKESTATIC op.a (FFF)F
+    FADD
+    PUTFIELD bod.f : F
+   L13
+    LINENUMBER 608 L13
+    ALOAD 0
+    DUP
+    GETFIELD bod.h : F
+    ALOAD 0
+    GETFIELD bod.e : Ladz;
+    ALOAD 3
+    ICONST_M1
+    INVOKESTATIC net/minecraftforge/client/ForgeHooksClient.shouldCauseReequipAnimation (Ladz;Ladz;I)Z
+    IFNE L14
+    ICONST_1
+    GOTO L15
+   L14
+   FRAME FULL [bod bnn adz adz F] [bod F]
+    ICONST_0
+   L15
+   FRAME FULL [bod bnn adz adz F] [bod F I]
+    I2F
+    ALOAD 0
+    GETFIELD bod.h : F
+    FSUB
+    LDC -0.4
+    LDC 0.4
+    INVOKESTATIC op.a (FFF)F
+    FADD
+    PUTFIELD bod.h : F
+   L9
+    LINENUMBER 611 L9
+   FRAME FULL [bod bnn adz adz] []
+    ALOAD 0
+    GETFIELD bod.f : F
+    LDC 0.1
+    FCMPG
+    IFGE L16
+   L17
+    LINENUMBER 613 L17
+    ALOAD 0
+    ALOAD 2
+    PUTFIELD bod.d : Ladz;
+   L16
+    LINENUMBER 616 L16
+   FRAME FULL [bod bnn adz adz] []
+    ALOAD 0
+    GETFIELD bod.h : F
+    LDC 0.1
+    FCMPG
+    IFGE L18
+   L19
+    LINENUMBER 618 L19
+    ALOAD 0
+    ALOAD 3
+    PUTFIELD bod.e : Ladz;
+   L18
+    LINENUMBER 620 L18
+   FRAME FULL [bod bnn adz adz] []
+    RETURN
+   L20
+    LOCALVARIABLE f F L10 L9 4
+    LOCALVARIABLE this Lbod; L0 L20 0
+    LOCALVARIABLE entityplayersp Lbnn; L3 L20 1
+    LOCALVARIABLE itemstack Ladz; L4 L20 2
+    LOCALVARIABLE itemstack1 Ladz; L5 L20 3
+    MAXSTACK = 5
+    MAXLOCALS = 5
+
+  // access flags 0x1
+  public a(Lqr;)V
+   L0
+    LINENUMBER 624 L0
+    ALOAD 1
+    GETSTATIC qr.a : Lqr;
+    IF_ACMPNE L1
+   L2
+    LINENUMBER 626 L2
+    ALOAD 0
+    FCONST_0
+    PUTFIELD bod.f : F
+    GOTO L3
+   L1
+    LINENUMBER 630 L1
+   FRAME FULL [bod qr] []
+    ALOAD 0
+    FCONST_0
+    PUTFIELD bod.h : F
+   L3
+    LINENUMBER 632 L3
+   FRAME FULL [bod qr] []
+    RETURN
+   L4
+    LOCALVARIABLE this Lbod; L0 L4 0
+    LOCALVARIABLE hand Lqr; L0 L4 1
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x8
+  static <clinit>()V
+   L0
+    LINENUMBER 37 L0
+    NEW kn
+    DUP
+    LDC "textures/map/map_background.png"
+    INVOKESPECIAL kn.<init> (Ljava/lang/String;)V
+    PUTSTATIC bod.a : Lkn;
+   L1
+    LINENUMBER 38 L1
+    NEW kn
+    DUP
+    LDC "textures/misc/underwater.png"
+    INVOKESPECIAL kn.<init> (Ljava/lang/String;)V
+    PUTSTATIC bod.b : Lkn;
+    RETURN
+    MAXSTACK = 3
+    MAXLOCALS = 0
+}

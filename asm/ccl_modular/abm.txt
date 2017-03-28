@@ -1,0 +1,624 @@
+// class version 50.0 (50)
+// access flags 0x21
+public class abm extends abd  {
+
+  // compiled from: SourceFile
+
+  // access flags 0x1
+  public Labl; a
+
+  // access flags 0x1
+  public Lql; f
+
+  // access flags 0x12
+  private final Laid; g
+
+  // access flags 0x12
+  private final Lcm; h
+
+  // access flags 0x1
+  public <init>(Lzr;Laid;Lcm;)V
+   L0
+    LINENUMBER 29 L0
+    ALOAD 0
+    INVOKESPECIAL abd.<init> ()V
+   L1
+    LINENUMBER 23 L1
+    ALOAD 0
+    NEW abl
+    DUP
+    ALOAD 0
+    ICONST_3
+    ICONST_3
+    INVOKESPECIAL abl.<init> (Labd;II)V
+    PUTFIELD abm.a : Labl;
+   L2
+    LINENUMBER 24 L2
+    ALOAD 0
+    NEW aca
+    DUP
+    INVOKESPECIAL aca.<init> ()V
+    PUTFIELD abm.f : Lql;
+   L3
+    LINENUMBER 30 L3
+    ALOAD 0
+    ALOAD 2
+    PUTFIELD abm.g : Laid;
+   L4
+    LINENUMBER 31 L4
+    ALOAD 0
+    ALOAD 3
+    PUTFIELD abm.h : Lcm;
+   L5
+    LINENUMBER 32 L5
+    ALOAD 0
+    NEW acb
+    DUP
+    ALOAD 1
+    GETFIELD zr.e : Lzs;
+    ALOAD 0
+    GETFIELD abm.a : Labl;
+    ALOAD 0
+    GETFIELD abm.f : Lql;
+    ICONST_0
+    BIPUSH 124
+    BIPUSH 35
+    INVOKESPECIAL acb.<init> (Lzs;Labl;Lql;III)V
+    INVOKEVIRTUAL abm.a (Lacc;)Lacc;
+    POP
+   L6
+    LINENUMBER 34 L6
+    ICONST_0
+    ISTORE 4
+   L7
+   FRAME FULL [abm zr aid cm I] []
+    ILOAD 4
+    ICONST_3
+    IF_ICMPGE L8
+   L9
+    LINENUMBER 35 L9
+    ICONST_0
+    ISTORE 5
+   L10
+   FRAME FULL [abm zr aid cm I I] []
+    ILOAD 5
+    ICONST_3
+    IF_ICMPGE L11
+   L12
+    LINENUMBER 36 L12
+    ALOAD 0
+    NEW acc
+    DUP
+    ALOAD 0
+    GETFIELD abm.a : Labl;
+    ILOAD 5
+    ILOAD 4
+    ICONST_3
+    IMUL
+    IADD
+    BIPUSH 30
+    ILOAD 5
+    BIPUSH 18
+    IMUL
+    IADD
+    BIPUSH 17
+    ILOAD 4
+    BIPUSH 18
+    IMUL
+    IADD
+    INVOKESPECIAL acc.<init> (Lql;III)V
+    INVOKEVIRTUAL abm.a (Lacc;)Lacc;
+    POP
+   L13
+    LINENUMBER 35 L13
+    IINC 5 1
+    GOTO L10
+   L11
+    LINENUMBER 34 L11
+   FRAME FULL [abm zr aid cm I I] []
+    IINC 4 1
+    GOTO L7
+   L8
+    LINENUMBER 40 L8
+   FRAME FULL [abm zr aid cm I] []
+    ICONST_0
+    ISTORE 4
+   L14
+   FRAME FULL [abm zr aid cm I] []
+    ILOAD 4
+    ICONST_3
+    IF_ICMPGE L15
+   L16
+    LINENUMBER 41 L16
+    ICONST_0
+    ISTORE 5
+   L17
+   FRAME FULL [abm zr aid cm I I] []
+    ILOAD 5
+    BIPUSH 9
+    IF_ICMPGE L18
+   L19
+    LINENUMBER 42 L19
+    ALOAD 0
+    NEW acc
+    DUP
+    ALOAD 1
+    ILOAD 5
+    ILOAD 4
+    BIPUSH 9
+    IMUL
+    IADD
+    BIPUSH 9
+    IADD
+    BIPUSH 8
+    ILOAD 5
+    BIPUSH 18
+    IMUL
+    IADD
+    BIPUSH 84
+    ILOAD 4
+    BIPUSH 18
+    IMUL
+    IADD
+    INVOKESPECIAL acc.<init> (Lql;III)V
+    INVOKEVIRTUAL abm.a (Lacc;)Lacc;
+    POP
+   L20
+    LINENUMBER 41 L20
+    IINC 5 1
+    GOTO L17
+   L18
+    LINENUMBER 40 L18
+   FRAME FULL [abm zr aid cm I I] []
+    IINC 4 1
+    GOTO L14
+   L15
+    LINENUMBER 45 L15
+   FRAME FULL [abm zr aid cm I] []
+    ICONST_0
+    ISTORE 4
+   L21
+   FRAME FULL [abm zr aid cm I] []
+    ILOAD 4
+    BIPUSH 9
+    IF_ICMPGE L22
+   L23
+    LINENUMBER 46 L23
+    ALOAD 0
+    NEW acc
+    DUP
+    ALOAD 1
+    ILOAD 4
+    BIPUSH 8
+    ILOAD 4
+    BIPUSH 18
+    IMUL
+    IADD
+    SIPUSH 142
+    INVOKESPECIAL acc.<init> (Lql;III)V
+    INVOKEVIRTUAL abm.a (Lacc;)Lacc;
+    POP
+   L24
+    LINENUMBER 45 L24
+    IINC 4 1
+    GOTO L21
+   L22
+    LINENUMBER 49 L22
+   FRAME FULL [abm zr aid cm I] []
+    ALOAD 0
+    ALOAD 0
+    GETFIELD abm.a : Labl;
+    INVOKEVIRTUAL abm.a (Lql;)V
+   L25
+    LINENUMBER 50 L25
+    RETURN
+   L26
+    LOCALVARIABLE this Labm; L0 L26 0
+    LOCALVARIABLE ☃ Lzr; L0 L26 1
+    LOCALVARIABLE ☃ Laid; L0 L26 2
+    LOCALVARIABLE ☃ Lcm; L0 L26 3
+    LOCALVARIABLE ☃ I L7 L8 4
+    LOCALVARIABLE ☃ I L10 L11 5
+    LOCALVARIABLE ☃ I L14 L15 4
+    LOCALVARIABLE ☃ I L17 L18 5
+    LOCALVARIABLE ☃ I L21 L22 4
+    MAXSTACK = 9
+    MAXLOCALS = 6
+
+  // access flags 0x1
+  public a(Lql;)V
+   L0
+    LINENUMBER 54 L0
+    ALOAD 0
+    GETFIELD abm.f : Lql;
+    ICONST_0
+    INVOKESTATIC age.a ()Lage;
+    ALOAD 0
+    GETFIELD abm.a : Labl;
+    ALOAD 0
+    GETFIELD abm.g : Laid;
+    INVOKEVIRTUAL age.a (Labl;Laid;)Ladz;
+    INVOKEINTERFACE ql.a (ILadz;)V
+   L1
+    LINENUMBER 55 L1
+    RETURN
+   L2
+    LOCALVARIABLE this Labm; L0 L2 0
+    LOCALVARIABLE ☃ Lql; L0 L2 1
+    MAXSTACK = 5
+    MAXLOCALS = 2
+
+  // access flags 0x1
+  public b(Lzs;)V
+   L0
+    LINENUMBER 59 L0
+    ALOAD 0
+    ALOAD 1
+    INVOKESPECIAL abd.b (Lzs;)V
+   L1
+    LINENUMBER 60 L1
+    ALOAD 0
+    GETFIELD abm.g : Laid;
+    GETFIELD aid.E : Z
+    IFEQ L2
+   L3
+    LINENUMBER 61 L3
+    RETURN
+   L2
+    LINENUMBER 64 L2
+   FRAME FULL [abm zs] []
+    ICONST_0
+    ISTORE 2
+   L4
+   FRAME FULL [abm zs I] []
+    ILOAD 2
+    BIPUSH 9
+    IF_ICMPGE L5
+   L6
+    LINENUMBER 65 L6
+    ALOAD 0
+    GETFIELD abm.a : Labl;
+    ILOAD 2
+    INVOKEVIRTUAL abl.b (I)Ladz;
+    ASTORE 3
+   L7
+    LINENUMBER 66 L7
+    ALOAD 3
+    IFNULL L8
+   L9
+    LINENUMBER 67 L9
+    ALOAD 1
+    ALOAD 3
+    ICONST_0
+    INVOKEVIRTUAL zs.a (Ladz;Z)Lyk;
+    POP
+   L8
+    LINENUMBER 64 L8
+   FRAME FULL [abm zs I adz] []
+    IINC 2 1
+    GOTO L4
+   L5
+    LINENUMBER 70 L5
+   FRAME FULL [abm zs I] []
+    RETURN
+   L10
+    LOCALVARIABLE this Labm; L0 L10 0
+    LOCALVARIABLE ☃ Lzs; L0 L10 1
+    LOCALVARIABLE ☃ I L4 L5 2
+    LOCALVARIABLE ☃ Ladz; L7 L8 3
+    MAXSTACK = 3
+    MAXLOCALS = 4
+
+  // access flags 0x1
+  public a(Lzs;)Z
+   L0
+    LINENUMBER 74 L0
+    ALOAD 0
+    GETFIELD abm.g : Laid;
+    ALOAD 0
+    GETFIELD abm.h : Lcm;
+    INVOKEVIRTUAL aid.o (Lcm;)Lars;
+    INVOKEINTERFACE ars.t ()Lakf;
+    GETSTATIC akg.ai : Lakf;
+    IF_ACMPEQ L1
+   L2
+    LINENUMBER 75 L2
+    ICONST_0
+    IRETURN
+   L1
+    LINENUMBER 77 L1
+   FRAME FULL [abm zs] []
+    ALOAD 1
+    ALOAD 0
+    GETFIELD abm.h : Lcm;
+    INVOKEVIRTUAL cm.p ()I
+    I2D
+    LDC 0.5
+    DADD
+    ALOAD 0
+    GETFIELD abm.h : Lcm;
+    INVOKEVIRTUAL cm.q ()I
+    I2D
+    LDC 0.5
+    DADD
+    ALOAD 0
+    GETFIELD abm.h : Lcm;
+    INVOKEVIRTUAL cm.r ()I
+    I2D
+    LDC 0.5
+    DADD
+    INVOKEVIRTUAL zs.e (DDD)D
+    LDC 64.0
+    DCMPL
+    IFLE L3
+   L4
+    LINENUMBER 78 L4
+    ICONST_0
+    IRETURN
+   L3
+    LINENUMBER 80 L3
+   FRAME FULL [abm zs] []
+    ICONST_1
+    IRETURN
+   L5
+    LOCALVARIABLE this Labm; L0 L5 0
+    LOCALVARIABLE ☃ Lzs; L0 L5 1
+    MAXSTACK = 9
+    MAXLOCALS = 2
+
+  // access flags 0x1
+  public b(Lzs;I)Ladz;
+  @Ljavax/annotation/Nullable;()
+   L0
+    LINENUMBER 86 L0
+    ACONST_NULL
+    ASTORE 3
+   L1
+    LINENUMBER 87 L1
+    ALOAD 0
+    GETFIELD abm.c : Ljava/util/List;
+    ILOAD 2
+    INVOKEINTERFACE java/util/List.get (I)Ljava/lang/Object;
+    CHECKCAST acc
+    ASTORE 4
+   L2
+    LINENUMBER 88 L2
+    ALOAD 4
+    IFNULL L3
+    ALOAD 4
+    INVOKEVIRTUAL acc.e ()Z
+    IFEQ L3
+   L4
+    LINENUMBER 89 L4
+    ALOAD 4
+    INVOKEVIRTUAL acc.d ()Ladz;
+    ASTORE 5
+   L5
+    LINENUMBER 90 L5
+    ALOAD 5
+    INVOKEVIRTUAL adz.k ()Ladz;
+    ASTORE 3
+   L6
+    LINENUMBER 92 L6
+    ILOAD 2
+    IFNE L7
+    NEW codechicken/lib/inventory/InventoryRange
+    DUP
+    ALOAD 0
+    GETFIELD abm.c : Ljava/util/List;
+    BIPUSH 10
+    INVOKEINTERFACE java/util/List.get (I)Ljava/lang/Object;
+    CHECKCAST acc
+    GETFIELD acc.d : Lql;
+    ICONST_0
+    BIPUSH 36
+    INVOKESPECIAL codechicken/lib/inventory/InventoryRange.<init> (Lnet/minecraft/inventory/IInventory;II)V
+    ALOAD 5
+    ICONST_1
+    INVOKESTATIC codechicken/lib/inventory/InventoryUtils.insertItem (Lcodechicken/lib/inventory/InventoryRange;Lnet/minecraft/item/ItemStack;Z)I
+    IFEQ L8
+    ACONST_NULL
+    ARETURN
+   L8
+    LINENUMBER 93 L8
+   FRAME FULL [abm zs I adz acc adz] []
+    ALOAD 0
+    ALOAD 5
+    BIPUSH 10
+    BIPUSH 46
+    ICONST_1
+    INVOKEVIRTUAL abm.a (Ladz;IIZ)Z
+    IFNE L9
+   L10
+    LINENUMBER 94 L10
+    ACONST_NULL
+    ARETURN
+   L9
+    LINENUMBER 96 L9
+   FRAME FULL [abm zs I adz acc adz] []
+    ALOAD 4
+    ALOAD 5
+    ALOAD 3
+    INVOKEVIRTUAL acc.a (Ladz;Ladz;)V
+    GOTO L11
+   L7
+    LINENUMBER 97 L7
+   FRAME FULL [abm zs I adz acc adz] []
+    ILOAD 2
+    BIPUSH 10
+    IF_ICMPLT L12
+    ILOAD 2
+    BIPUSH 37
+    IF_ICMPGE L12
+   L13
+    LINENUMBER 98 L13
+    ALOAD 0
+    ALOAD 5
+    BIPUSH 37
+    BIPUSH 46
+    ICONST_0
+    INVOKEVIRTUAL abm.a (Ladz;IIZ)Z
+    IFNE L11
+   L14
+    LINENUMBER 99 L14
+    ACONST_NULL
+    ARETURN
+   L12
+    LINENUMBER 101 L12
+   FRAME FULL [abm zs I adz acc adz] []
+    ILOAD 2
+    BIPUSH 37
+    IF_ICMPLT L15
+    ILOAD 2
+    BIPUSH 46
+    IF_ICMPGE L15
+   L16
+    LINENUMBER 102 L16
+    ALOAD 0
+    ALOAD 5
+    BIPUSH 10
+    BIPUSH 37
+    ICONST_0
+    INVOKEVIRTUAL abm.a (Ladz;IIZ)Z
+    IFNE L11
+   L17
+    LINENUMBER 103 L17
+    ACONST_NULL
+    ARETURN
+   L15
+    LINENUMBER 106 L15
+   FRAME FULL [abm zs I adz acc adz] []
+    ALOAD 0
+    ALOAD 5
+    BIPUSH 10
+    BIPUSH 46
+    ICONST_0
+    INVOKEVIRTUAL abm.a (Ladz;IIZ)Z
+    IFNE L11
+   L18
+    LINENUMBER 107 L18
+    ACONST_NULL
+    ARETURN
+   L11
+    LINENUMBER 110 L11
+   FRAME FULL [abm zs I adz acc adz] []
+    ALOAD 5
+    GETFIELD adz.b : I
+    IFNE L19
+   L20
+    LINENUMBER 111 L20
+    ALOAD 4
+    ACONST_NULL
+    INVOKEVIRTUAL acc.d (Ladz;)V
+    GOTO L21
+   L19
+    LINENUMBER 113 L19
+   FRAME FULL [abm zs I adz acc adz] []
+    ALOAD 4
+    INVOKEVIRTUAL acc.f ()V
+   L21
+    LINENUMBER 115 L21
+   FRAME FULL [abm zs I adz acc adz] []
+    ALOAD 5
+    GETFIELD adz.b : I
+    ALOAD 3
+    GETFIELD adz.b : I
+    IF_ICMPNE L22
+   L23
+    LINENUMBER 117 L23
+    ACONST_NULL
+    ARETURN
+   L22
+    LINENUMBER 119 L22
+   FRAME FULL [abm zs I adz acc adz] []
+    ALOAD 4
+    ALOAD 1
+    ALOAD 5
+    INVOKEVIRTUAL acc.a (Lzs;Ladz;)V
+   L3
+    LINENUMBER 122 L3
+   FRAME FULL [abm zs I adz acc] []
+    ALOAD 3
+    ARETURN
+   L24
+    LOCALVARIABLE this Labm; L0 L24 0
+    LOCALVARIABLE ☃ Lzs; L0 L24 1
+    LOCALVARIABLE ☃ I L0 L24 2
+    LOCALVARIABLE ☃ Ladz; L1 L24 3
+    LOCALVARIABLE ☃ Lacc; L2 L24 4
+    LOCALVARIABLE ☃ Ladz; L5 L3 5
+    MAXSTACK = 5
+    MAXLOCALS = 6
+
+  // access flags 0x1
+  public a(Ladz;Lacc;)Z
+   L0
+    LINENUMBER 127 L0
+    ALOAD 2
+    GETFIELD acc.d : Lql;
+    ALOAD 0
+    GETFIELD abm.f : Lql;
+    IF_ACMPEQ L1
+    ALOAD 0
+    ALOAD 1
+    ALOAD 2
+    INVOKESPECIAL abd.a (Ladz;Lacc;)Z
+    IFEQ L1
+    ICONST_1
+    GOTO L2
+   L1
+   FRAME FULL [abm adz acc] []
+    ICONST_0
+   L2
+   FRAME FULL [abm adz acc] [I]
+    IRETURN
+   L3
+    LOCALVARIABLE this Labm; L0 L3 0
+    LOCALVARIABLE ☃ Ladz; L0 L3 1
+    LOCALVARIABLE ☃ Lacc; L0 L3 2
+    MAXSTACK = 3
+    MAXLOCALS = 3
+
+  // access flags 0x1001
+  public synthetic invtweaks$showButtons()Z
+    ICONST_1
+    IRETURN
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1001
+  public synthetic invtweaks$validInventory()Z
+    ICONST_1
+    IRETURN
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1001
+  public synthetic invtweaks$validChest()Z
+    ICONST_0
+    IRETURN
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1001
+  public synthetic invtweaks$largeChest()Z
+    ICONST_0
+    IRETURN
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1001
+  public synthetic invtweaks$rowSize()I
+    BIPUSH 9
+    IRETURN
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1001
+  public synthetic invtweaks$slotMap()Ljava/util/Map;
+    ALOAD 0
+    INVOKESTATIC invtweaks/container/VanillaSlotMaps.containerWorkbenchSlots (Labd;)Ljava/util/Map;
+    ARETURN
+    MAXSTACK = 1
+    MAXLOCALS = 1
+}

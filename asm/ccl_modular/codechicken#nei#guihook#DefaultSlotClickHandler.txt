@@ -1,0 +1,90 @@
+// class version 50.0 (50)
+// access flags 0x21
+public class codechicken/nei/guihook/DefaultSlotClickHandler implements codechicken/nei/guihook/IContainerSlotClickHandler  {
+
+  // compiled from: DefaultSlotClickHandler.java
+
+  // access flags 0x1
+  public <init>()V
+   L0
+    LINENUMBER 7 L0
+    ALOAD 0
+    INVOKESPECIAL java/lang/Object.<init> ()V
+    RETURN
+   L1
+    LOCALVARIABLE this Lcodechicken/nei/guihook/DefaultSlotClickHandler; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1
+  public beforeSlotClick(Lnet/minecraft/client/gui/inventory/GuiContainer;IILnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/ClickType;)V
+   L0
+    LINENUMBER 10 L0
+    RETURN
+   L1
+    LOCALVARIABLE this Lcodechicken/nei/guihook/DefaultSlotClickHandler; L0 L1 0
+    LOCALVARIABLE gui Lnet/minecraft/client/gui/inventory/GuiContainer; L0 L1 1
+    LOCALVARIABLE slotIndex I L0 L1 2
+    LOCALVARIABLE button I L0 L1 3
+    LOCALVARIABLE slot Lnet/minecraft/inventory/Slot; L0 L1 4
+    LOCALVARIABLE modifier Lnet/minecraft/inventory/ClickType; L0 L1 5
+    MAXSTACK = 0
+    MAXLOCALS = 6
+
+  // access flags 0x1
+  public handleSlotClick(Lnet/minecraft/client/gui/inventory/GuiContainer;IILnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/ClickType;Z)Z
+   L0
+    LINENUMBER 14 L0
+    ILOAD 6
+    IFNE L1
+   L2
+    LINENUMBER 15 L2
+    ALOAD 1
+    ALOAD 4
+    ILOAD 2
+    ILOAD 3
+    ALOAD 5
+    INVOKESTATIC codechicken/nei/guihook/DefaultSlotClickHandler.callHandleMouseClick (Lnet/minecraft/client/gui/inventory/GuiContainer;Lnet/minecraft/inventory/Slot;IILnet/minecraft/inventory/ClickType;)V
+   L1
+    LINENUMBER 18 L1
+   FRAME FULL [codechicken/nei/guihook/DefaultSlotClickHandler net/minecraft/client/gui/inventory/GuiContainer I I net/minecraft/inventory/Slot net/minecraft/inventory/ClickType I] []
+    ICONST_1
+    IRETURN
+   L3
+    LOCALVARIABLE this Lcodechicken/nei/guihook/DefaultSlotClickHandler; L0 L3 0
+    LOCALVARIABLE gui Lnet/minecraft/client/gui/inventory/GuiContainer; L0 L3 1
+    LOCALVARIABLE slotIndex I L0 L3 2
+    LOCALVARIABLE button I L0 L3 3
+    LOCALVARIABLE slot Lnet/minecraft/inventory/Slot; L0 L3 4
+    LOCALVARIABLE clickType Lnet/minecraft/inventory/ClickType; L0 L3 5
+    LOCALVARIABLE eventConsumed Z L0 L3 6
+    MAXSTACK = 5
+    MAXLOCALS = 7
+
+  // access flags 0x9
+  public static callHandleMouseClick(Lnet/minecraft/client/gui/inventory/GuiContainer;Lnet/minecraft/inventory/Slot;IILnet/minecraft/inventory/ClickType;)V
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ALOAD 4
+    INVOKEVIRTUAL net/minecraft/client/gui/inventory/GuiContainer.public_func_184098_a (Lnet/minecraft/inventory/Slot;IILnet/minecraft/inventory/ClickType;)V
+    RETURN
+    MAXSTACK = 5
+    MAXLOCALS = 5
+
+  // access flags 0x1
+  public afterSlotClick(Lnet/minecraft/client/gui/inventory/GuiContainer;IILnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/ClickType;)V
+   L0
+    LINENUMBER 27 L0
+    RETURN
+   L1
+    LOCALVARIABLE this Lcodechicken/nei/guihook/DefaultSlotClickHandler; L0 L1 0
+    LOCALVARIABLE gui Lnet/minecraft/client/gui/inventory/GuiContainer; L0 L1 1
+    LOCALVARIABLE slotIndex I L0 L1 2
+    LOCALVARIABLE button I L0 L1 3
+    LOCALVARIABLE slot Lnet/minecraft/inventory/Slot; L0 L1 4
+    LOCALVARIABLE clickType Lnet/minecraft/inventory/ClickType; L0 L1 5
+    MAXSTACK = 0
+    MAXLOCALS = 6
+}
