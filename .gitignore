@@ -1,6 +1,7 @@
 config/CustomSpawner/logs/*
 journeymap/*
 logs/*
+reports/*
 saves/*
 usercache.json
 usernamecache.json
