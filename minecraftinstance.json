@@ -18,7 +18,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2017-03-28T02:11:53.9898Z",
+  "lastPlayed": "2017-03-28T02:34:12.204949Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -49,35 +49,54 @@
       "fileSize": 9118373
     },
     {
+      "folderName": "NotEnoughItems-1.10.2-2.1.3.201-universal.jar",
+      "fingerprint": 132986386,
+      "fileDateHash": 915004047,
+      "sectionID": 6,
+      "individualFingerprints": [
+        132986386
+      ],
+      "status": 1,
+      "timestamp": "2017-03-28T02:17:34.962312Z",
+      "lastWriteTimeUtc": "2017-03-28T00:57:04Z",
+      "queryTimestamp": "2017-03-28T02:17:36.272441Z",
+      "fileCount": 1,
+      "fileSize": 584084
+    },
+    {
       "folderName": "New World",
-      "fingerprint": 1778240149,
-      "fileDateHash": 3556844212,
+      "fingerprint": 690190446,
+      "fileDateHash": 646135767,
       "sectionID": 17,
       "individualFingerprints": [
         134024338,
-        323467279,
-        550961169,
+        240059296,
+        380021271,
+        531916769,
         758054953,
         758054953,
         758054953,
         758054953,
-        823338583,
-        1086708565,
-        1570339701,
-        1741800544,
-        1874904048,
-        2352417482,
-        2382561564,
+        1039224327,
+        1523813722,
+        1540447798,
+        1623552117,
+        1651052565,
+        2549455674,
+        2723596731,
         2954036017,
-        3323986395,
-        3562105272,
+        3193949012,
+        3236982471,
+        3287419960,
+        3334200913,
+        3499970719,
         3615092859,
-        3698053743,
-        3875651298,
+        3846717548,
+        3846717548,
+        3846717548,
+        3939919966,
         3955579117,
-        4145692533,
-        4145692533,
-        4145692533,
+        4183677585,
         4213863462,
         4213863462,
         4213863462,
@@ -85,11 +104,41 @@
         4213863462
       ],
       "status": 1,
-      "timestamp": "2017-03-27T04:41:56.972174Z",
-      "lastWriteTimeUtc": "2017-03-27T01:21:35Z",
-      "queryTimestamp": "2017-03-27T16:22:28.498156Z",
-      "fileCount": 12,
+      "timestamp": "2017-03-28T02:17:35.140816Z",
+      "lastWriteTimeUtc": "2017-03-28T02:05:42Z",
+      "queryTimestamp": "2017-03-28T02:17:36.272589Z",
+      "fileCount": 13,
       "fileSize": 0
+    },
+    {
+      "folderName": "jei_1.10.2-3.14.7.416.jar",
+      "fingerprint": 2632413655,
+      "fileDateHash": 681707771,
+      "sectionID": 6,
+      "individualFingerprints": [
+        2632413655
+      ],
+      "status": 1,
+      "timestamp": "2017-03-28T02:17:35.094309Z",
+      "lastWriteTimeUtc": "2017-03-28T00:57:03Z",
+      "queryTimestamp": "2017-03-28T02:17:36.272757Z",
+      "fileCount": 1,
+      "fileSize": 468461
+    },
+    {
+      "folderName": "CodeChickenLib-1.10.2-2.5.7.241-universal.jar",
+      "fingerprint": 3654665993,
+      "fileDateHash": 681707771,
+      "sectionID": 6,
+      "individualFingerprints": [
+        3654665993
+      ],
+      "status": 1,
+      "timestamp": "2017-03-28T02:17:34.946026Z",
+      "lastWriteTimeUtc": "2017-03-28T00:57:03Z",
+      "queryTimestamp": "2017-03-28T02:17:36.272978Z",
+      "fileCount": 1,
+      "fileSize": 677094
     },
     {
       "folderName": "CustomMobSpawner 3.10.1.jar",
@@ -105,6 +154,21 @@
       "queryTimestamp": "2017-03-28T00:46:08.134913Z",
       "fileCount": 1,
       "fileSize": 720628
+    },
+    {
+      "folderName": "OpenEye-1.10.2-0.8.jar",
+      "fingerprint": 2012771953,
+      "fileDateHash": 1958650704,
+      "sectionID": 6,
+      "individualFingerprints": [
+        2012771953
+      ],
+      "status": 1,
+      "timestamp": "2017-03-28T02:17:34.977751Z",
+      "lastWriteTimeUtc": "2017-03-28T01:24:02Z",
+      "queryTimestamp": "2017-03-28T02:17:36.273308Z",
+      "fileCount": 1,
+      "fileSize": 194427
     },
     {
       "folderName": "DrZhark's Mo'Creatures Mod-10.0.6.jar",
@@ -167,6 +231,23 @@
       "fileSize": 195655
     },
     {
+      "folderName": "NEI",
+      "fingerprint": 1329255886,
+      "fileDateHash": 3383081490,
+      "sectionID": 17,
+      "individualFingerprints": [
+        530454308,
+        1540447798,
+        3818714025
+      ],
+      "status": 1,
+      "timestamp": "2017-03-28T02:17:35.114902Z",
+      "lastWriteTimeUtc": "2017-03-28T01:14:15Z",
+      "queryTimestamp": "2017-03-28T02:17:36.274173Z",
+      "fileCount": 2,
+      "fileSize": 0
+    },
+    {
       "folderName": "BiomesOPlenty-1.10.2-5.0.0.2155-universal.jar",
       "fingerprint": 3739003451,
       "fileDateHash": 1679409896,
@@ -212,6 +293,21 @@
       "fileSize": 149261
     },
     {
+      "folderName": "Railcraft_1.10.2-10.0.1.jar",
+      "fingerprint": 3167411059,
+      "fileDateHash": 1844063344,
+      "sectionID": 6,
+      "individualFingerprints": [
+        3167411059
+      ],
+      "status": 1,
+      "timestamp": "2017-03-28T02:17:34.982332Z",
+      "lastWriteTimeUtc": "2017-03-28T01:53:58Z",
+      "queryTimestamp": "2017-03-28T02:17:36.274907Z",
+      "fileCount": 1,
+      "fileSize": 3707140
+    },
+    {
       "folderName": "DynamicLights-1.10.2.zip",
       "fingerprint": 1852142374,
       "fileDateHash": 1143270474,
@@ -240,10 +336,40 @@
       "queryTimestamp": "2017-03-27T16:22:28.499359Z",
       "fileCount": 1,
       "fileSize": 6795580
+    },
+    {
+      "folderName": "CodeChickenCore-1.10.2-2.4.0.101-universal.jar",
+      "fingerprint": 905797769,
+      "fileDateHash": 681707771,
+      "sectionID": 6,
+      "individualFingerprints": [
+        905797769
+      ],
+      "status": 1,
+      "timestamp": "2017-03-28T02:17:34.941451Z",
+      "lastWriteTimeUtc": "2017-03-28T00:57:03Z",
+      "queryTimestamp": "2017-03-28T02:17:36.275468Z",
+      "fileCount": 1,
+      "fileSize": 105635
+    },
+    {
+      "folderName": "Ruins-1.10.2.zip",
+      "fingerprint": 1112164016,
+      "fileDateHash": 3746179927,
+      "sectionID": 6,
+      "individualFingerprints": [
+        1112164016
+      ],
+      "status": 1,
+      "timestamp": "2017-03-28T02:17:35.087499Z",
+      "lastWriteTimeUtc": "2017-03-28T02:09:14Z",
+      "queryTimestamp": "2017-03-28T02:17:36.275614Z",
+      "fileCount": 1,
+      "fileSize": 294998
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2017-03-28T00:46:08.681616Z",
+  "lastPreviousMatchUpdate": "2017-03-28T02:17:37.019926Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.10.2",
@@ -1360,6 +1486,129 @@
       "dateInstalled": "2017-03-28T02:09:14.851312Z",
       "dateUpdated": "2017-03-28T02:09:14.853517Z",
       "dateLastUpdateAttempted": "2017-03-28T02:09:14.853517Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null
+    },
+    {
+      "addonID": 74924,
+      "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
+      "installedFile": {
+        "Id": 2380279,
+        "FileName": "Mantle-1.10.2-1.1.5.jar",
+        "FileNameOnDisk": "Mantle-1.10.2-1.1.5.jar",
+        "FileDate": "2017-02-11T15:03:19",
+        "ReleaseType": 1,
+        "FileStatus": 2,
+        "DownloadURL": "https://addons.cursecdn.com/files/2380/279/Mantle-1.10.2-1.1.5.jar",
+        "IsAlternate": false,
+        "AlternateFileId": 0,
+        "Dependencies": [],
+        "IsAvailable": true,
+        "Modules": [
+          {
+            "Foldername": "assets",
+            "Fingerprint": 615409105
+          },
+          {
+            "Foldername": "Mantle.png",
+            "Fingerprint": 3296224890
+          },
+          {
+            "Foldername": "mcmod.info",
+            "Fingerprint": 375909602
+          },
+          {
+            "Foldername": "META-INF",
+            "Fingerprint": 3127738656
+          },
+          {
+            "Foldername": "slimeknights",
+            "Fingerprint": 659071082
+          }
+        ],
+        "PackageFingerprint": 2757469445,
+        "GameVersion": [
+          "1.10.2"
+        ]
+      },
+      "dateInstalled": "2017-03-28T02:26:49.158141Z",
+      "dateUpdated": "2017-03-28T02:26:49.16198Z",
+      "dateLastUpdateAttempted": "2017-03-28T02:26:49.16198Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null
+    },
+    {
+      "addonID": 74072,
+      "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
+      "installedFile": {
+        "Id": 2380816,
+        "FileName": "TConstruct-1.10.2-2.6.3.jar",
+        "FileNameOnDisk": "TConstruct-1.10.2-2.6.3.jar",
+        "FileDate": "2017-02-12T16:55:28",
+        "ReleaseType": 1,
+        "FileStatus": 2,
+        "DownloadURL": "https://addons.cursecdn.com/files/2380/816/TConstruct-1.10.2-2.6.3.jar",
+        "IsAlternate": false,
+        "AlternateFileId": 0,
+        "Dependencies": [
+          {
+            "AddOnId": 74924,
+            "Type": 1
+          }
+        ],
+        "IsAvailable": true,
+        "Modules": [
+          {
+            "Foldername": "assets",
+            "Fingerprint": 1528107553
+          },
+          {
+            "Foldername": "logo.png",
+            "Fingerprint": 3056415901
+          },
+          {
+            "Foldername": "mcmod.info",
+            "Fingerprint": 166950653
+          },
+          {
+            "Foldername": "META-INF",
+            "Fingerprint": 987865041
+          },
+          {
+            "Foldername": "pack.mcmeta",
+            "Fingerprint": 219889385
+          },
+          {
+            "Foldername": "slimeknights",
+            "Fingerprint": 2650143214
+          },
+          {
+            "Foldername": "TinkersConstruct.png",
+            "Fingerprint": 3056415901
+          }
+        ],
+        "PackageFingerprint": 2969161272,
+        "GameVersion": [
+          "1.10.2"
+        ]
+      },
+      "dateInstalled": "2017-03-28T02:26:52.357887Z",
+      "dateUpdated": "2017-03-28T02:26:52.365082Z",
+      "dateLastUpdateAttempted": "2017-03-28T02:26:52.365082Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,

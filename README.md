@@ -19,3 +19,4 @@ It'll also provide a much simpler installation process and a nice interface for 
 * [OpenEye](https://mods.curse.com/mc-mods/minecraft/251457-openeye) by OpenMods & other_boq
 * [RailCraft](https://mods.curse.com/mc-mods/minecraft/railcraft) by CovertJaguar
 * [Ruins](https://mods.curse.com/mc-mods/minecraft/227873-ruins-structure-spawning-system) by doodv4d3r
+* [Tinkers Construct](https://mods.curse.com/mc-mods/minecraft/tinkers-construct) by mDiyo, bonusboni, jadedcat & KnightMiner
