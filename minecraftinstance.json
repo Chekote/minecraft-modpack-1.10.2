@@ -18,7 +18,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2017-03-27T00:31:42.84737Z",
+  "lastPlayed": "2017-03-28T02:11:53.9898Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -34,47 +34,50 @@
   "name": "Chekote 1.10.2",
   "cachedScans": [
     {
-      "folderName": "animania-1.10-1.0.0.jar",
-      "fingerprint": 3019696868,
-      "fileDateHash": 1334250783,
+      "folderName": "animania-1.10-1.0.4.1.jar",
+      "fingerprint": 3636694631,
+      "fileDateHash": 1082426121,
       "sectionID": 6,
       "individualFingerprints": [
-        3019696868
+        3636694631
       ],
       "status": 1,
-      "timestamp": "2017-03-27T00:22:12.017632Z",
-      "lastWriteTimeUtc": "2017-03-27T00:20:53Z",
-      "queryTimestamp": "2017-03-27T00:22:12.37654Z",
+      "timestamp": "2017-03-27T04:41:56.72596Z",
+      "lastWriteTimeUtc": "2017-03-27T00:31:20Z",
+      "queryTimestamp": "2017-03-27T16:22:28.49805Z",
       "fileCount": 1,
-      "fileSize": 5632668
+      "fileSize": 9118373
     },
     {
       "folderName": "New World",
-      "fingerprint": 4225878139,
-      "fileDateHash": 1128701991,
+      "fingerprint": 1778240149,
+      "fileDateHash": 3556844212,
       "sectionID": 17,
       "individualFingerprints": [
-        57343340,
         134024338,
-        169623824,
-        169623824,
-        169623824,
+        323467279,
+        550961169,
         758054953,
         758054953,
         758054953,
         758054953,
-        899896119,
-        1026208623,
-        1071446911,
-        1356315695,
-        1526376017,
-        1790298264,
-        2078486818,
-        2977298401,
-        3523033483,
+        823338583,
+        1086708565,
+        1570339701,
+        1741800544,
+        1874904048,
+        2352417482,
+        2382561564,
+        2954036017,
+        3323986395,
+        3562105272,
         3615092859,
-        3631495730,
+        3698053743,
+        3875651298,
         3955579117,
+        4145692533,
+        4145692533,
+        4145692533,
         4213863462,
         4213863462,
         4213863462,
@@ -82,9 +85,9 @@
         4213863462
       ],
       "status": 1,
-      "timestamp": "2017-03-27T00:22:12.092181Z",
-      "lastWriteTimeUtc": "2017-03-27T00:15:00Z",
-      "queryTimestamp": "2017-03-27T00:22:12.37737Z",
+      "timestamp": "2017-03-27T04:41:56.972174Z",
+      "lastWriteTimeUtc": "2017-03-27T01:21:35Z",
+      "queryTimestamp": "2017-03-27T16:22:28.498156Z",
       "fileCount": 12,
       "fileSize": 0
     },
@@ -99,7 +102,7 @@
       "status": 1,
       "timestamp": "2017-02-05T02:02:38.682501Z",
       "lastWriteTimeUtc": "2017-02-05T02:01:34Z",
-      "queryTimestamp": "2017-03-26T23:15:37.567329Z",
+      "queryTimestamp": "2017-03-28T00:46:08.134913Z",
       "fileCount": 1,
       "fileSize": 720628
     },
@@ -114,7 +117,7 @@
       "status": 1,
       "timestamp": "2017-02-05T02:02:38.695612Z",
       "lastWriteTimeUtc": "2017-02-05T02:01:35Z",
-      "queryTimestamp": "2017-03-26T23:15:37.567531Z",
+      "queryTimestamp": "2017-03-28T00:46:08.135021Z",
       "fileCount": 1,
       "fileSize": 22395171
     },
@@ -129,7 +132,7 @@
       "status": 1,
       "timestamp": "2017-02-05T02:02:39.088952Z",
       "lastWriteTimeUtc": "2017-02-05T02:00:42Z",
-      "queryTimestamp": "2017-03-26T23:15:37.567715Z",
+      "queryTimestamp": "2017-03-28T00:46:08.135095Z",
       "fileCount": 1,
       "fileSize": 77562
     },
@@ -144,24 +147,9 @@
       "status": 1,
       "timestamp": "2017-02-23T04:16:42.029772Z",
       "lastWriteTimeUtc": "2017-02-23T01:41:35Z",
-      "queryTimestamp": "2017-03-26T23:15:37.567895Z",
+      "queryTimestamp": "2017-03-28T00:46:08.135177Z",
       "fileCount": 1,
       "fileSize": 4994492
-    },
-    {
-      "folderName": "BloodMagic-1.10.2-2.1.4-73.jar",
-      "fingerprint": 199786630,
-      "fileDateHash": 2256960586,
-      "sectionID": 6,
-      "individualFingerprints": [
-        199786630
-      ],
-      "status": 1,
-      "timestamp": "2017-03-27T00:22:11.935758Z",
-      "lastWriteTimeUtc": "2017-03-27T00:20:52Z",
-      "queryTimestamp": "2017-03-27T00:22:12.377744Z",
-      "fileCount": 1,
-      "fileSize": 6793264
     },
     {
       "folderName": "Guide-API-1.10.2-2.0.3-46.jar",
@@ -174,7 +162,7 @@
       "status": 1,
       "timestamp": "2017-02-23T04:16:42.351998Z",
       "lastWriteTimeUtc": "2017-02-23T01:40:15Z",
-      "queryTimestamp": "2017-03-26T23:15:37.568261Z",
+      "queryTimestamp": "2017-03-28T00:46:08.135254Z",
       "fileCount": 1,
       "fileSize": 195655
     },
@@ -189,24 +177,9 @@
       "status": 1,
       "timestamp": "2017-02-23T04:16:42.133064Z",
       "lastWriteTimeUtc": "2017-02-23T01:41:01Z",
-      "queryTimestamp": "2017-03-26T23:15:37.568449Z",
+      "queryTimestamp": "2017-03-28T00:46:08.135348Z",
       "fileCount": 1,
       "fileSize": 6167473
-    },
-    {
-      "folderName": "ironchest-1.10.2-7.0.11.797.jar",
-      "fingerprint": 3042478999,
-      "fileDateHash": 3901146309,
-      "sectionID": 6,
-      "individualFingerprints": [
-        3042478999
-      ],
-      "status": 1,
-      "timestamp": "2017-02-05T02:02:39.095577Z",
-      "lastWriteTimeUtc": "2017-02-05T02:01:34Z",
-      "queryTimestamp": "2017-03-26T23:15:37.568773Z",
-      "fileCount": 1,
-      "fileSize": 149261
     },
     {
       "folderName": "InventoryTweaks-1.61-58.jar",
@@ -219,9 +192,24 @@
       "status": 1,
       "timestamp": "2017-02-05T02:02:39.092905Z",
       "lastWriteTimeUtc": "2017-02-05T02:01:33Z",
-      "queryTimestamp": "2017-03-26T23:15:37.568623Z",
+      "queryTimestamp": "2017-03-28T00:46:08.135505Z",
       "fileCount": 1,
       "fileSize": 230808
+    },
+    {
+      "folderName": "ironchest-1.10.2-7.0.11.797.jar",
+      "fingerprint": 3042478999,
+      "fileDateHash": 3901146309,
+      "sectionID": 6,
+      "individualFingerprints": [
+        3042478999
+      ],
+      "status": 1,
+      "timestamp": "2017-02-05T02:02:39.095577Z",
+      "lastWriteTimeUtc": "2017-02-05T02:01:34Z",
+      "queryTimestamp": "2017-03-28T00:46:08.135428Z",
+      "fileCount": 1,
+      "fileSize": 149261
     },
     {
       "folderName": "DynamicLights-1.10.2.zip",
@@ -234,13 +222,28 @@
       "status": 1,
       "timestamp": "2017-02-05T02:02:39.085645Z",
       "lastWriteTimeUtc": "2017-02-05T02:00:41Z",
-      "queryTimestamp": "2017-03-26T23:15:37.569Z",
+      "queryTimestamp": "2017-03-28T00:46:08.135576Z",
       "fileCount": 1,
       "fileSize": 301211
+    },
+    {
+      "folderName": "BloodMagic-1.10.2-2.1.7-76.jar",
+      "fingerprint": 1561316923,
+      "fileDateHash": 2950126972,
+      "sectionID": 6,
+      "individualFingerprints": [
+        1561316923
+      ],
+      "status": 1,
+      "timestamp": "2017-03-27T04:41:56.1731Z",
+      "lastWriteTimeUtc": "2017-03-27T00:22:39Z",
+      "queryTimestamp": "2017-03-27T16:22:28.499359Z",
+      "fileCount": 1,
+      "fileSize": 6795580
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2017-03-27T00:04:11.563086Z",
+  "lastPreviousMatchUpdate": "2017-03-28T00:46:08.681616Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.10.2",
@@ -854,7 +857,7 @@
       "dateInstalled": "2017-03-27T00:22:12.500845Z",
       "dateUpdated": "2017-03-27T00:31:20.634474Z",
       "dateLastUpdateAttempted": "2017-03-27T00:31:20.634474Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -934,6 +937,429 @@
       "dateInstalled": "2017-03-27T00:22:12.617342Z",
       "dateUpdated": "2017-03-27T00:22:39.262886Z",
       "dateLastUpdateAttempted": "2017-03-27T00:22:39.262886Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null
+    },
+    {
+      "addonID": 238222,
+      "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
+      "installedFile": {
+        "Id": 2390097,
+        "FileName": "jei_1.10.2-3.14.7.416.jar",
+        "FileNameOnDisk": "jei_1.10.2-3.14.7.416.jar",
+        "FileDate": "2017-03-07T22:04:58",
+        "ReleaseType": 1,
+        "FileStatus": 2,
+        "DownloadURL": "https://addons.cursecdn.com/files/2390/97/jei_1.10.2-3.14.7.416.jar",
+        "IsAlternate": false,
+        "AlternateFileId": 0,
+        "Dependencies": [],
+        "IsAvailable": true,
+        "Modules": [
+          {
+            "Foldername": "assets",
+            "Fingerprint": 2491184722
+          },
+          {
+            "Foldername": "mcmod.info",
+            "Fingerprint": 2912756456
+          },
+          {
+            "Foldername": "META-INF",
+            "Fingerprint": 537338346
+          },
+          {
+            "Foldername": "mezz",
+            "Fingerprint": 2925543003
+          }
+        ],
+        "PackageFingerprint": 2632413655,
+        "GameVersion": [
+          "1.10.2"
+        ]
+      },
+      "dateInstalled": "2017-03-28T00:57:03.268182Z",
+      "dateUpdated": "2017-03-28T00:57:03.274267Z",
+      "dateLastUpdateAttempted": "2017-03-28T00:57:03.274267Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null
+    },
+    {
+      "addonID": 242818,
+      "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
+      "installedFile": {
+        "Id": 2396107,
+        "FileName": "CodeChicken Lib 1.10.2-2.5.7.241-universal",
+        "FileNameOnDisk": "CodeChickenLib-1.10.2-2.5.7.241-universal.jar",
+        "FileDate": "2017-03-22T09:38:09",
+        "ReleaseType": 1,
+        "FileStatus": 2,
+        "DownloadURL": "https://addons.cursecdn.com/files/2396/107/CodeChickenLib-1.10.2-2.5.7.241-universal.jar",
+        "IsAlternate": false,
+        "AlternateFileId": 0,
+        "Dependencies": [],
+        "IsAvailable": true,
+        "Modules": [
+          {
+            "Foldername": "assets",
+            "Fingerprint": 652703619
+          },
+          {
+            "Foldername": "codechicken",
+            "Fingerprint": 3124780049
+          },
+          {
+            "Foldername": "mcmod.info",
+            "Fingerprint": 3814471493
+          },
+          {
+            "Foldername": "META-INF",
+            "Fingerprint": 3206794077
+          }
+        ],
+        "PackageFingerprint": 3654665993,
+        "GameVersion": [
+          "1.10.2"
+        ]
+      },
+      "dateInstalled": "2017-03-28T00:57:03.586065Z",
+      "dateUpdated": "2017-03-28T00:57:03.589132Z",
+      "dateLastUpdateAttempted": "2017-03-28T00:57:03.589132Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null
+    },
+    {
+      "addonID": 243822,
+      "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
+      "installedFile": {
+        "Id": 2367098,
+        "FileName": "CodeChicken Core 1.10.2-2.4.0.101-universal",
+        "FileNameOnDisk": "CodeChickenCore-1.10.2-2.4.0.101-universal.jar",
+        "FileDate": "2017-01-11T20:49:45",
+        "ReleaseType": 1,
+        "FileStatus": 2,
+        "DownloadURL": "https://addons.cursecdn.com/files/2367/98/CodeChickenCore-1.10.2-2.4.0.101-universal.jar",
+        "IsAlternate": false,
+        "AlternateFileId": 0,
+        "Dependencies": [
+          {
+            "AddOnId": 242818,
+            "Type": 1
+          }
+        ],
+        "IsAvailable": true,
+        "Modules": [
+          {
+            "Foldername": "assets",
+            "Fingerprint": 1371961654
+          },
+          {
+            "Foldername": "codechicken",
+            "Fingerprint": 1695009057
+          },
+          {
+            "Foldername": "mcmod.info",
+            "Fingerprint": 327290984
+          },
+          {
+            "Foldername": "META-INF",
+            "Fingerprint": 2028146235
+          }
+        ],
+        "PackageFingerprint": 905797769,
+        "GameVersion": [
+          "1.10.2"
+        ]
+      },
+      "dateInstalled": "2017-03-28T00:57:03.792728Z",
+      "dateUpdated": "2017-03-28T00:57:03.794699Z",
+      "dateLastUpdateAttempted": "2017-03-28T00:57:03.794699Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null
+    },
+    {
+      "addonID": 247694,
+      "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
+      "installedFile": {
+        "Id": 2379509,
+        "FileName": "Not Enough Items 1.10.2-2.1.3.201-universal",
+        "FileNameOnDisk": "NotEnoughItems-1.10.2-2.1.3.201-universal.jar",
+        "FileDate": "2017-02-09T07:28:25",
+        "ReleaseType": 1,
+        "FileStatus": 2,
+        "DownloadURL": "https://addons.cursecdn.com/files/2379/509/NotEnoughItems-1.10.2-2.1.3.201-universal.jar",
+        "IsAlternate": false,
+        "AlternateFileId": 0,
+        "Dependencies": [
+          {
+            "AddOnId": 238222,
+            "Type": 1
+          },
+          {
+            "AddOnId": 242818,
+            "Type": 1
+          },
+          {
+            "AddOnId": 243822,
+            "Type": 1
+          }
+        ],
+        "IsAvailable": true,
+        "Modules": [
+          {
+            "Foldername": "assets",
+            "Fingerprint": 1078922777
+          },
+          {
+            "Foldername": "codechicken",
+            "Fingerprint": 4263908833
+          },
+          {
+            "Foldername": "META-INF",
+            "Fingerprint": 2141569992
+          },
+          {
+            "Foldername": "neimod.info",
+            "Fingerprint": 2584056124
+          }
+        ],
+        "PackageFingerprint": 132986386,
+        "GameVersion": [
+          "1.10.2"
+        ]
+      },
+      "dateInstalled": "2017-03-28T00:57:04.09034Z",
+      "dateUpdated": "2017-03-28T00:57:04.093681Z",
+      "dateLastUpdateAttempted": "2017-03-28T00:57:04.093681Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null
+    },
+    {
+      "addonID": 251457,
+      "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
+      "installedFile": {
+        "Id": 2337259,
+        "FileName": "OpenEye-1.10.2-0.8.jar",
+        "FileNameOnDisk": "OpenEye-1.10.2-0.8.jar",
+        "FileDate": "2016-10-16T18:28:25",
+        "ReleaseType": 1,
+        "FileStatus": 2,
+        "DownloadURL": "https://addons.cursecdn.com/files/2337/259/OpenEye-1.10.2-0.8.jar",
+        "IsAlternate": false,
+        "AlternateFileId": 0,
+        "Dependencies": [],
+        "IsAvailable": true,
+        "Modules": [
+          {
+            "Foldername": "assets",
+            "Fingerprint": 1925911660
+          },
+          {
+            "Foldername": "identrust_root_x3.pem",
+            "Fingerprint": 833239164
+          },
+          {
+            "Foldername": "isrg_root_x1.pem",
+            "Fingerprint": 53181802
+          },
+          {
+            "Foldername": "mcmod.info",
+            "Fingerprint": 2999442659
+          },
+          {
+            "Foldername": "META-INF",
+            "Fingerprint": 3346236115
+          },
+          {
+            "Foldername": "openeye",
+            "Fingerprint": 1408158879
+          }
+        ],
+        "PackageFingerprint": 2012771953,
+        "GameVersion": [
+          "1.10.2"
+        ]
+      },
+      "dateInstalled": "2017-03-28T01:24:02.351253Z",
+      "dateUpdated": "2017-03-28T01:24:02.353702Z",
+      "dateLastUpdateAttempted": "2017-03-28T01:24:02.353702Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null
+    },
+    {
+      "addonID": 51195,
+      "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
+      "installedFile": {
+        "Id": 2350816,
+        "FileName": "Railcraft 10.0.1",
+        "FileNameOnDisk": "Railcraft_1.10.2-10.0.1.jar",
+        "FileDate": "2016-11-30T09:56:54",
+        "ReleaseType": 1,
+        "FileStatus": 2,
+        "DownloadURL": "https://addons.cursecdn.com/files/2350/816/Railcraft_1.10.2-10.0.1.jar",
+        "IsAlternate": false,
+        "AlternateFileId": 0,
+        "Dependencies": [],
+        "IsAvailable": true,
+        "Modules": [
+          {
+            "Foldername": "assets",
+            "Fingerprint": 3215686068
+          },
+          {
+            "Foldername": "change_log.txt",
+            "Fingerprint": 327447509
+          },
+          {
+            "Foldername": "cofh",
+            "Fingerprint": 4246242559
+          },
+          {
+            "Foldername": "credits.txt",
+            "Fingerprint": 1379337202
+          },
+          {
+            "Foldername": "ic2",
+            "Fingerprint": 1879772151
+          },
+          {
+            "Foldername": "localization_reformat.txt",
+            "Fingerprint": 481514740
+          },
+          {
+            "Foldername": "mcmod.info",
+            "Fingerprint": 3914212262
+          },
+          {
+            "Foldername": "META-INF",
+            "Fingerprint": 3809684483
+          },
+          {
+            "Foldername": "mods",
+            "Fingerprint": 3847253186
+          },
+          {
+            "Foldername": "railcraft.qm",
+            "Fingerprint": 3093669395
+          },
+          {
+            "Foldername": "Railcraft_License.txt",
+            "Fingerprint": 1838488754
+          },
+          {
+            "Foldername": "railcraft_version.json",
+            "Fingerprint": 2001448231
+          },
+          {
+            "Foldername": "README.md",
+            "Fingerprint": 4186567260
+          },
+          {
+            "Foldername": "regex_rules.txt",
+            "Fingerprint": 924694124
+          }
+        ],
+        "PackageFingerprint": 3167411059,
+        "GameVersion": [
+          "1.10.2"
+        ]
+      },
+      "dateInstalled": "2017-03-28T01:53:58.384118Z",
+      "dateUpdated": "2017-03-28T01:53:58.393028Z",
+      "dateLastUpdateAttempted": "2017-03-28T01:53:58.393028Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null
+    },
+    {
+      "addonID": 227873,
+      "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
+      "installedFile": {
+        "Id": 2367312,
+        "FileName": "Ruins (Structure Spawning System)",
+        "FileNameOnDisk": "Ruins-1.10.2.zip",
+        "FileDate": "2017-01-12T12:37:52",
+        "ReleaseType": 1,
+        "FileStatus": 2,
+        "DownloadURL": "https://addons.cursecdn.com/files/2367/312/Ruins-1.10.2.zip",
+        "IsAlternate": false,
+        "AlternateFileId": 0,
+        "Dependencies": [],
+        "IsAvailable": true,
+        "Modules": [
+          {
+            "Foldername": "examplesAndDocs",
+            "Fingerprint": 512910528
+          },
+          {
+            "Foldername": "mods",
+            "Fingerprint": 612923944
+          },
+          {
+            "Foldername": "readme.txt",
+            "Fingerprint": 1588774689
+          },
+          {
+            "Foldername": "Where to put this.txt",
+            "Fingerprint": 194942063
+          }
+        ],
+        "PackageFingerprint": 1112164016,
+        "GameVersion": [
+          "1.10.2"
+        ]
+      },
+      "dateInstalled": "2017-03-28T02:09:14.851312Z",
+      "dateUpdated": "2017-03-28T02:09:14.853517Z",
+      "dateLastUpdateAttempted": "2017-03-28T02:09:14.853517Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,

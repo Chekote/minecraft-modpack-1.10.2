@@ -18,3 +18,4 @@ It'll also provide a much simpler installation process and a nice interface for 
 * [Not Enough Items](https://mods.curse.com/mc-mods/minecraft/247694-not-enough-items-1-8) by covers1624
 * [OpenEye](https://mods.curse.com/mc-mods/minecraft/251457-openeye) by OpenMods & other_boq
 * [RailCraft](https://mods.curse.com/mc-mods/minecraft/railcraft) by CovertJaguar
+* [Ruins](https://mods.curse.com/mc-mods/minecraft/227873-ruins-structure-spawning-system) by doodv4d3r
