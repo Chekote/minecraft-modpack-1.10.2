@@ -21,3 +21,4 @@ It'll also provide a much simpler installation process and a nice interface for 
 * [Ruins](https://mods.curse.com/mc-mods/minecraft/227873-ruins-structure-spawning-system) by doodv4d3r
 * [Tinkers Construct](https://mods.curse.com/mc-mods/minecraft/tinkers-construct) by mDiyo, bonusboni, jadedcat & KnightMiner
 * [Underground Biome Constructs](https://mods.curse.com/mc-mods/minecraft/undergroundbiomesconstructs) by Zeno410
+* [What Am I Looking At](https://mods.curse.com/mc-mods/minecraft/waila) by ProfMobius
