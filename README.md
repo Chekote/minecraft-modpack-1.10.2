@@ -23,3 +23,4 @@ It'll also provide a much simpler installation process and a nice interface for 
 * [Tinkers Construct](https://mods.curse.com/mc-mods/minecraft/tinkers-construct) by mDiyo, bonusboni, jadedcat & KnightMiner
 * [Underground Biome Constructs](https://mods.curse.com/mc-mods/minecraft/undergroundbiomesconstructs) by Zeno410
 * [What Am I Looking At](https://mods.curse.com/mc-mods/minecraft/waila) by ProfMobius
+* [What Are We Looking At](https://mods.curse.com/mc-mods/minecraft/224712-wawla-what-are-we-looking-at) by darkh4x & Epoxide
