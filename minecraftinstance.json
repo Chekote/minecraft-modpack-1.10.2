@@ -18,7 +18,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2017-03-29T02:30:02.147534Z",
+  "lastPlayed": "2017-03-30T00:58:23.991189Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -44,7 +44,7 @@
       "status": 1,
       "timestamp": "2017-03-27T04:41:56.72596Z",
       "lastWriteTimeUtc": "2017-03-27T00:31:20Z",
-      "queryTimestamp": "2017-03-28T18:12:57.711345Z",
+      "queryTimestamp": "2017-03-30T00:55:17.762276Z",
       "fileCount": 1,
       "fileSize": 9118373
     },
@@ -80,51 +80,51 @@
     },
     {
       "folderName": "New World",
-      "fingerprint": 368419516,
-      "fileDateHash": 2655225662,
+      "fingerprint": 3026155461,
+      "fileDateHash": 2205278626,
       "sectionID": 17,
       "individualFingerprints": [
         134024338,
         380021271,
+        443234083,
         758054953,
         758054953,
         758054953,
         758054953,
-        1072359623,
+        856941936,
         1312723016,
         1369337838,
         1476723493,
         1540447798,
-        1646647217,
-        2237097715,
-        2428369575,
-        2428369575,
-        2428369575,
+        2087898549,
+        2515754805,
         2549455674,
+        2712032594,
+        2712032594,
+        2712032594,
         2954036017,
-        2961060105,
         3108847850,
         3193949012,
-        3304710938,
+        3350424377,
+        3395485497,
+        3449061796,
         3615092859,
-        3788571044,
-        3939879192,
+        3629230273,
+        3886903138,
         3955579117,
-        3968509019,
-        4107429067,
         4183677585,
         4213863462,
         4213863462,
         4213863462,
         4213863462,
         4213863462,
-        4230048783,
-        4239391447
+        4237009291,
+        4237506497
       ],
       "status": 1,
-      "timestamp": "2017-03-29T02:26:49.927478Z",
-      "lastWriteTimeUtc": "2017-03-29T02:10:13Z",
-      "queryTimestamp": "2017-03-29T02:26:53.114046Z",
+      "timestamp": "2017-03-29T05:38:35.185322Z",
+      "lastWriteTimeUtc": "2017-03-29T02:35:20Z",
+      "queryTimestamp": "2017-03-29T05:38:36.801294Z",
       "fileCount": 14,
       "fileSize": 0
     },
@@ -159,6 +159,21 @@
       "fileSize": 468461
     },
     {
+      "folderName": "CustomMobSpawner 3.10.1.jar",
+      "fingerprint": 523716621,
+      "fileDateHash": 3901146309,
+      "sectionID": 6,
+      "individualFingerprints": [
+        523716621
+      ],
+      "status": 1,
+      "timestamp": "2017-02-05T02:02:38.682501Z",
+      "lastWriteTimeUtc": "2017-02-05T02:01:34Z",
+      "queryTimestamp": "2017-03-30T00:55:17.763706Z",
+      "fileCount": 1,
+      "fileSize": 720628
+    },
+    {
       "folderName": "CodeChickenLib-1.10.2-2.5.7.241-universal.jar",
       "fingerprint": 3654665993,
       "fileDateHash": 681707771,
@@ -174,19 +189,19 @@
       "fileSize": 677094
     },
     {
-      "folderName": "CustomMobSpawner 3.10.1.jar",
-      "fingerprint": 523716621,
-      "fileDateHash": 3901146309,
+      "folderName": "DrZhark's Mo'Creatures Mod-10.0.6.jar",
+      "fingerprint": 2862723893,
+      "fileDateHash": 1891661072,
       "sectionID": 6,
       "individualFingerprints": [
-        523716621
+        2862723893
       ],
       "status": 1,
-      "timestamp": "2017-02-05T02:02:38.682501Z",
-      "lastWriteTimeUtc": "2017-02-05T02:01:34Z",
-      "queryTimestamp": "2017-03-29T00:52:44.989842Z",
+      "timestamp": "2017-02-05T02:02:38.695612Z",
+      "lastWriteTimeUtc": "2017-02-05T02:01:35Z",
+      "queryTimestamp": "2017-03-30T00:55:17.764049Z",
       "fileCount": 1,
-      "fileSize": 720628
+      "fileSize": 22395171
     },
     {
       "folderName": "OpenEye-1.10.2-0.8.jar",
@@ -204,21 +219,6 @@
       "fileSize": 194427
     },
     {
-      "folderName": "DrZhark's Mo'Creatures Mod-10.0.6.jar",
-      "fingerprint": 2862723893,
-      "fileDateHash": 1891661072,
-      "sectionID": 6,
-      "individualFingerprints": [
-        2862723893
-      ],
-      "status": 1,
-      "timestamp": "2017-02-05T02:02:38.695612Z",
-      "lastWriteTimeUtc": "2017-02-05T02:01:35Z",
-      "queryTimestamp": "2017-03-29T00:52:44.990781Z",
-      "fileCount": 1,
-      "fileSize": 22395171
-    },
-    {
       "folderName": "TConstruct-1.10.2-2.6.3.jar",
       "fingerprint": 2969161272,
       "fileDateHash": 3092276004,
@@ -229,7 +229,7 @@
       "status": 1,
       "timestamp": "2017-03-28T05:43:03.339621Z",
       "lastWriteTimeUtc": "2017-03-28T02:26:52Z",
-      "queryTimestamp": "2017-03-28T18:12:57.714391Z",
+      "queryTimestamp": "2017-03-30T00:55:17.764307Z",
       "fileCount": 1,
       "fileSize": 3698958
     },
@@ -244,7 +244,7 @@
       "status": 1,
       "timestamp": "2017-02-05T02:02:39.088952Z",
       "lastWriteTimeUtc": "2017-02-05T02:00:42Z",
-      "queryTimestamp": "2017-03-29T00:52:44.991254Z",
+      "queryTimestamp": "2017-03-30T00:55:17.764439Z",
       "fileCount": 1,
       "fileSize": 77562
     },
@@ -259,7 +259,7 @@
       "status": 1,
       "timestamp": "2017-02-23T04:16:42.029772Z",
       "lastWriteTimeUtc": "2017-02-23T01:41:35Z",
-      "queryTimestamp": "2017-03-29T00:52:44.99147Z",
+      "queryTimestamp": "2017-03-30T00:55:17.764589Z",
       "fileCount": 1,
       "fileSize": 4994492
     },
@@ -274,7 +274,7 @@
       "status": 1,
       "timestamp": "2017-02-23T04:16:42.351998Z",
       "lastWriteTimeUtc": "2017-02-23T01:40:15Z",
-      "queryTimestamp": "2017-03-29T00:52:44.991664Z",
+      "queryTimestamp": "2017-03-30T00:55:17.764726Z",
       "fileCount": 1,
       "fileSize": 195655
     },
@@ -289,7 +289,7 @@
       "status": 1,
       "timestamp": "2017-03-28T05:43:03.1913Z",
       "lastWriteTimeUtc": "2017-03-28T02:26:49Z",
-      "queryTimestamp": "2017-03-28T18:12:57.725138Z",
+      "queryTimestamp": "2017-03-30T00:55:17.764852Z",
       "fileCount": 1,
       "fileSize": 851810
     },
@@ -321,24 +321,9 @@
       "status": 1,
       "timestamp": "2017-02-23T04:16:42.133064Z",
       "lastWriteTimeUtc": "2017-02-23T01:41:01Z",
-      "queryTimestamp": "2017-03-29T00:52:44.992216Z",
+      "queryTimestamp": "2017-03-30T00:55:17.765117Z",
       "fileCount": 1,
       "fileSize": 6167473
-    },
-    {
-      "folderName": "InventoryTweaks-1.61-58.jar",
-      "fingerprint": 1932858315,
-      "fileDateHash": 3733165901,
-      "sectionID": 6,
-      "individualFingerprints": [
-        1932858315
-      ],
-      "status": 1,
-      "timestamp": "2017-02-05T02:02:39.092905Z",
-      "lastWriteTimeUtc": "2017-02-05T02:01:33Z",
-      "queryTimestamp": "2017-03-29T00:52:44.992405Z",
-      "fileCount": 1,
-      "fileSize": 230808
     },
     {
       "folderName": "ironchest-1.10.2-7.0.11.797.jar",
@@ -351,9 +336,24 @@
       "status": 1,
       "timestamp": "2017-02-05T02:02:39.095577Z",
       "lastWriteTimeUtc": "2017-02-05T02:01:34Z",
-      "queryTimestamp": "2017-03-29T00:52:44.992608Z",
+      "queryTimestamp": "2017-03-30T00:55:17.765261Z",
       "fileCount": 1,
       "fileSize": 149261
+    },
+    {
+      "folderName": "InventoryTweaks-1.61-58.jar",
+      "fingerprint": 1932858315,
+      "fileDateHash": 3733165901,
+      "sectionID": 6,
+      "individualFingerprints": [
+        1932858315
+      ],
+      "status": 1,
+      "timestamp": "2017-02-05T02:02:39.092905Z",
+      "lastWriteTimeUtc": "2017-02-05T02:01:33Z",
+      "queryTimestamp": "2017-03-30T00:55:17.765398Z",
+      "fileCount": 1,
+      "fileSize": 230808
     },
     {
       "folderName": "Railcraft_1.10.2-10.0.1.jar",
@@ -371,6 +371,21 @@
       "fileSize": 3707140
     },
     {
+      "folderName": "DynamicLights-1.10.2.zip",
+      "fingerprint": 1852142374,
+      "fileDateHash": 1143270474,
+      "sectionID": 6,
+      "individualFingerprints": [
+        1852142374
+      ],
+      "status": 1,
+      "timestamp": "2017-02-05T02:02:39.085645Z",
+      "lastWriteTimeUtc": "2017-02-05T02:00:41Z",
+      "queryTimestamp": "2017-03-30T00:55:17.765661Z",
+      "fileCount": 1,
+      "fileSize": 301211
+    },
+    {
       "folderName": "journeymap-1.10.2-5.4.6.jar",
       "fingerprint": 2430524865,
       "fileDateHash": 3847205334,
@@ -386,21 +401,6 @@
       "fileSize": 1732157
     },
     {
-      "folderName": "DynamicLights-1.10.2.zip",
-      "fingerprint": 1852142374,
-      "fileDateHash": 1143270474,
-      "sectionID": 6,
-      "individualFingerprints": [
-        1852142374
-      ],
-      "status": 1,
-      "timestamp": "2017-02-05T02:02:39.085645Z",
-      "lastWriteTimeUtc": "2017-02-05T02:00:41Z",
-      "queryTimestamp": "2017-03-29T00:52:44.992976Z",
-      "fileCount": 1,
-      "fileSize": 301211
-    },
-    {
       "folderName": "BloodMagic-1.10.2-2.1.7-76.jar",
       "fingerprint": 1561316923,
       "fileDateHash": 2950126972,
@@ -411,7 +411,7 @@
       "status": 1,
       "timestamp": "2017-03-27T04:41:56.1731Z",
       "lastWriteTimeUtc": "2017-03-27T00:22:39Z",
-      "queryTimestamp": "2017-03-28T18:12:57.726639Z",
+      "queryTimestamp": "2017-03-30T00:55:17.765937Z",
       "fileCount": 1,
       "fileSize": 6795580
     },
@@ -447,7 +447,7 @@
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2017-03-29T02:26:55.808226Z",
+  "lastPreviousMatchUpdate": "2017-03-30T00:55:18.773998Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.10.2",
@@ -1075,13 +1075,13 @@
       "addonID": 224791,
       "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
       "installedFile": {
-        "Id": 2392863,
-        "FileName": "BloodMagic-1.10.2-2.1.7-76.jar",
-        "FileNameOnDisk": "BloodMagic-1.10.2-2.1.7-76.jar",
-        "FileDate": "2017-03-13T23:32:58",
+        "Id": 2399187,
+        "FileName": "BloodMagic-1.10.2-2.1.8-77.jar",
+        "FileNameOnDisk": "BloodMagic-1.10.2-2.1.8-77.jar",
+        "FileDate": "2017-03-29T02:53:53",
         "ReleaseType": 2,
         "FileStatus": 2,
-        "DownloadURL": "https://addons.cursecdn.com/files/2392/863/BloodMagic-1.10.2-2.1.7-76.jar",
+        "DownloadURL": "https://addons.cursecdn.com/files/2399/187/BloodMagic-1.10.2-2.1.8-77.jar",
         "IsAlternate": false,
         "AlternateFileId": 0,
         "Dependencies": [
@@ -1110,7 +1110,7 @@
         "Modules": [
           {
             "Foldername": "assets",
-            "Fingerprint": 4213969789
+            "Fingerprint": 4275873924
           },
           {
             "Foldername": "Guide-API-Version.info",
@@ -1118,11 +1118,11 @@
           },
           {
             "Foldername": "mcmod.info",
-            "Fingerprint": 3233728279
+            "Fingerprint": 3039213471
           },
           {
             "Foldername": "META-INF",
-            "Fingerprint": 3322473834
+            "Fingerprint": 1108365641
           },
           {
             "Foldername": "todo.txt",
@@ -1130,18 +1130,18 @@
           },
           {
             "Foldername": "WayofTime",
-            "Fingerprint": 2138176125
+            "Fingerprint": 1000707448
           }
         ],
-        "PackageFingerprint": 1561316923,
+        "PackageFingerprint": 1458313636,
         "GameVersion": [
           "1.10.2"
         ]
       },
       "dateInstalled": "2017-03-27T00:22:12.617342Z",
-      "dateUpdated": "2017-03-27T00:22:39.262886Z",
-      "dateLastUpdateAttempted": "2017-03-27T00:22:39.262886Z",
-      "status": 5,
+      "dateUpdated": "2017-03-30T00:57:22.670601Z",
+      "dateLastUpdateAttempted": "2017-03-30T00:57:22.670601Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1738,7 +1738,7 @@
       "dateInstalled": "2017-03-29T00:54:35.322509Z",
       "dateUpdated": "2017-03-29T00:54:35.329268Z",
       "dateLastUpdateAttempted": "2017-03-29T00:54:35.329268Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
