@@ -18,7 +18,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2017-04-01T19:55:08.92669Z",
+  "lastPlayed": "2017-04-01T20:03:57.876749Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -1716,13 +1716,13 @@
       "addonID": 72744,
       "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
       "installedFile": {
-        "Id": 2397264,
-        "FileName": "UndergroundBiomesConstructs-1.10-0.9-beta.17.jar",
-        "FileNameOnDisk": "UndergroundBiomesConstructs-1.10-0.9-beta.17.jar",
-        "FileDate": "2017-03-25T19:26:04",
+        "Id": 2400782,
+        "FileName": "UndergroundBiomesConstructs-1.10-1.0-v.18.jar",
+        "FileNameOnDisk": "UndergroundBiomesConstructs-1.10-1.0-v.18.jar",
+        "FileDate": "2017-03-31T13:32:15",
         "ReleaseType": 1,
         "FileStatus": 2,
-        "DownloadURL": "https://addons.cursecdn.com/files/2397/264/UndergroundBiomesConstructs-1.10-0.9-beta.17.jar",
+        "DownloadURL": "https://addons.cursecdn.com/files/2400/782/UndergroundBiomesConstructs-1.10-1.0-v.18.jar",
         "IsAlternate": false,
         "AlternateFileId": 0,
         "Dependencies": [],
@@ -1734,26 +1734,26 @@
           },
           {
             "Foldername": "exterminatorjeff",
-            "Fingerprint": 246721511
+            "Fingerprint": 3851646906
           },
           {
             "Foldername": "mcmod.info",
-            "Fingerprint": 149433904
+            "Fingerprint": 98465103
           },
           {
             "Foldername": "META-INF",
             "Fingerprint": 2464251221
           }
         ],
-        "PackageFingerprint": 14864774,
+        "PackageFingerprint": 3062651479,
         "GameVersion": [
           "1.10.2"
         ]
       },
       "dateInstalled": "2017-03-29T00:54:35.322509Z",
-      "dateUpdated": "2017-03-29T00:54:35.329268Z",
-      "dateLastUpdateAttempted": "2017-03-29T00:54:35.329268Z",
-      "status": 3,
+      "dateUpdated": "2017-04-01T20:03:10.355594Z",
+      "dateLastUpdateAttempted": "2017-04-01T20:03:10.355594Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
