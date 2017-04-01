@@ -18,7 +18,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2017-04-01T20:03:57.876749Z",
+  "lastPlayed": "2017-04-01T20:13:24.819771Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -1954,6 +1954,69 @@
       "dateUpdated": "2017-03-30T01:58:35.665666Z",
       "dateLastUpdateAttempted": "2017-03-30T01:58:35.665666Z",
       "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null
+    },
+    {
+      "addonID": 228529,
+      "gameInstanceID": "6a4376e1-466d-4825-a77d-649af0ae22a4",
+      "installedFile": {
+        "Id": 2358876,
+        "FileName": "BetterFoliage-MC1.10.2-2.1.3.jar",
+        "FileNameOnDisk": "BetterFoliage-MC1.10.2-2.1.3.jar",
+        "FileDate": "2016-12-21T23:43:59",
+        "ReleaseType": 1,
+        "FileStatus": 2,
+        "DownloadURL": "https://addons.cursecdn.com/files/2358/876/BetterFoliage-MC1.10.2-2.1.3.jar",
+        "IsAlternate": false,
+        "AlternateFileId": 0,
+        "Dependencies": [],
+        "IsAvailable": true,
+        "Modules": [
+          {
+            "Foldername": "assets",
+            "Fingerprint": 3972883320
+          },
+          {
+            "Foldername": "kotlin",
+            "Fingerprint": 2479005152
+          },
+          {
+            "Foldername": "mcmod.info",
+            "Fingerprint": 2889951251
+          },
+          {
+            "Foldername": "META-INF",
+            "Fingerprint": 2552626435
+          },
+          {
+            "Foldername": "mods",
+            "Fingerprint": 2154832828
+          },
+          {
+            "Foldername": "org",
+            "Fingerprint": 1729624813
+          },
+          {
+            "Foldername": "pack.mcmeta",
+            "Fingerprint": 2533930839
+          }
+        ],
+        "PackageFingerprint": 4068233474,
+        "GameVersion": [
+          "1.10.2"
+        ]
+      },
+      "dateInstalled": "2017-04-01T20:10:49.03937Z",
+      "dateUpdated": "2017-04-01T20:10:49.047864Z",
+      "dateLastUpdateAttempted": "2017-04-01T20:10:49.047864Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
