@@ -664,13 +664,13 @@ public abstract class bgl extends bft  {
    L1
     LINENUMBER 177 L1
     ALOAD 0
-    LDC 500.0
+    LDC 200.0
     PUTFIELD bgl.e : F
    L2
     LINENUMBER 178 L2
     ALOAD 0
     GETFIELD bgl.k : Lbsu;
-    LDC 500.0
+    LDC 200.0
     PUTFIELD bsu.a : F
    L3
     LINENUMBER 179 L3
@@ -2690,16 +2690,8 @@ public abstract class bgl extends bft  {
 
   // access flags 0x4
   protected a(CI)V throws java/io/IOException 
-    ALOAD 0
-    GETFIELD bgl.manager : Lcodechicken/nei/guihook/GuiContainerManager;
-    ILOAD 2
-    ILOAD 1
-    INVOKEVIRTUAL codechicken/nei/guihook/GuiContainerManager.lastKeyTyped (IC)Z
-    IFEQ L0
-    RETURN
    L0
     LINENUMBER 635 L0
-   FRAME FULL [bgl I I] []
     ILOAD 2
     ICONST_1
     IF_ICMPEQ L1
@@ -2959,11 +2951,6 @@ public abstract class bgl extends bft  {
 
   // access flags 0x1
   public a(Lbcx;II)V
-    ALOAD 0
-    ALOAD 1
-    ILOAD 2
-    ILOAD 3
-    INVOKESPECIAL bft.a (Lbcx;II)V
     ALOAD 1
     GETFIELD bcx.m : Lbft;
     ALOAD 0
@@ -2974,44 +2961,25 @@ public abstract class bgl extends bft  {
     ALOAD 0
     INVOKESPECIAL codechicken/nei/guihook/GuiContainerManager.<init> (Lnet/minecraft/client/gui/inventory/GuiContainer;)V
     PUTFIELD bgl.manager : Lcodechicken/nei/guihook/GuiContainerManager;
+   L0
+   FRAME FULL [bgl bcx I I] []
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    INVOKESPECIAL bft.a (Lbcx;II)V
+    ALOAD 1
+    GETFIELD bcx.m : Lbft;
+    ALOAD 0
+    IF_ACMPNE L1
     ALOAD 0
     GETFIELD bgl.manager : Lcodechicken/nei/guihook/GuiContainerManager;
     INVOKEVIRTUAL codechicken/nei/guihook/GuiContainerManager.load ()V
-   L0
+   L1
    FRAME FULL [bgl bcx I I] []
     RETURN
     MAXSTACK = 4
     MAXLOCALS = 4
-
-  // access flags 0x1
-  public l()V
-    ALOAD 0
-    GETFIELD bgl.manager : Lcodechicken/nei/guihook/GuiContainerManager;
-    INVOKEVIRTUAL codechicken/nei/guihook/GuiContainerManager.handleKeyboardInput ()V
-    RETURN
-    MAXSTACK = 1
-    MAXLOCALS = 1
-
-  // access flags 0x1
-  public k()V
-    ALOAD 0
-    INVOKESPECIAL bft.k ()V
-    ALOAD 0
-    GETFIELD bgl.manager : Lcodechicken/nei/guihook/GuiContainerManager;
-    INVOKEVIRTUAL codechicken/nei/guihook/GuiContainerManager.handleMouseWheel ()V
-    RETURN
-    MAXSTACK = 1
-    MAXLOCALS = 1
-
-  // access flags 0x1
-  public public_func_73869_a(CI)V
-    ALOAD 0
-    ILOAD 1
-    ILOAD 2
-    INVOKEVIRTUAL bgl.a (CI)V
-    RETURN
-    MAXSTACK = 3
-    MAXLOCALS = 3
 
   // access flags 0x1
   public public_func_184098_a(Lacc;IILabi;)V
